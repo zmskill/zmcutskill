@@ -1,0 +1,15 @@
+{
+  "name": "zmcutskill",
+  "description": "逐梦的 AI 剪辑 Skill 合集",
+  "owner": {
+    "name": "逐梦",
+    "email": "zmxuskill@163.com"
+  },
+  "plugins": [
+    {
+      "name": "zm",
+      "source": "./",
+      "description": "把录好的口播交给 AI，逐句配上画面、动效、字幕和音效，拿回能直接发的成片"
+    }
+  ]
+}

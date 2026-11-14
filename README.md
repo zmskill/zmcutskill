@@ -104,12 +104,30 @@ npx -y skills add zmskill/zmcutskill -g --all
 
 **装东西被要求批准删除文件**：在 Cowork 里，依赖应该装在 AI 自己的工作区，不该装进你的文件夹。遇到这种情况，提醒它先跑 `doctor.py`，按建议用 `setup.py` 装。
 
+## 用 Claude Code 插件方式安装
+
+只用 Claude Code 的话，也可以装成插件。在终端运行：
+
+```bash
+claude plugin marketplace add zmskill/zmcutskill
+claude plugin install zm@zmcutskill
+```
+
+插件方式下命令前面要加 `zm:`，例如 `/zm:zm-talk-visual`。上面的 `npx` 方式和插件方式装一种就够，两种都装会多出一份。
+
 ## 更新
 
 重新运行一次安装命令就是更新：
 
 ```bash
 npx -y skills add zmskill/zmcutskill -g --all
+```
+
+插件方式装的，这样更新：
+
+```bash
+claude plugin marketplace update zmcutskill
+claude plugin update zm@zmcutskill
 ```
 
 更新后第一次做片，AI 体检时会发现工作区里的代码比新版旧，问过你之后换成新的。已经装好的依赖、听写模型和你做过的片子都不受影响。
