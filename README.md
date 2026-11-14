@@ -1,5 +1,6 @@
 # zmcutskill
 
+[![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-16A34A.svg?style=flat-square)](LICENSE.md)
 
 ## zmcutskill 是什么
