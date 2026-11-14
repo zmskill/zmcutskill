@@ -1,0 +1,7 @@
+interface:
+  display_name: "zm-talk-visual（口播内容视觉化）"
+  short_description: "给录好的口播逐句配上画面、动效、字幕和音效，交回能直接发的成片"
+  brand_color: "#F32A44"
+  default_prompt: "使用 $zm-talk-visual，把我的口播做成成片：先问我样子从哪来、要不要背景音乐，再给我对照表，我确认后一段一段做。"
+policy:
+  allow_implicit_invocation: true

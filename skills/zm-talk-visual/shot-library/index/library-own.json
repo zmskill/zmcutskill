@@ -1,0 +1,764 @@
+{
+ "generatedAt": "2026-11-10T15:41:33+00:00",
+ "library": "own",
+ "cardCount": 25,
+ "cards": [
+  {
+   "name": "tilted-dashboard-pan-logo",
+   "summary": "斜躺的仪表盘面板先是散开的，镜头一边移一边各自拼回一整面；硬切低角度一直慢漂，从下往上淡成白的同时 Logo 逐字出",
+   "use": "收尾 / 产品全景（\"这是完整的产品\"→ 品牌落定）",
+   "duration": "约 8.0s（240f@30fps）",
+   "energy": "中→低（开头拼合有动势，后面一直慢漂，收在安静的 Logo）",
+   "tags": "camera、ui-entrance、transition、brand、outro",
+   "origin": "@BlahomyrPopok · 金融科技仪表盘（动效视频/_排除/006）· 0:00–0:08 · 只学动作（面板散开拼回 + 硬切低角度 + 从下往上淡白 + Logo 叠着出），按每 0.1 秒一帧逐帧看过、测过镜头速度；面板内容是自己设计的",
+   "verdict": "2026-11-05 · 第三版（修抖动后）· \"还行吧\"→ 整批重做后 \"其他 ok\"",
+   "category": "camera",
+   "source": "references/shots-own/camera/tilted-dashboard-pan-logo.md",
+   "styles": [
+    {
+     "key": "tilted-dashboard-pan-logo",
+     "label": "tilted-dashboard-pan-logo",
+     "demo": "demos-own/camera/tilted-dashboard-pan-logo/TiltedDashboardPanLogo.tsx",
+     "media": {
+      "url": "demos-own/camera/tilted-dashboard-pan-logo/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "card-orbit-counter",
+   "summary": "一圈 3D 场景卡片贴在圆筒上绕着中间的大数字转（前景卡往左上变大、远景卡往右上变小、前景卡会擦过把数字挡住），数字线性滚到终值的那一刻正好镜头甩得最快，长尾减速后所有卡收进文件夹",
+   "use": "痛点 / 证据（\"你有多少东西\"——数量感）",
+   "duration": "约 3.8s（114f@30fps）",
+   "energy": "高（甩镜头峰值每帧约 7% 画宽）",
+   "tags": "data、camera、3d、transition",
+   "origin": "MultipleOwners · AI 视频产品 Sizzle（动效视频/_排除/011）· 原视频_02 16.6–20.4s · 用户点名喜欢这个画面 · 只学动作（圆筒卡片环绕、数字与卡同一 3D 场景互相遮挡、数字线性滚、甩镜头 + 指数长尾、收进文件夹），逐帧看过（shot-lab/refs/011/）；卡片是代码画的场景卡",
+   "verdict": "2026-11-05 · 第 3 批 · \"入库吧\"",
+   "category": "data",
+   "source": "references/shots-own/data/card-orbit-counter.md",
+   "styles": [
+    {
+     "key": "card-orbit-counter",
+     "label": "card-orbit-counter",
+     "demo": "demos-own/data/card-orbit-counter/CardOrbitCounter.tsx（+ sceneCards.tsx）",
+     "media": {
+      "url": "demos-own/data/card-orbit-counter/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "trail-dot-captions",
+   "summary": "黑底网格 HUD 上一颗绿点拖着虚线前进、镜头跟随（速度会\"呼吸\"但从不停），像素块硬闪、像素小蛇逐格爬，1 帧马赛克换场后，带四角角标框的字幕一帧一个词接力三句",
+   "use": "证据 / 数据字卡（\"比上周多做到了\"这类成果）；可循环",
+   "duration": "约 4.33s（130f@30fps），首尾相接",
+   "energy": "中（开头最热闹，三句字幕各一个小峰）",
+   "tags": "data、typography、rhythm",
+   "origin": "@amirdzm · 近期 2D 镜头合集（动效视频/_排除/010）· 四宫格右下格 · 只学动作（引路点画线 + 速度呼吸、像素硬闪、块状马赛克换场、逐词字幕跟线、角标框先大后收），逐帧看过（shot-lab/refs/010-D/）；内容是自己的（读书、早睡）",
+   "verdict": "2026-11-05 · 第 3 批 · \"入库吧\"",
+   "category": "data",
+   "source": "references/shots-own/data/trail-dot-captions.md",
+   "styles": [
+    {
+     "key": "trail-dot-captions",
+     "label": "trail-dot-captions",
+     "demo": "demos-own/data/trail-dot-captions/TrailDotCaptions.tsx",
+     "media": {
+      "url": "demos-own/data/trail-dot-captions/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "bookmark-tap-check",
+   "summary": "特写里一个白色圆按钮上的描边书签被点下：按钮一缩、书签变实心渐变，光环外扩加整屏淡紫柔光一闪，按钮放大，渐变慢慢流动，白勾写出，柔光轻轻呼吸",
+   "use": "功能演示里\"点一下就完成\"的那一下：收藏、保存、确认、开启；也可放在功能串的最后当落点",
+   "duration": "2.3s（69f@30fps；6.3–8.6s 段，从 026-B 镜头组单拿）",
+   "energy": "低 → 高（点下 3–4 帧最亮）→ 低",
+   "tags": "interaction、button、state-change、bloom、ripple、checkmark",
+   "origin": "Michael Nowak · Muse 产品发布片 · 026_MichaelNowak_Muse模糊换词与卡片堆叠/原视频.mp4 · 16.8–19.7s（026-D）",
+   "verdict": "2026-11-10 · 随 026-B v2 一起看 · \"可以了，入库吧\"；v1 时\"我们这个有点抖，他们的好像没有那么抖\"",
+   "category": "interaction",
+   "source": "references/shots-own/interaction/bookmark-tap-check.md",
+   "styles": [
+    {
+     "key": "bookmark-tap-check",
+     "label": "bookmark-tap-check",
+     "demo": "demos-own/groups/itinerary-scroll-bookmark/ItineraryScrollBookmark.tsx 里的 `BookmarkTap`（时长 `BOOKMARK_TAP_DURATION`）；",
+     "media": {
+      "url": "demos-own/groups/itinerary-scroll-bookmark/preview-tap.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "证据（用户动作 → 状态变化）",
+   "inputs": "渐变两色 accentA / accentB；图标目前只有书签（换图标要改 BM_PATH）",
+   "material": "纯图形，不需要截图",
+   "use_talk": "说到\"一键收藏 / 存好了\"时"
+  },
+  {
+   "name": "card-tunnel-tagline",
+   "summary": "带厚边的品牌 Logo 卡转正缩小后溶掉，一块渐变色块从左往右把品牌名擦掉、把标语擦出来，热成像色卡片从画外飞上方形隧道四壁、逐张褪回原色，之后整个隧道一直匀速后退",
+   "use": "开场（品牌 → 一句话主张）",
+   "duration": "约 6.9s（207f@30fps）",
+   "energy": "中（飞入是高点，之后平稳后退）",
+   "tags": "opening、brand、typography、3d、transition",
+   "origin": "MultipleOwners · AI 视频产品 Sizzle（动效视频/_排除/011）· 原视频_01 另一版开场 · 只学动作（Logo 卡厚边从中间先断、渐变色块擦字、方筒四壁落卡、热成像逐张褪色、匀速后退不停），逐帧看过（shot-lab/refs/011/）；Logo 放我们的产品",
+   "verdict": "2026-11-05 · 第 3 批 · \"入库吧\"",
+   "category": "opening",
+   "source": "references/shots-own/opening/card-tunnel-tagline.md",
+   "styles": [
+    {
+     "key": "card-tunnel-tagline",
+     "label": "card-tunnel-tagline",
+     "demo": "demos-own/opening/card-tunnel-tagline/CardTunnelTagline.tsx",
+     "media": {
+      "url": "demos-own/opening/card-tunnel-tagline/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "headline-input-to-page",
+   "summary": "巨大的发光字第 1 帧就在横移后退、揭出整句（新词先偏青发虚再变白）→ 变玻璃字上移 → 玻璃长条升起、身后撑开面板长成整个网页 → 网页缩小上移、标题反向下沉",
+   "use": "开场钩子 → 产品登场（\"一个输入框就能做出东西\"）",
+   "duration": "约 4.0s（120f@30fps）",
+   "energy": "高（开场全速横移，面板撑开那几帧整屏虚一下）",
+   "tags": "opening、typography、ui-entrance、transition",
+   "origin": "@bohdanmotion · Bolt 发布片（动效视频/_排除/007）· 0:00–0:04 · 只学动作（巨字后退揭句、新词先青后白、长条身后撑面板三段变色、内容分层长满、最后失焦交给下一镜），按 25fps 逐帧看过（shot-lab/refs/007/）；外框不学；内容是虚构工具\"随手站\"",
+   "verdict": "2026-11-05 · 第 3 批 · \"入库吧\"",
+   "category": "opening",
+   "source": "references/shots-own/opening/headline-input-to-page.md",
+   "styles": [
+    {
+     "key": "headline-input-to-page",
+     "label": "headline-input-to-page",
+     "demo": "demos-own/opening/headline-input-to-page/HeadlineInputToPage.tsx",
+     "media": {
+      "url": "demos-own/opening/headline-input-to-page/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "message-ribbon-flow",
+   "summary": "问句先出，一大片通知卡从镜头前飞过、落到一条弯曲的 3D 飘带上一直流动，最后中间亮起光点、整屏失焦过曝转场",
+   "use": "开场钩子 / 痛点（信息过载、消息太多、工作太碎）",
+   "duration": "约 5.0s（150f@30fps）",
+   "energy": "中→高（问句安静出，卡片飞过有冲击，结尾加速冲进过曝）",
+   "tags": "opening、camera、transition、typography",
+   "origin": "@bohdanmotion · Polar（动效视频/_排除/003）· 0:00–0:05 · 只学动作（问句 + 卡片飞过落成飘带 + 持续流动 + 失焦过曝转场），流动速度按原片逐帧实测；画面和内容是自己设计的",
+   "verdict": "2026-11-05 · 选 V1（学手法后重新设计的版本）· \"可以的这两个\"",
+   "category": "opening",
+   "source": "references/shots-own/opening/message-ribbon-flow.md",
+   "styles": [
+    {
+     "key": "message-ribbon-flow",
+     "label": "message-ribbon-flow",
+     "demo": "demos-own/opening/message-ribbon-flow/MessageRibbonFlow.tsx",
+     "media": {
+      "url": "demos-own/opening/message-ribbon-flow/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "notification-scene-cuts",
+   "summary": "一张毛玻璃通知卡钉在正中，背后的大场景长短不一地硬切；卡先弹出字再打，光标从下方滑上来点一下，一个液态玻璃泡鼓起扫过卡面",
+   "use": "开场钩子 / 功能登场（\"这条消息一直跟着你\"）",
+   "duration": "约 3.2s（96f@30fps）",
+   "energy": "中→高（快切的节奏感，点击是高点）",
+   "tags": "opening、ui-entrance、rhythm、interaction",
+   "origin": "@bohdanmotion · Astor 2.0（动效视频/_排除/004）· 四宫格左上 0:00–0:02.7 · 只学动作（卡不动、背景快切、点击液态泡），按每 0.1 秒一帧逐帧看过；场景是画的、通知内容是日常的",
+   "verdict": "2026-11-05 · 重做版 · \"其他 ok\"",
+   "category": "opening",
+   "source": "references/shots-own/opening/notification-scene-cuts.md",
+   "styles": [
+    {
+     "key": "notification-scene-cuts",
+     "label": "notification-scene-cuts",
+     "demo": "demos-own/opening/notification-scene-cuts/NotificationSceneCuts.tsx",
+     "media": {
+      "url": "demos-own/opening/notification-scene-cuts/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "orb-relay-explainer",
+   "summary": "一颗蓝色果冻光球贯穿整条讲解片、形态一路接力（句尾弹出 → 绕字 → 胀满屏转场 → 助手球 → 擀成进度条 → 挤开词缝 → 变按钮冲击环 → 串珠成环 → 画环吸入爆亮 → 拉直成虚线 → 头像球 → 绕字标落成句点）",
+   "use": "整条产品讲解片（30–40 秒）/ 拆开单段也能用（开场、功能登场、收尾）",
+   "duration": "约 40.0s（1201f@30fps）",
+   "energy": "中（文字卡和 UI 卡交替，两次光晕闪白是高点）",
+   "tags": "opening、ui-entrance、typography、transition、brand、outro",
+   "origin": "@Alicekaranaeva · Flexar SaaS 讲解（动效视频/_排除/012）· 整片 · 只学动作（光球形态接力、挤压拉伸、切点藏在最快帧），逐帧看过（shot-lab/refs/012/，68KB）；内容是自己的（AI 助手处理日常琐事）",
+   "verdict": "2026-11-05 · 第 3 批 · 改了文件卡图层后 \"入库吧\"",
+   "category": "opening",
+   "source": "references/shots-own/opening/orb-relay-explainer.md",
+   "styles": [
+    {
+     "key": "orb-relay-explainer",
+     "label": "orb-relay-explainer",
+     "demo": "demos-own/opening/orb-relay-explainer/OrbRelayExplainer.tsx（+ orb-kit.tsx、scenes-a/b/c.tsx）",
+     "media": {
+      "url": "demos-own/opening/orb-relay-explainer/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "pain-swirl-dot-logo",
+   "summary": "痛点句整行重打三次、四周琐碎小卡被漩涡卷进中心，蓝色转折句冒出后从句心长出蓝点吞满屏，硬切到天空里长出 Logo、名字从 Logo 里抽出来",
+   "use": "开场（痛点钩子 → 产品登场），一条串完；也可以只拿拍 1 当痛点段、只拿拍 3 当 Logo 登场",
+   "duration": "9.2s（276f@30fps）",
+   "energy": "前 4 秒低而密（小卡、换句），5.1s 起量级跳 10–25 倍（蓝点、硬切、圆圈外扩），读—爆—读",
+   "tags": "typography、kinetic-text、cards、swirl、circle-wipe、hard-cut、logo-reveal",
+   "origin": "baseTOP × Taskly 宣传片 · 023_baseTOP_Taskly痛点开场与三词界面联动/原视频.mp4 · 0:00–0:09.2",
+   "verdict": "2026-11-06 · 第 7 批-1（一串整做）· \"这三个先入库吧\"",
+   "category": "opening",
+   "source": "references/shots-own/opening/pain-swirl-dot-logo.md",
+   "styles": [
+    {
+     "key": "pain-swirl-dot-logo",
+     "label": "pain-swirl-dot-logo",
+     "demo": "demos-own/opening/pain-swirl-dot-logo/PainSwirlDotLogo.tsx",
+     "media": {
+      "url": "demos-own/opening/pain-swirl-dot-logo/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "prompt-pages-pill-reveal",
+   "summary": "一句需求从 4.5 倍大字拉远成输入框，点发送后框被吸进中心、网页从同一点弹出并散成四页；冲进去出\"看见每一个页面\"，柔边擦掉后胶囊从中线撑开\"一次全部看完\"；胶囊缩回、星纹长出、\"隆重介绍\"打出，冲进字缝后产品名逐字从底下升起，加速缩小切到 Logo 落版",
+   "use": "开场（\"一句话生成多页面\"类产品的整段开场 / 产品登场）",
+   "duration": "15.2s（456f@30fps；原片段 14.2s，末尾多停 1.0s 落版）",
+   "energy": "静-动交替、一次比一次猛（拉远 → 网页散开+冲 → 冲字缝），中间两次真停（等点击、读胶囊）",
+   "tags": "typography、input-box、zoom-through、mask-wipe、pill-window、stagger-rise、rotating-gradient",
+   "origin": "Magic Patterns × Screens 开场 · 动效视频/022_MagicPatterns_Screens大字裁切与字母掉落/原视频.mp4 · 0:00–0:14.2",
+   "verdict": "2026-11-06 · 第 7 批-1（一串整做）· \"这三个先入库吧\"",
+   "category": "opening",
+   "source": "references/shots-own/opening/prompt-pages-pill-reveal.md",
+   "styles": [
+    {
+     "key": "prompt-pages-pill-reveal",
+     "label": "prompt-pages-pill-reveal",
+     "demo": "demos-own/opening/prompt-pages-pill-reveal/PromptPagesPillReveal.tsx",
+     "media": {
+      "url": "demos-own/opening/prompt-pages-pill-reveal/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "ribbon-podium-intro",
+   "summary": "消息飘带中间的白球过曝成全白，新场景从虚里对焦出来，白球变成产品 Logo 落到石台上回弹一次，两行字逐词横滑出现，停住时光影还在晃",
+   "use": "开场（痛点钩子 → 产品登场，一镜到底）",
+   "duration": "约 8.6s（258f@30fps）",
+   "energy": "中→高→低（前半段消息压迫感，过曝是高点，后半段安静亮场\"从乱到静\"）",
+   "tags": "opening、transition、typography、camera、brand",
+   "origin": "@bohdanmotion · Polar（动效视频/_排除/003）· 0:00–0:07.5 · 只学动作（白球过曝 → 对焦出新场景 → 白球位置变 Logo → 逐词出字 → 停住慢移）；画面、配色、Logo、文案是自己设计的",
+   "verdict": "2026-11-05 · 选 V2（Logo 落到石台、冷色晨光）· \"我喜欢v2\"",
+   "category": "opening",
+   "source": "references/shots-own/opening/ribbon-podium-intro.md",
+   "styles": [
+    {
+     "key": "ribbon-podium-intro",
+     "label": "ribbon-podium-intro",
+     "demo": "demos-own/opening/ribbon-podium-intro/RibbonPodiumIntro.tsx",
+     "media": {
+      "url": "demos-own/opening/ribbon-podium-intro/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "benefit-lines-to-logo",
+   "summary": "两句对比式好处逐词出（浅灰带虚滑进来再变墨、整行一直居中），第二句往左拖影退场的同时背景换光，Logo 逐字由浅变深、两行小字收尾",
+   "use": "收尾（片尾总结好处 → 品牌落定）",
+   "duration": "约 6.2s（186f@30fps）",
+   "energy": "低→中（安静的字，换光是唯一的高点）",
+   "tags": "outro、typography、brand、transition",
+   "origin": "@bohdanmotion · Polar（动效视频/_排除/003）· 片尾 003-20 · 只学动作（逐词由灰变墨 + 整行居中让位 + 拖影退场同时换光 + Logo 逐字），按每 0.1 秒一帧逐帧看过；文案配色自己设计",
+   "verdict": "2026-11-05 · 重做版 · \"其他 ok\"",
+   "category": "outro",
+   "source": "references/shots-own/outro/benefit-lines-to-logo.md",
+   "styles": [
+    {
+     "key": "benefit-lines-to-logo",
+     "label": "benefit-lines-to-logo",
+     "demo": "demos-own/outro/benefit-lines-to-logo/BenefitLinesToLogo.tsx",
+     "media": {
+      "url": "demos-own/outro/benefit-lines-to-logo/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "curved-carousel-reel",
+   "summary": "一排卡片贴在圆筒内壁上一直从右往左滑，中间平、两边拉高拖虚带色散，每张卡里演一个小场景，最后一张 Logo 卡减速停在正中",
+   "use": "整片骨架 / 功能串烧（Sizzle）/ 作品墙 / 收尾前的\"一口气看完所有功能\"",
+   "duration": "约 46.0s（1380f@30fps），卡数和时长可按需要删减",
+   "energy": "中（匀速流动为主，3 次甩动是小高点，结尾减速落定）",
+   "tags": "transition、camera、sequence、ui-entrance、brand",
+   "origin": "@Jerrythe2d · 多支发布片轮播（动效视频/_排除/005）· 0:00–0:46 · 只学外框和节奏（圆筒弯曲 + 边缘拖虚色散 + 地面同色影 + 匀速夹甩动 + 卡里演小场景），速度按原片实测；卡里内容是自己设计的",
+   "verdict": "2026-11-05 · 选 V2（弯得浅、色散收、暖白空间）· \"选不出来啊都挺好的\" → 按推荐用 V2",
+   "category": "transition",
+   "source": "references/shots-own/transition/curved-carousel-reel.md",
+   "styles": [
+    {
+     "key": "curved-carousel-reel",
+     "label": "curved-carousel-reel",
+     "demo": "demos-own/transition/curved-carousel-reel/CurvedCarouselReel.tsx",
+     "media": {
+      "url": "demos-own/transition/curved-carousel-reel/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "agent-browse-match",
+   "summary": "打一句话 → 助手自己开网页翻帖子 → 帖子变成漂浮卡被几个光标逐张看 → 详情页里把条件一条条对上（滚动和左边换词同一帧）",
+   "use": "功能登场 / 魔法瞬间（AI 助手\"替你去找、替你去看\"）",
+   "duration": "约 13.1s（392f@30fps）",
+   "energy": "中（慢—猛—慢，大约每 1.5 秒一次猛动作）",
+   "tags": "ui-entrance、camera、interaction、typography、transition",
+   "origin": "@bohdanmotion · Polar（动效视频/_排除/003）· 003-S2 段 · 只学动作（连续性剪辑：输入框 → 同样三张卡 → 主角卡 → 换词滚动同帧；光标转身、多光标），按 25fps 逐帧看过（逐元素时间表 shot-lab/refs/003-S2/）；内容是自己的",
+   "verdict": "2026-11-05 · 第 2 批 · \"这一遍复刻的很到位啊\"\"这些都可以入库了\"",
+   "category": "ui-entrance",
+   "source": "references/shots-own/ui-entrance/agent-browse-match.md",
+   "styles": [
+    {
+     "key": "agent-browse-match",
+     "label": "agent-browse-match",
+     "demo": "demos-own/ui-entrance/agent-browse-match/AgentBrowseMatch.tsx",
+     "media": {
+      "url": "demos-own/ui-entrance/agent-browse-match/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "complaint-wall-pick",
+   "summary": "斜放的评论卡墙铺满画面，三个带名字的彩色光标各挑中一条吐槽，展开成证据卡，再分三拍收成\"最痛的 3 条\"清单",
+   "use": "开场痛点（真实用户吐槽）/ 功能演示（AI 筛选、挑选、归纳）",
+   "duration": "约 10.0s（300f@30fps）",
+   "energy": "中（前段发牌密、中段点选快，收清单时放慢分拍，结尾标题停住）",
+   "tags": "ui-entrance、camera、data、typography",
+   "origin": "@bohdanmotion · Polar（动效视频/_排除/003）· 0:23–0:36 · 只学动作（斜卡墙 + 多光标点选 + 展开 + 分三拍收成清单），画面和内容是自己设计的",
+   "verdict": "2026-11-05 · 选 V1（学手法后重新设计的版本）· \"可以的这两个\"",
+   "category": "ui-entrance",
+   "source": "references/shots-own/ui-entrance/complaint-wall-pick.md",
+   "styles": [
+    {
+     "key": "complaint-wall-pick",
+     "label": "complaint-wall-pick",
+     "demo": "demos-own/ui-entrance/complaint-wall-pick/ComplaintWallPick.tsx",
+     "media": {
+      "url": "demos-own/ui-entrance/complaint-wall-pick/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "invite-wall-to-chat",
+   "summary": "联系人卡片墙 → 一帧急推硬切到大卡 → 点\"邀请\"出液态光泡擦出\"已邀请\" → 虚化转场 → 流式写出一段邀请 → 选语气、全部发送 → 成功卡弹头像 → 三词标题 → 三张回复卡 3D 飞入 → 进聊天界面骨架变消息 → 窗口甩出",
+   "use": "功能登场 / 证据（\"一次替你联系很多人\"）",
+   "duration": "约 15.9s（476f@30fps）",
+   "energy": "中—高（猛推、光泡、头像弹出是高点）",
+   "tags": "ui-entrance、camera、interaction、typography、transition",
+   "origin": "@bohdanmotion · Polar（动效视频/_排除/003）· 003-S4 段 · 只学动作（急推硬切、液态光泡擦字、流式渐变尾巴、头像过冲弹出、3D 阶梯飞入、骨架变消息、甩出），按 25fps 逐帧看过（shot-lab/refs/003-S4/）；内容是自己的（读书会邀请）",
+   "verdict": "2026-11-05 · 第 2 批 · \"这一遍复刻的很到位啊\"\"这些都可以入库了\"",
+   "category": "ui-entrance",
+   "source": "references/shots-own/ui-entrance/invite-wall-to-chat.md",
+   "styles": [
+    {
+     "key": "invite-wall-to-chat",
+     "label": "invite-wall-to-chat",
+     "demo": "demos-own/ui-entrance/invite-wall-to-chat/InviteWallToChat.tsx",
+     "media": {
+      "url": "demos-own/ui-entrance/invite-wall-to-chat/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "prompt-to-site-wall",
+   "summary": "输入框打一句话（镜头追字）→ 点击停一拍 → 结果页斜着虚着进来摆正、图片马赛克加载 → 推近页内滚动 → 逐词字卡 → 卡片墙从纵深飞入、中心卡被色块连换几版 → 推近点提交、黑边压入 → Logo 一帧一字长出 → 收尾标语",
+   "use": "功能登场 → 证据 → 品牌收尾（一句话生成作品类产品）",
+   "duration": "约 17.2s（515f@30fps）",
+   "energy": "中—高（6 次失焦爬坡硬切、滚动段是热区）",
+   "tags": "ui-entrance、camera、transition、typography、brand、outro",
+   "origin": "@bohdanmotion · Bolt 发布片（动效视频/_排除/007）· 0:10.5–0:27.7 · 只学动作（失焦爬坡→硬切→新画面先虚且在动、推 4 帧拉 0.9s、斜入摆正几何先到清晰晚 2 帧、三层斜边色块换稿、黑边与点击同帧、Logo 一帧一字），按 25fps 逐帧看过（shot-lab/refs/007/）；内容是自己的（咖啡豆小店 + 9 个虚构网站）",
+   "verdict": "2026-11-05 · 第 3 批 · 修了咖啡袋字抽动后 \"入库吧\"",
+   "category": "ui-entrance",
+   "source": "references/shots-own/ui-entrance/prompt-to-site-wall.md",
+   "styles": [
+    {
+     "key": "prompt-to-site-wall",
+     "label": "prompt-to-site-wall",
+     "demo": "demos-own/ui-entrance/prompt-to-site-wall/PromptToSiteWall.tsx",
+     "media": {
+      "url": "demos-own/ui-entrance/prompt-to-site-wall/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "search-pick-shortlist",
+   "summary": "失焦转场 → 打一句话 → 卡片分行从左右交错滑入铺满 → 多光标点选（有退选）→ 选中的展开详情 → 收成小条落进名单变骨架再填字 → 三词标题 → 再打一句冲近发送",
+   "use": "功能登场 / 证据（\"AI 帮你筛选、整理成清单\"）",
+   "duration": "约 19.2s（575f@30fps）",
+   "energy": "中（快在转场、慢在看字，约 1:5）",
+   "tags": "ui-entrance、camera、interaction、data、typography",
+   "origin": "@bohdanmotion · Polar（动效视频/_排除/003）· 003-S3 段 · 只学动作（交错滑入 + 两次后拉 + 网格倾斜景深、选中三态、收拢中间态、硬切藏在虚帧），按 25fps 逐帧看过（shot-lab/refs/003-S3/）；内容是自己的（找羽毛球搭子）",
+   "verdict": "2026-11-05 · 第 2 批 · \"这一遍复刻的很到位啊\"\"这些都可以入库了\"",
+   "category": "ui-entrance",
+   "source": "references/shots-own/ui-entrance/search-pick-shortlist.md",
+   "styles": [
+    {
+     "key": "search-pick-shortlist",
+     "label": "search-pick-shortlist",
+     "demo": "demos-own/ui-entrance/search-pick-shortlist/SearchPickShortlist.tsx",
+     "media": {
+      "url": "demos-own/ui-entrance/search-pick-shortlist/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "sticker-sphere-picker",
+   "summary": "输入框的笑脸按钮长成一个贴满小图标的 3D 球，转球、搜索时不匹配的原地变暗、上下键切换时球自己转到结果，点击插入，Esc 两次收回",
+   "use": "功能登场（选择器 / 搜索 / \"在一大堆里找到它\"）；可循环",
+   "duration": "约 19.6s（589f@30fps）",
+   "energy": "低—中（动一下、停一下的录屏节奏）",
+   "tags": "ui-entrance、interaction、3d",
+   "origin": "@jh3yy · 表情选择器球面筛选（动效视频/_排除/002）· 整段 · 只学动作（图标→球同物变形、惯性转球、变暗筛选、结果驱动转球、按键提示），逐帧看过（shot-lab/refs/002/）；图标是自己画的，不用 Apple emoji",
+   "verdict": "2026-11-05 · 第 2 批 · \"这一遍复刻的很到位啊\"\"这些都可以入库了\"",
+   "category": "ui-entrance",
+   "source": "references/shots-own/ui-entrance/sticker-sphere-picker.md",
+   "styles": [
+    {
+     "key": "sticker-sphere-picker",
+     "label": "sticker-sphere-picker",
+     "demo": "demos-own/ui-entrance/sticker-sphere-picker/StickerSpherePicker.tsx",
+     "media": {
+      "url": "demos-own/ui-entrance/sticker-sphere-picker/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "task-card-three-verbs",
+   "summary": "蓝色\"新建任务\"按钮在原地撑开成新建卡，输入一句话自动出标签；同一张卡变成列表，甩糊换成三词竖滚\"排一排 / 改一改 / 勾一下\"，列表跟着被拖动、被改时间、被打勾放彩纸",
+   "use": "功能登场（一串讲清\"建 / 排 / 改 / 完成\"四个动作），也可单拿一拍做单功能镜头",
+   "duration": "12.6s（378f@30fps）",
+   "energy": "中（前 5 秒慢：打字、填标签；后 7 秒每 1–1.5 秒一个大动作：甩糊、拖动、侧卡、彩纸）",
+   "tags": "ui-entrance、typing、match-cut、whip-blur、kinetic-type、confetti、list-reorder",
+   "origin": "baseTOP × Taskly · 023_baseTOP_Taskly痛点开场与三词界面联动/原视频.mp4 · 13.55–26.0s（023-C）",
+   "verdict": "2026-11-06 · 第 7 批-1（一串整做）· \"这三个先入库吧\"",
+   "category": "ui-entrance",
+   "source": "references/shots-own/ui-entrance/task-card-three-verbs.md",
+   "styles": [
+    {
+     "key": "task-card-three-verbs",
+     "label": "task-card-three-verbs",
+     "demo": "demos-own/ui-entrance/task-card-three-verbs/TaskCardThreeVerbs.tsx",
+     "media": {
+      "url": "demos-own/ui-entrance/task-card-three-verbs/preview.mp4",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "shot",
+   "maturity": "候选",
+   "narrative": "",
+   "inputs": "",
+   "material": "",
+   "use_talk": ""
+  },
+  {
+   "name": "card-rain-pixel-word",
+   "summary": "一部手机冲到镜头前、被抛起落下，硬切成上百张小手机卡片从天而降堆满整屏，卡片一张张消失、故障像素块乱跳，几块白块原地长成笔画，拼出一个大字",
+   "use": "宣传片开场钩子、\"海量内容 / 灵感 / 记录\"类产品的登场前一拍；结尾大字可直接接产品名",
+   "duration": "原长 6.1s，最短 6.1s，最长 9.7s（30fps）",
+   "energy": "高 → 低；全片最高峰在卡片雨（1.2–1.8s），拼字段最安静（快慢比约 10:1，照原片）",
+   "tags": "",
+   "origin": "ab_workss · Pulse 发布片 · 030_ab_workss_PulseIt乱码解码大字与信息图/原视频.mp4 · 0–5.2s · 只学动作",
+   "verdict": "2026-11-10 · v1（结尾停在干净大字卡）· \"入库吧\"；中间补做过点阵手提线版（v2），用户：\"这个手，也太丑了，我不喜欢，你去掉吧，不要了\"，回到 v1",
+   "category": "groups",
+   "source": "references/groups-own/card-rain-pixel-word.md",
+   "styles": [
+    {
+     "key": "card-rain-pixel-word",
+     "label": "card-rain-pixel-word",
+     "demo": "demos-own/groups/card-rain-pixel-word/CardRainPixelWord.tsx（含 `CARD_RAIN_PIXEL_WORD_CONTRACT`、`checkCardRainInputs`、`planCardRain`）",
+     "media": {
+      "url": "demos-own/groups/card-rain-pixel-word/preview.mp4 + preview-max.mp4（上限文案 + 停留拉满 9.7s）",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "group",
+   "maturity": "候选",
+   "narrative": "钩子（\"内容多到装不下 → 收成一句话\"）",
+   "inputs": "word ≤6字(实测，1354px / 可用 1666px) | phoneTitle ≤8字(实测) | phoneNote ≤14字(实测) | notes[12] 每项 ≤5字(实测) | phoneUser（可选）",
+   "material": "不需要截图；手机屏幕和卡片画面用代码插画（早餐、绿植、海边、读书、咖啡、山路、晚霞、猫、花市、雪山、便当、夜跑）",
+   "use_talk": "",
+   "phases": "一个 → 无数个（堆满）→ 消散 → 一个词（必须按顺序走完；没有\"从多到一\"的意思就换组）",
+   "counts": "小卡片标题=12 种（固定，卡片循环用；对不上就换组，不凑不删）；大字 1 个词",
+   "motion": "0–0.35s, 0.55–2.7s, 3.1–5.05s（原速，永远不拉伸、不加速）",
+   "holds": "0.45s 最多 +0.6s（手机悬停）；2.9s 最多 +1.0s（卡片堆满）；5.8s 最多 +2.0s（结尾干净大字卡）",
+   "landmarks": "phoneIn@0, peak@0.53, cut@1.0, swap@2.233, full@2.5, vanish@3.13, black@3.367, wave2@3.633, stroke1@3.9, last@4.833, clean@5.033",
+   "layout": "横版（竖版未做）",
+   "entry_exit": "开头从深蓝星空 + 一部斜着的手机起（可独立开场）；结尾停在黑底 + 底部蓝辉光上的白色大字，适合接产品名 / Logo",
+   "joined": ""
+  },
+  {
+   "name": "itinerary-scroll-bookmark",
+   "summary": "一颗胶囊特写拉出整张行程卡，沿列表一张张扫下去，整页倾斜、照片上色、甩回页顶，再冲进书签按钮点下打勾，拉回页面",
+   "use": "宣传片功能演示（魔法瞬间之后的\"看结果 + 动手\"）；只要\"点按钮变状态\"可单拿 BookmarkTap（026-D）",
+   "duration": "原长 9.6s，最短 9.6s，最长 13.6s（30fps）",
+   "energy": "中；快慢交替（显字慢 → 拉出 → 扫列表慢快慢 → 甩上去快 → 对焦慢 → 冲书签快 → 点下最亮 → 打勾慢 → 拉回）",
+   "tags": "",
+   "origin": "Michael Nowak · Muse 产品发布片 · 026_MichaelNowak_Muse模糊换词与卡片堆叠/原视频.mp4 · 10.8–19.7s · 只学动作",
+   "verdict": "2026-11-10 · v2（书签特写改成按屏幕大小直接画，不抖）· \"可以了，入库吧\"；v1 时用户指出\"我们这个有点抖，他们的好像没有那么抖\"",
+   "category": "groups",
+   "source": "references/groups-own/itinerary-scroll-bookmark.md",
+   "styles": [
+    {
+     "key": "itinerary-scroll-bookmark",
+     "label": "itinerary-scroll-bookmark",
+     "demo": "demos-own/groups/itinerary-scroll-bookmark/ItineraryScrollBookmark.tsx（含 `ITINERARY_SCROLL_BOOKMARK_CONTRACT`、`checkItineraryInputs`、`BookmarkTap`）",
+     "media": {
+      "url": "demos-own/groups/itinerary-scroll-bookmark/preview.mp4 + preview-max.mp4（上限文案 + 停留拉满）+ preview-tap.mp4（026-D 单拿，另有镜头卡 shots-own/interaction/bookmark-tap-check）",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "group",
+   "maturity": "候选",
+   "narrative": "证据（功能演示：生成结果 → 浏览 → 收藏）",
+   "inputs": "title ≤8字(实测) | subtitle ≤26字(实测，一行放满) | days[3] title ≤7字(实测) + 插画 scene（lake / tea / street）| dayLabel（默认\"第n天\"）| accentA / accentB 渐变色",
+   "material": "不需要截图；卡片照片用代码插画代替（要换成真实产品截图需另做）",
+   "use_talk": "",
+   "phases": "生成的结果一张张出现 → 整体看一眼 → 用户动作（收藏）→ 结果停在页面上（必须按顺序走完；没有\"收藏 / 确认\"类动作就换组）",
+   "counts": "列表卡=3（固定；对不上就换组，不凑不删）",
+   "motion": "0–1.75s, 2.2–6.3s, 6.95–9.1s（原速，永远不拉伸、不加速）",
+   "holds": "2.0s 最多 +1.0s（第 1 张卡清楚地停着）；6.6s 最多 +1.0s（书签特写，点下之前）；9.4s 最多 +2.0s（结尾页顶 + 已收藏）",
+   "landmarks": "pill@0.3, pull@1.1, scroll1@2.2, scroll2@3.25, tilt@4.07, whip@4.4, head@4.8, rush@5.75, tap@7.03, check@7.45, back@8.6",
+   "layout": "横版（竖版未做）",
+   "entry_exit": "开头从一颗空的灰色圆角方块起（可接在任何\"白底\"画面后）；结尾停在页顶 + 已收藏的书签，适合接大字卡",
+   "joined": ""
+  },
+  {
+   "name": "pain-swirl-dot-logo",
+   "summary": "痛点句整行重打三次、四周琐碎小卡被漩涡卷走，转折句冒出后长出蓝点吞满屏，硬切到天空里长出 Logo、名字和标语",
+   "use": "宣传片开场，一条串完\"痛点钩子 → 产品登场\"；前 5 秒不出产品名，满足 SKILL\"痛点钩子\"要求",
+   "duration": "原长 9.2s，最短 9.2s，最长 14.2s（30fps）",
+   "energy": "前 4 秒低而密 → 5.1s 起爆（蓝点、硬切、圆圈外扩）→ 品牌海报静看；读—爆—读",
+   "tags": "",
+   "origin": "baseTOP × Taskly 宣传片 · 023_baseTOP_Taskly痛点开场与三词界面联动/原视频.mp4 · 0:00–0:09.2 · 只学动作",
+   "verdict": "2026-11-06 · 镜头卡版入库 · \"这三个先入库吧\"；2026-11-10 改成镜头组，合同验证待看",
+   "category": "groups",
+   "source": "references/groups-own/pain-swirl-dot-logo.md",
+   "styles": [
+    {
+     "key": "pain-swirl-dot-logo",
+     "label": "pain-swirl-dot-logo",
+     "demo": "demos-own/groups/pain-swirl-dot-logo/PainSwirlDotLogoGroup.tsx（含 `PAIN_SWIRL_DOT_LOGO_CONTRACT`、`checkPainSwirlInputs`、`planPainSwirl`）",
+     "media": {
+      "url": "demos-own/groups/pain-swirl-dot-logo/preview.mp4（正常文案）+ preview-max.mp4（上限文案 + 停留拉满）+ preview-long.mp4（正常文案撑到 13s）",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "group",
+   "maturity": "候选",
+   "narrative": "钩子 → 痛点 → 产品登场",
+   "inputs": "painLines[3] 每句 3 词、≤10 字、三句等长(实测) | cards[8] main ≤12 字、sub ≤12 字(实测) | turnLine 2 词 ≤6 字(实测) | brandName ≤6 字(实测) | taglineA / taglineB 各 2 词 ≤9 字(实测) | brandColor 冷色 | accent | logo（0–100 方框里的 SVG）",
+   "material": "不需要截图；要产品 Logo（SVG）",
+   "use_talk": "",
+   "phases": "痛点（三句重打 + 八张小卡）→ 收走（漩涡 + 转折句）→ 登场（蓝点 → 天空 → Logo → 名字 → 标语）（必须按顺序走完；没有转折句或没有 Logo 就换组）",
+   "counts": "痛点句=3（固定，每句 3 个词）；小卡=8（固定）；转折句=2 个词；标语=2+2 个词（数量对不上就换组，不凑不删）",
+   "motion": "0–2.2s, 2.95–3.5s, 3.85–7.95s, 8.9–9.2s（原速，永远不拉伸、不加速）",
+   "holds": "2.2s 最多 +1.0s（第二句读字）；3.5s 最多 +1.0s（第三句读字）；8.0s 最多 +3.0s（品牌海报）",
+   "landmarks": "line1@0.267, cards@0.43, line2@1.717, line3@3.033, swirl@3.85, turn@4.283, dot@5.067, cut@5.567, logo@5.667, name@6.833, tagline@7.25, flash@8.9（源秒；做片时用 landmarkAt 换算）",
+   "layout": "横版（竖版未做）",
+   "entry_exit": "可独立开场（浅色空底起）；结尾刷白到浅色柔光底，适合接浅底的功能镜头",
+   "joined": ""
+  },
+  {
+   "name": "tag-decode-ring-wave",
+   "summary": "两个标签框在乱码里解码出词、相机绕着它们转，硬切成一个狂转倒下的 3D 标签环，俯冲穿过环后以中心方块为锚换成射线图，白底面板推进来、声波柱流动，最后频闪冲进柱子",
+   "use": "宣传片里\"产品把零散信息收拢、变成一段可用的东西\"（语音笔记、会议纪要、数据汇总）；出口频闪适合硬切进下一个画面",
+   "duration": "原长 10.77s，最短 10.77s，最长 15.27s（30fps）",
+   "energy": "高；四轮\"快动作 → 落定 → 安静 1 秒左右 → 加速甩\"，出口频闪是全片最高",
+   "tags": "",
+   "origin": "ab_workss · Pulse 发布片 · 030_ab_workss_PulseIt乱码解码大字与信息图/原视频.mp4 · 25.067–35.800s（f752–f1074）· 只学动作",
+   "verdict": "2026-11-11 · v1 · \"入库\"（出口按用户选的做到频闪结束 35.8s）",
+   "category": "groups",
+   "source": "references/groups-own/tag-decode-ring-wave.md",
+   "styles": [
+    {
+     "key": "tag-decode-ring-wave",
+     "label": "tag-decode-ring-wave",
+     "demo": "demos-own/groups/tag-decode-ring-wave/TagDecodeRingWave.tsx（含 `TAG_DECODE_RING_WAVE_CONTRACT`、`checkTagRingInputs`、`planTagRing`）",
+     "media": {
+      "url": "demos-own/groups/tag-decode-ring-wave/preview.mp4 + preview-max.mp4（上限文案 + 停留拉满 15.27s）",
+      "type": "mp4"
+     }
+    }
+   ],
+   "kind": "group",
+   "maturity": "候选",
+   "narrative": "拆解归纳（\"一堆零散的记录 → 汇到一个点 → 变成一段录音 / 一条数据\"）",
+   "inputs": "heroFront ≤4字(实测) | heroBack ≤4字(实测) | tags[6] 每项 ≤4字(实测)",
+   "material": "不需要截图，全部是代码画的框、环、射线、声波",
+   "use_talk": "",
+   "phases": "两个词 → 一圈很多词 → 汇成一点 → 一条波形（必须按顺序走完）",
+   "counts": "主词 2 个（固定）；环上标签 6 种（循环使用，固定 6 个，对不上就换组）",
+   "motion": "0–2.0s, 2.3–3.8s, 4.0–5.9s, 6.1–8.6s, 8.85–10.77s（原速，永远不拉伸、不加速）",
+   "holds": "2.133s 最多 +1.0s（两个词都定住、慢滑）；3.9s 最多 +1.0s（平躺的标签环）；6.0s 最多 +1.0s（近景沿光带慢漂）；8.733s 最多 +1.5s（面板慢漂、声波在流）",
+   "landmarks": "in@0, jump@0.233, orbit@0.733, decoded@1.367, yaw@2.3, ring@2.9, flat@3.467, dive@4.167, flip@4.767, quiet@5.2, whip@6.5, swap@7.033, panel@7.233, dock@7.6, wave@8.6, accel@9.0, strobe@10.367, exit@10.767",
+   "layout": "横版（竖版未做）",
+   "entry_exit": "开头是黑底 + 一个巨大的乱码蓝角框（可独立开场）；结尾是白底蓝柱 / 黑底白柱频闪、相机冲进一根柱子，接下一镜头应硬切（原片接的是\"一根白竖线展开\"）",
+   "joined": ""
+  }
+ ]
+}

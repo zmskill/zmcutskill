@@ -1,0 +1,295 @@
+{
+ "note": "补缺：按缺口清单补的音效。除标 Sonniss 的一个，都是 CC0。",
+ "sounds": [
+  {
+   "group": "01_纸卡落定",
+   "file": "01_纸卡落定/发牌-真实卡片落定_02.wav",
+   "zh": "真实卡片落定（Sonniss 录音）",
+   "source": "Sonniss",
+   "license": "Sonniss",
+   "variants": []
+  },
+  {
+   "group": "01_纸卡落定",
+   "file": "01_纸卡落定/卡片放下_card-place-2.wav",
+   "zh": "一张卡片放到桌上",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "01_纸卡落定",
+   "file": "01_纸卡落定/翻页_book-flip-2.wav",
+   "zh": "翻到下一张",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "01_纸卡落定",
+   "file": "01_纸卡落定/合上书_book-close.wav",
+   "zh": "这一段讲完",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "02_笔",
+   "file": "02_笔/writing-pen-write.wav",
+   "zh": "钢笔写字",
+   "source": "Wyzowl（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "02_笔",
+   "file": "02_笔/writing-eraser.wav",
+   "zh": "橡皮擦掉",
+   "source": "Wyzowl（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "02_笔",
+   "file": "02_笔/铅笔画线_fs337091.wav",
+   "zh": "铅笔画一笔：画箭头、下划线",
+   "source": "Freesound #337091",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "02_笔",
+   "file": "02_笔/笔打勾_fs333084.wav",
+   "zh": "笔打一个勾",
+   "source": "Freesound #333084",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "02_笔",
+   "file": "02_笔/乱涂划掉_fs626738.wav",
+   "zh": "乱涂划掉：「不要什么都想做」",
+   "source": "Freesound #626738",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "02_笔",
+   "file": "02_笔/橡皮擦_fs235504.wav",
+   "zh": "橡皮擦掉：「账号删除重来」",
+   "source": "Freesound #235504",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "03_键盘",
+   "file": "03_键盘/笔记本打字_fs507143.wav",
+   "zh": "笔记本键盘打字，约 1.6 秒",
+   "source": "Freesound #507143",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "03_键盘",
+   "file": "03_键盘/真实按键拼的打字_3秒.wav",
+   "zh": "真实按键按真人节奏拼的连续打字，3 秒",
+   "source": "unicaegames（OpenGameArt）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "03_键盘",
+   "file": "03_键盘/单个按键_key002.wav",
+   "zh": "单个按键：一个字一个字蹦出来",
+   "source": "unicaegames（OpenGameArt）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "04_消息与提示",
+   "file": "04_消息与提示/收到消息_notify-message.wav",
+   "zh": "收到一条消息、聊天气泡",
+   "source": "Alvana（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "04_消息与提示",
+   "file": "04_消息与提示/确认_confirm-001.wav",
+   "zh": "操作成功、确认",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "04_消息与提示",
+   "file": "04_消息与提示/确认_confirm-002.wav",
+   "zh": "操作成功、确认",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "04_消息与提示",
+   "file": "04_消息与提示/完成_success-soft.wav",
+   "zh": "柔和的完成提示",
+   "source": "Alvana（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "04_消息与提示",
+   "file": "04_消息与提示/升级_level-up.wav",
+   "zh": "升级、能力提升",
+   "source": "Alvana（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "05_点击",
+   "file": "05_点击/鼠标点击_fs534104.wav",
+   "zh": "真实鼠标点击",
+   "source": "Freesound #534104",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "05_点击",
+   "file": "05_点击/鼠标点击_kenney.wav",
+   "zh": "鼠标按下",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "05_点击",
+   "file": "05_点击/开关_switch3.wav",
+   "zh": "拨一下开关",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "06_清单递进",
+   "file": "06_清单递进/tone-step-1.wav",
+   "zh": "第 1 行",
+   "source": "Wyzowl（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "06_清单递进",
+   "file": "06_清单递进/pop-small-in.wav",
+   "zh": "每行出现时的小「啵」",
+   "source": "Wyzowl（合成）",
+   "license": "CC0",
+   "variants": [
+    "06_清单递进/pop-small-in_v2.wav",
+    "06_清单递进/pop-small-in_v3.wav",
+    "06_清单递进/pop-small-in_v4.wav",
+    "06_清单递进/pop-small-in_v5.wav"
+   ]
+  },
+  {
+   "group": "06_清单递进",
+   "file": "06_清单递进/pop-medium-in.wav",
+   "zh": "稍大一点的「啵」",
+   "source": "Wyzowl（合成）",
+   "license": "CC0",
+   "variants": [
+    "06_清单递进/pop-medium-in_v2.wav",
+    "06_清单递进/pop-medium-in_v3.wav",
+    "06_清单递进/pop-medium-in_v4.wav",
+    "06_清单递进/pop-medium-in_v5.wav"
+   ]
+  },
+  {
+   "group": "07_短重音",
+   "file": "07_短重音/低沉闷击_soft-heavy-004.wav",
+   "zh": "章节大字落下，半秒内收住",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "08_钱",
+   "file": "08_钱/筹码叠起_chips-stack-3.wav",
+   "zh": "钱一笔笔进来",
+   "source": "Kenney",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "08_钱",
+   "file": "08_钱/收银机_fs209578.wav",
+   "zh": "收银机，成交",
+   "source": "Freesound #209578",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "10_下降与失败",
+   "file": "10_下降与失败/notification-failure-deflate.wav",
+   "zh": "泄气",
+   "source": "Wyzowl（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "10_下降与失败",
+   "file": "10_下降与失败/notification-failure-minor.wav",
+   "zh": "小失误",
+   "source": "Wyzowl（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "10_下降与失败",
+   "file": "10_下降与失败/出错嗡声_error-buzz.wav",
+   "zh": "出错、不行",
+   "source": "Alvana（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "11_快门",
+   "file": "11_快门/快门_fs376205.wav",
+   "zh": "截图、定格",
+   "source": "Freesound #376205",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "12_AI在工作",
+   "file": "12_AI在工作/digital-process-clear.wav",
+   "zh": "处理中（清楚）",
+   "source": "Wyzowl（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "12_AI在工作",
+   "file": "12_AI在工作/电脑处理_beeps.wav",
+   "zh": "AI 在处理、计算中",
+   "source": "Alvana（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "14_点赞涨粉与快进倒带（拼的）",
+   "file": "14_点赞涨粉与快进倒带（拼的）/点赞-小红心.wav",
+   "zh": "点赞：一个冒泡加一点闪光",
+   "source": "Wyzowl 拼接（合成）",
+   "license": "CC0",
+   "variants": []
+  },
+  {
+   "group": "14_点赞涨粉与快进倒带（拼的）",
+   "file": "14_点赞涨粉与快进倒带（拼的）/冒泡_fs878245.wav",
+   "zh": "点赞、小红心冒出来",
+   "source": "Freesound #878245",
+   "license": "CC0",
+   "variants": []
+  }
+ ]
+}
