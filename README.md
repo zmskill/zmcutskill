@@ -5,7 +5,7 @@
 
 ## zmcutskill 是什么
 
-zmcutskill 是逐梦做的剪辑 Skill 合集。Skill 是一套写给 AI 的做事方法：装到能干活的 AI（比如 Claude 桌面版的 Cowork、Claude Code、Codex）里之后，你在对话里说一句，AI 就照着这套方法帮你剪。
+zmcutskill 是[逐梦](#关于作者)做的剪辑 Skill 合集。Skill 是一套写给 AI 的做事方法：装到能干活的 AI（比如 Claude 桌面版的 Cowork、Claude Code、Codex）里之后，你在对话里说一句，AI 就照着这套方法帮你剪。
 
 现在有：
 
@@ -46,6 +46,21 @@ npx -y skills add zmskill/zmcutskill -g --all
 ```
 
 它会先问你两件事：这条的样子从哪来（按内容设计 / 从风格库挑 / 照参考视频），要不要背景音乐。然后排一张对照表给你看，你确认后一段一段做，每做完一段发给你看。
+
+## 关于作者
+
+我是逐梦，目前在研究 AI 剪辑。2024 年 2 月接触 AI 和自媒体，4 月做出第一篇百万爆款后转全职，7 月开始尝试 AI 跨境，一年赚到第一个百万，2025 年被电视台和《The World of Chinese》等媒体报道。下个目标是旅居办公。
+
+- 抖音／小红书／公众号：逐梦带你玩AI
+- 推特：[@AmbitiousXU](https://x.com/AmbitiousXU)
+
+**新风格**：「舞台」（字和特效跟人互动）等风格正在调试。点右上角的 Star 或 Watch，更新时第一时间能看到。
+
+**遇到问题**：安装或使用卡住了，可以[提 Issue](https://github.com/zmskill/zmcutskill/issues)，或发邮件到 zmxuskill@163.com，附上是在哪个 AI 里用的、卡在哪一步、报错的原文。
+
+**想有人带着做**：想让我本人带着装、带着做出第一条片，或者想聊怎么用 AI 做自媒体，可以看[付费答疑群说明](https://mp.weixin.qq.com/s/ffJH8QW-KP1KmYJtajc_9w)。
+
+觉得有用的话，点一下 Star，我会更有动力继续更新，也欢迎指出问题。
 
 ## 有哪些 Skill
 
