@@ -1,6 +1,6 @@
 # zmcutskill
 
-[![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-1.2.0-2563EB.svg?style=flat-square)](VERSION)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-16A34A.svg?style=flat-square)](LICENSE.md)
 
 ## zmcutskill 是什么
@@ -72,18 +72,19 @@ npx -y skills add zmskill/zmcutskill -g --all
 
 **你要准备的**：
 
-- 一条已经剪好气口的口播初剪（横屏竖屏都行；竖屏目前用书桌风格）
+- 一条已经剪好气口的口播初剪（横屏竖屏都行；竖屏目前用书桌或简历风格）
 - 文案（没有也行，会按听写来，拿不准的字会问你）
 - 一个素材文件夹：截图、录屏、照片，画面要用到的真实证据
 - 要背景音乐的话，你自己挑好的歌（Skill 不替你挑歌）
 
-**风格库里现有的三套**：
+**风格库里现有的四套**：
 
 | 风格 | 适合 |
 | --- | --- |
 | 笔记本（讲自己的经历和成果） | 讲经历、踩坑、步骤、成绩；手上有截图、照片、数字 |
 | 操作台（讲软件怎么用） | 讲一个工具怎么用、一样东西怎么做出来；手上有录屏 |
 | 书桌（日常分享，拿截图说话） | 竖屏的日常分享、讲自己做成的一件事；手上有聊天记录、后台数据、评论区截图 |
+| 简历（讲本事是怎么攒出来的） | 竖屏讲经历和成长：一段段经历怎么攒出现在的本事；画面是一份正在填的简历 |
 
 不想用现成的，可以让它按这条的内容设计一套新样子，或者给它一条你喜欢的参考视频。
 
