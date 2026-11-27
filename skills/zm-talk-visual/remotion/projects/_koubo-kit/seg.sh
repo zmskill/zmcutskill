@@ -14,12 +14,13 @@ python3 - "$out" "$cols" "$t0" "${SUBS:-}" <<'P'
 import sys,glob,os,json
 from PIL import Image, ImageDraw, ImageFont
 d=sys.argv[1]; cols=int(sys.argv[2]); t0=float(sys.argv[3]); sp=sys.argv[4]; fs=sorted(glob.glob(d+'/f*.jpg')); ims=[Image.open(f) for f in fs]
-tw=640; th=360; rows=(len(ims)+cols-1)//cols
+tw, th = (324, 576) if ims and ims[0].height > ims[0].width else (640, 360)   # 竖屏的片子按 9:16 的格子拼（2026-11-27原片加）
+rows=(len(ims)+cols-1)//cols
 if not sp:
     o=Image.new('RGB',(tw*cols,th*rows),'#333')
     for i,im in enumerate(ims): o.paste(im.resize((tw,th)),((i%cols)*tw,(i//cols)*th))
 else:   # 每格下面一条：全片时间 + 那一刻的字幕
-    subs=json.load(open(sp,encoding='utf-8')); lh=58
+    subs=json.load(open(sp,encoding="utf-8")); lh=72 if th>tw else 58
     font=None
     for f in ['/System/Library/Fonts/PingFang.ttc','/System/Library/Fonts/STHeiti Medium.ttc','/System/Library/Fonts/STHeiti Light.ttc','/System/Library/Fonts/Hiragino Sans GB.ttc',
               '/Library/Fonts/Arial Unicode.ttf','/System/Library/Fonts/Supplemental/Arial Unicode.ttf','C:/Windows/Fonts/msyh.ttc','C:/Windows/Fonts/simhei.ttf']+glob.glob('/usr/share/fonts/**/*CJK*',recursive=True)+glob.glob('/usr/share/fonts/**/wqy*',recursive=True):
@@ -31,8 +32,11 @@ else:   # 每格下面一条：全片时间 + 那一刻的字幕
     for i,(f,im) in enumerate(zip(fs,ims)):
         x,y=(i%cols)*tw,(i//cols)*(th+lh); o.paste(im.resize((tw,th)),(x,y))
         t=t0+int(os.path.basename(f)[1:6])/30; line=next((s[2] for s in subs if s[0]<=t<s[1]),'（停顿）')
-        txt=f'{t:.1f}s  {line}' if font.getbbox('字')[2]>12 else f'{t:.1f}s'
-        dr.text((x+12,y+th+14),txt,fill='#f2f2f2',font=font)
+        if th > tw:   # 竖屏格子窄：时间一行、字幕一行（截到 13 个字）
+            dr.text((x+10,y+th+6),f'{t:.1f}s',fill='#ffd27a',font=font); dr.text((x+10,y+th+30),line[:13],fill='#f2f2f2',font=font)
+        else:
+            txt=f'{t:.1f}s  {line}' if font.getbbox('字')[2]>12 else f'{t:.1f}s'
+            dr.text((x+12,y+th+14),txt,fill='#f2f2f2',font=font)
 o.save(d+'/sheet.jpg',quality=84); print(o.size,len(ims),d+'/sheet.jpg')
 P
 rm -rf $B; rm -f out/stills.lock

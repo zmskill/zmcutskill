@@ -14,7 +14,7 @@ from _ff import find_ffmpeg
 IN_SKILL = False  # 开源版：默认装在工作区，skill 文件夹保持干净
 
 ap = argparse.ArgumentParser()
-ap.add_argument('what', nargs='?', default='all', choices=['all', 'python', 'ffmpeg', 'remotion', 'browser', 'asr'])
+ap.add_argument('what', nargs='?', default='all', choices=['all', 'python', 'ffmpeg', 'remotion', 'browser', 'asr', 'stage'])
 ap.add_argument('--work', default=os.environ.get('ZM_WORK', os.path.expanduser('~/zm-work/zm-talk-visual')))
 ap.add_argument('--in-skill', action='store_true', help='依赖直接装进 skill 文件夹（不建工作区）')
 a = ap.parse_args()
@@ -75,6 +75,11 @@ def step_ffmpeg():
 def step_remotion():
     if use_work:
         run(['bash', os.path.join(SKILL, 'scripts', 'workdir.sh'), a.work])
+    else:   # 在 skill 里直接渲染：风格自带的字体复制到 remotion/public/fonts/<风格>/（workdir.sh 那条路会自己复制）
+        import glob
+        for d in glob.glob(os.path.join(SKILL, 'styles', '*', 'fonts')):
+            dst = os.path.join(RDIR, 'public', 'fonts', os.path.basename(os.path.dirname(d)))
+            shutil.copytree(d, dst, dirs_exist_ok=True)
     if os.path.exists(os.path.join(RDIR, 'node_modules', '.bin', 'remotion')):
         print('Remotion 依赖：已经有了 ' + RDIR); return
     if not shutil.which('npm'):
@@ -91,9 +96,26 @@ def step_browser():
 def step_asr():
     run(['bash', os.path.join(SKILL, 'scripts', 'setup_asr.sh')]) or blocked('github.com', '听写模型')
 
-steps = {'python': step_python, 'ffmpeg': step_ffmpeg, 'remotion': step_remotion, 'browser': step_browser, 'asr': step_asr}
+def step_stage():
+    # 舞台 / 空间效果才要：抠像（Robust Video Matting，GPL-3.0，只下载到用户电脑、不随 skill 分发）+ 人脸检测（OpenCV 自带的 haar 文件）
+    miss = [p for m, p in (('onnxruntime', 'onnxruntime'), ('cv2', 'opencv-python-headless')) if not __import__('importlib').util.find_spec(m)]
+    if miss: pip_install(miss) or blocked('pypi.org', '抠像用的 Python 包')
+    d = os.environ.get('VK_STAGE_DIR', os.path.expanduser('~/.cache/zm-talk-visual/stage')); os.makedirs(d, exist_ok=True)
+    import urllib.request
+    for name, url, host in (('rvm_resnet50_fp32.onnx', 'https://github.com/PeterL1n/RobustVideoMatting/releases/download/v1.0.0/rvm_resnet50_fp32.onnx', 'github.com'),
+                            ('haarcascade_frontalface_default.xml', 'https://raw.githubusercontent.com/opencv/opencv/4.x/data/haarcascades/haarcascade_frontalface_default.xml', 'raw.githubusercontent.com')):
+        f = os.path.join(d, name)
+        if os.path.exists(f) and os.path.getsize(f) > 100000: print(f'{name}：已经有了'); continue
+        print(f'下载 {name}…', flush=True)
+        try:
+            urllib.request.urlretrieve(url, f + '.part'); os.replace(f + '.part', f)
+        except Exception as e:
+            print(e); blocked(host, '舞台的抠像模型' if name.endswith('onnx') else '人脸检测文件')
+    print('舞台的模型：好了 ' + d)
+
+steps = {'python': step_python, 'ffmpeg': step_ffmpeg, 'remotion': step_remotion, 'browser': step_browser, 'asr': step_asr, 'stage': step_stage}
 done, cur = {}, ['']
-for name in (steps if a.what == 'all' else [a.what]):
+for name in ([k for k in steps if k != 'stage'] if a.what == 'all' else [a.what]):   # stage 只在用舞台 / 空间效果时单独装
     cur[0] = name; print(f'\n── {name} ──', flush=True)
     try:
         steps[name](); done[name] = '好了'

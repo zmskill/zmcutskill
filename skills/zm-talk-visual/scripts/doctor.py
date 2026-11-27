@@ -106,6 +106,12 @@ row('离线听写模型（下载约 670 MB，装好占约 2.1 GB）', has_asr, A
 if not has_asr:
     todo.append('装听写模型（下载约 670 MB，装好占约 2.1 GB 硬盘）：python3 scripts/setup.py asr；被命令时长上限打断就再跑一次，会接着下（不要放后台）')
 
+# ── 舞台 / 空间效果（只在用到时才需要；skill 里没有舞台风格就不查）──
+if os.path.isdir(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'styles', 'stage')):
+    STG = os.environ.get('VK_STAGE_DIR', os.path.expanduser('~/.cache/zm-talk-visual/stage'))
+    has_stg = all(os.path.exists(os.path.join(STG, f)) for f in ('rvm_resnet50_fp32.onnx', 'haarcascade_frontalface_default.xml'))
+    row('舞台的抠像模型（约 100 MB；只在用舞台 / 空间效果时需要）', has_stg, STG if has_stg else '用到时跑 python3 scripts/setup.py stage')
+
 w = max(len(r[1]) for r in rows)
 print('体检结果\n')
 for s, n, d in rows:

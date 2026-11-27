@@ -1,7 +1,7 @@
 {
  "name": "Sonniss 精选可用版",
  "format": "WAV 48kHz 24-bit",
- "license_note": "来自 Sonniss GDC 2026 免费音效包：免版税、可商用、无需注明出处（详见 Sonniss 官网 gdc.sonniss.com 和原包里的许可协议）；「补缺」里标 CC0 的为公共领域。",
+ "license_note": "来自 Sonniss GDC 2026 免费音效包：免版税、可商用、无需注明出处（详见 Sonniss 官网 gdc.sonniss.com 和原包里的许可协议）；「补缺」里标 CC0 的为公共领域。2026-11-20 用户确认：可以随 skill 一起发布。",
  "fields": {
   "file": "相对本文件夹的路径",
   "type": "one-shot 单个音效；segment 从多段文件里切出的一段；loop 可无缝循环的氛围",

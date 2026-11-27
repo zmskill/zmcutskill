@@ -1,5 +1,5 @@
 {
- "note": "补缺：按缺口清单补的音效。除标 Sonniss 的一个，都是 CC0。",
+ "note": "补缺：按缺口清单补的音效。01–14 是 2026-11-12 为口播补的；20–33 是 2026-11-20 为宣传片补的（用户在试听页挑的）。除标 Sonniss 的，都是 CC0。",
  "sounds": [
   {
    "group": "01_纸卡落定",
@@ -290,6 +290,670 @@
    "source": "Freesound #878245",
    "license": "CC0",
    "variants": []
+  },
+  {
+   "group": "20_短甩",
+   "file": "20_短甩/长刀挥过_swing-scrape-swift-melee.wav",
+   "zh": "甩镜头、快速横扫、前半句甩走",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/David Dumais Audio - Melee Weapons Sound Effects Pack 2/METLFric_SWING SCRAPE Swift Melee Weapon Swing With A Long Blade 14_DDUMAIS_MWP2.wav",
+   "source_start": 0.002,
+   "gain_db": -5.6
+  },
+  {
+   "group": "20_短甩",
+   "file": "20_短甩/帆布包一掀_action-inventory-open-fl.wav",
+   "zh": "面板展开、卡片翻走",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms/CLOTHFlp_Action Inventory Open Flip Cloth Canvas Bag Slide Light 02_ESM_FG2.wav",
+   "source_start": 0.028,
+   "gain_db": -0.0
+  },
+  {
+   "group": "20_短甩",
+   "file": "20_短甩/出招层叠甩_action-deploy-units-swor.wav",
+   "zh": "甩镜头、大元素冲进画面",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Tower Defense Game/DSGNStngr_Action Deploy Units Sword Slice Special Move Layered Swish 04_ESM_TDG.wav",
+   "source_start": 0.061,
+   "gain_db": -8.8
+  },
+  {
+   "group": "20_短甩",
+   "file": "20_短甩/沙锤急摇接啪_transition-frantic-shake.wav",
+   "zh": "快节奏换词、甩出去之后定住",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Cinematic Sound Design - Colossal Impacts/Transition Frantic Shaker Snap.wav",
+   "source_start": 0.026,
+   "gain_db": -1.9
+  },
+  {
+   "group": "20_短甩",
+   "file": "20_短甩/细甩_swish-soft.wav",
+   "zh": "最轻的小元素划过",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 10.0
+  },
+  {
+   "group": "20_短甩",
+   "file": "20_短甩/轻气流_whoosh-fast-soft.wav",
+   "zh": "0.1–0.4 秒的小移动",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 10.0
+  },
+  {
+   "group": "20_短甩",
+   "file": "20_短甩/屏幕轻划_swipe-fast-soft.wav",
+   "zh": "演示 App 里滑动、切换卡片",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 16.0
+  },
+  {
+   "group": "21_运镜whoosh",
+   "file": "21_运镜whoosh/汽车掠过_traffic-multiple-cars-pa.wav",
+   "zh": "普通的推近、横移",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle5of5/SoundBits - Pass-By - Trains, Trucks & Cars 2/AMBTraf_Traffic Multiple Cars Passing By 25_SNDBTS_PB-TTC2.wav",
+   "source_start": 7.06,
+   "gain_db": -2.1
+  },
+  {
+   "group": "21_运镜whoosh",
+   "file": "21_运镜whoosh/窄缝急风_loop-weather-wind-whippi.wav",
+   "zh": "柔和的推近、界面浮现滑入",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Synthesized Nature Loops and Sounds/WINDInt_Loop Weather Wind Whipping Constricted Flow Turbulent 01_ESM_SNLS.wav",
+   "source_start": 1.536,
+   "gain_db": -3.8
+  },
+  {
+   "group": "21_运镜whoosh",
+   "file": "21_运镜whoosh/飞行物掠过_unidentified-encounter-3.wav",
+   "zh": "科技感的界面飞过、穿过",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Air Designed/AEROJet_Unidentified Encounter_344 Audio_Air Designed.wav",
+   "source_start": 0.0,
+   "gain_db": 5.2
+  },
+  {
+   "group": "21_运镜whoosh",
+   "file": "21_运镜whoosh/柔和气流_whoosh-medium-soft.wav",
+   "zh": "0.3–0.8 秒的普通移动",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 10.0
+  },
+  {
+   "group": "21_运镜whoosh",
+   "file": "21_运镜whoosh/慢推长气_whoosh-slow-soft.wav",
+   "zh": "1 秒以上的慢推镜",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 10.0
+  },
+  {
+   "group": "21_运镜whoosh",
+   "file": "21_运镜whoosh/推近气流_move-zoom-in.wav",
+   "zh": "镜头推近到一个元素上",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 8.0
+  },
+  {
+   "group": "22_上升与下滑",
+   "file": "22_上升与下滑/电弧充能上升_arcpowerupdesign04-inmot.wav",
+   "zh": "面板升起、能量往上冲、看板浮上来",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Arc/ELECArc_ArcPowerUpDesign04_InMotionAudio_Arc.wav",
+   "source_start": 0.0,
+   "gain_db": 0.1
+  },
+  {
+   "group": "22_上升与下滑",
+   "file": "22_上升与下滑/低音下滑中速04_bass-drop-downer-medium.wav",
+   "zh": "元素往下掉、退场、画面暗下去",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Bass Drops & Downers Vol. 1/DSGNBass_Bass Drop & Downer Medium 04_344 Audio_Bass Drops & Downers.wav",
+   "source_start": 0.0,
+   "gain_db": -3.4
+  },
+  {
+   "group": "22_上升与下滑",
+   "file": "22_上升与下滑/低音下滑中速15_bass-drop-downer-medium.wav",
+   "zh": "退场、收起",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Bass Drops & Downers Vol. 2/DSGNBass_Bass Drop & Downer Medium 15_344 Audio_Bass Drops & Downers Vol 2.wav",
+   "source_start": 0.0,
+   "gain_db": 0.8
+  },
+  {
+   "group": "22_上升与下滑",
+   "file": "22_上升与下滑/断电一沉_jump-start-drop-3-344-au.wav",
+   "zh": "整屏突然熄掉、话锋一转",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Bass Drops & Downers Vol. 3/DSGNBass_Jump Start Drop 3_344 Audio_Bass Drops and Downers Vol 3.wav",
+   "source_start": 0.052,
+   "gain_db": -5.7
+  },
+  {
+   "group": "22_上升与下滑",
+   "file": "22_上升与下滑/往上嗖到位_zip-in-medium.wav",
+   "zh": "换词、元素蹦到位",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 7.0
+  },
+  {
+   "group": "22_上升与下滑",
+   "file": "22_上升与下滑/往下嗖走_zip-out-medium.wav",
+   "zh": "元素被甩走、退场",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 7.0
+  },
+  {
+   "group": "23_吸入",
+   "file": "23_吸入/布料甩动倒放_clothmovement24-inmotion.wav",
+   "zh": "小元素缩没、遮住",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Foley T-Shirt/FOLYClth_ClothMovement24_InMotionAudio_FoleyT-Shirt.wav（倒放）",
+   "source_start": 0.02,
+   "gain_db": 2.3
+  },
+  {
+   "group": "23_吸入",
+   "file": "23_吸入/短吸入_reverse-whoosh-short-soft.wav",
+   "zh": "小东西被吸走",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 10.0
+  },
+  {
+   "group": "23_吸入",
+   "file": "23_吸入/中吸入_reverse-whoosh-medium-soft.wav",
+   "zh": "冲进下一个画面的硬切前",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 10.0
+  },
+  {
+   "group": "24_上扬铺垫",
+   "file": "24_上扬铺垫/能量流动swell_magic-energy-flow-astral.wav",
+   "zh": "慢慢浮现、柔和的 swell",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Alexander Kopeikin - Emotion and Magic/magic, energy flow, astral travel-015.wav",
+   "source_start": 14.369,
+   "gain_db": -1.8
+  },
+  {
+   "group": "24_上扬铺垫",
+   "file": "24_上扬铺垫/低频金属嗡鸣_metal-scrape-low-tonal-l.wav",
+   "zh": "低频 swell、大字升起前",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle5of5/The Noisery - Moaning Metal/DSGNTonl_Metal Scrape Low Tonal LFE 4_The Noisery_Moaning Metal.wav",
+   "source_start": 0.207,
+   "gain_db": -4.6
+  },
+  {
+   "group": "25_闪光",
+   "file": "25_闪光/魔法光点亮_magic-light-spell-enchan.wav",
+   "zh": "主角亮起、品牌色闪一下",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Fantasy Game 2 - Sound Kit for Enchanted Realms/MAGAngl_Magic Light Spell Enchantment Potion Effect Tonal Bright 03_ESM_FG2.wav",
+   "source_start": 0.0,
+   "gain_db": -3.9
+  },
+  {
+   "group": "25_闪光",
+   "file": "25_闪光/魔法铃铛1_magic-christmas-bells-2.wav",
+   "zh": "轻快的亮闪、点缀",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Christmas Vol. 1/MAGMisc_Magic Christmas Bells 2_344 Audio_Christmas.wav",
+   "source_start": 6.649,
+   "gain_db": 11.2
+  },
+  {
+   "group": "25_闪光",
+   "file": "25_闪光/魔法铃铛2_magic-christmas-bells-2.wav",
+   "zh": "轻快的亮闪、点缀",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Christmas Vol. 1/MAGMisc_Magic Christmas Bells 2_344 Audio_Christmas.wav",
+   "source_start": 10.043,
+   "gain_db": 14.5
+  },
+  {
+   "group": "25_闪光",
+   "file": "25_闪光/小铃铛金属闪烁_shimmer-loop-small-bell.wav",
+   "zh": "慢转、很轻的环境闪光",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Strange Game Ambient Loops 3/MAGShim_Shimmer Loop Small Bell Metal Taps_ESM_SGA3.wav",
+   "source_start": 33.377,
+   "gain_db": -4.2
+  },
+  {
+   "group": "25_闪光",
+   "file": "25_闪光/八音盒A_sbmb-music-box-a-013.wav",
+   "zh": "暖一点的亮起",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle4of5/Sonic Bat - Music Boxes/SBmb_Music Box A 013.wav",
+   "source_start": 0.053,
+   "gain_db": -4.6
+  },
+  {
+   "group": "26_落版重击",
+   "file": "26_落版重击/预告片大轰214_effectivetrailer-booms-v.wav",
+   "zh": "品牌落版、全片最重的一下",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Federico Soler - Effective Trailer Booms Vol. 2/EffectiveTrailer_Booms_Vol2_214.wav",
+   "source_start": 0.263,
+   "gain_db": -8.0
+  },
+  {
+   "group": "26_落版重击",
+   "file": "26_落版重击/预告片大轰075_effectivetrailer-booms-v.wav",
+   "zh": "Logo 砸下来",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Federico Soler - Effective Trailer Booms Vol. 2/EffectiveTrailer_Booms_Vol2_075.wav",
+   "source_start": 0.259,
+   "gain_db": -7.5
+  },
+  {
+   "group": "26_落版重击",
+   "file": "26_落版重击/铜管braam_cinematic-horn-braam-epi.wav",
+   "zh": "开场第一下、震撼的大字卡",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/Jake Fielding - Cinematic Horn Braams/DSGNBram____Cinematic Horn Braam, Epic, Cinematic, Dark, Instrument, Huge-67.wav",
+   "source_start": 0.007,
+   "gain_db": -0.2
+  },
+  {
+   "group": "26_落版重击",
+   "file": "26_落版重击/乐器箱落地_casedown-concrete12-inmo.wav",
+   "zh": "有分量但不夸张的落定",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Instrument Case/OBJLug_CaseDown_Concrete12_InMotionAudio_InstrumentCase.wav",
+   "source_start": 0.02,
+   "gain_db": 1.8
+  },
+  {
+   "group": "26_落版重击",
+   "file": "26_落版重击/冰块压碎_ice-block-of-ice-crushed.wav",
+   "zh": "科技感的「咔嚓」落定",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Alexander Kopeikin - 100 kHz Designed Ice/ice, block of ice crushed, heavy-015.wav",
+   "source_start": 0.163,
+   "gain_db": -4.5
+  },
+  {
+   "group": "26_落版重击",
+   "file": "26_落版重击/木棍重击1_spear-and-stick-impact-w.wav",
+   "zh": "卡片落定、低沉 thud",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Historical Weapons Vol. 2/WEAPBlnt_Spear And Stick Impact, Wooden MKH 2_344 Audio_Medieval Weapons Vol 2.wav",
+   "source_start": 5.022,
+   "gain_db": 3.1
+  },
+  {
+   "group": "26_落版重击",
+   "file": "26_落版重击/木棍重击2_spear-and-stick-impact-w.wav",
+   "zh": "卡片落定、低沉 thud",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Historical Weapons Vol. 2/WEAPBlnt_Spear And Stick Impact, Wooden MKH 2_344 Audio_Medieval Weapons Vol 2.wav",
+   "source_start": 9.323,
+   "gain_db": 3.1
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/老座钟滴答_crooked-antique-clock-34.wav",
+   "zh": "逐字出现、换卡，连发很自然",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Antique Clocks/CLOCKTick_Crooked Antique Clock_344 Audio_Antique Clocks.wav",
+   "source_start": 4.009,
+   "gain_db": 7.0
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/古董钟滴答清脆_you-re-running-late-344.wav",
+   "zh": "",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Antique Clocks/CLOCKTick_You're Running Late _344 Audio_Antique Clocks.wav",
+   "source_start": 0.728,
+   "gain_db": 4.7
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/收音机拨档1_sbvr-mode-select-wheel-0.wav",
+   "zh": "翻牌、逐格填入、数字跳",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle4of5/Sonic Bat - Vintage Radio/SBvr_Mode Select Wheel 006.wav",
+   "source_start": 0.014,
+   "gain_db": 6.3
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/收音机拨档2_sbvr-mode-select-wheel-0.wav",
+   "zh": "翻牌、逐格填入、数字跳",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle4of5/Sonic Bat - Vintage Radio/SBvr_Mode Select Wheel 006.wav",
+   "source_start": 0.53,
+   "gain_db": 8.4
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/萨克斯按键_keypress64-inmotionaudio.wav",
+   "zh": "字浮出、轻点",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Saxophone/MUSCInst_KeyPress64_InMotionAudio_Saxophone.wav",
+   "source_start": 0.025,
+   "gain_db": -5.5
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/体温计嘀_thermometer-beep11-inmot.wav",
+   "zh": "数据到达、完成一项",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Medical Thermometer/BEEPMed_Thermometer_Beep11_InMotionAudio_MedicalThermometer.wav",
+   "source_start": 0.0,
+   "gain_db": 4.7
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/棋子落下_game-play-piece-action-o.wav",
+   "zh": "小圆点落进来",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games/GAMEBoard_Game Play Piece Action Organic Connect Dots Fall Bounce 04_ESM_BG.wav",
+   "source_start": 0.003,
+   "gain_db": -0.1
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/纸牌翻_game-play-cards-dry-show.wav",
+   "zh": "翻牌、换卡",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games/PAPRHndl_Game Play Cards Dry Show Flip Toss Disgard Near 12_ESM_BG.wav",
+   "source_start": 0.0,
+   "gain_db": -3.5
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/金属轻敲_metal-old-file-impact-ta.wav",
+   "zh": "细线到位、打勾",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - HD Game Materials/METLImpt_Metal Old File Impact Tap Against Tire Iron Metallic Hit 01_ESM_HDGM.wav",
+   "source_start": 0.121,
+   "gain_db": -1.5
+  },
+  {
+   "group": "27_轻tick",
+   "file": "27_轻tick/旧锁咔哒_tinkering-antique-lock-3.wav",
+   "zh": "上锁、很细的机械感",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Antique Small Metals/METLMvmt_  Tinkering Antique Lock_344 Audio_Antique Small Metals.wav",
+   "source_start": 0.077,
+   "gain_db": 16.6
+  },
+  {
+   "group": "28_chime",
+   "file": "28_chime/教堂大钟_04-church-bells-near-dis.wav",
+   "zh": "正式、有仪式感的 Logo 落版",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/Ivo Vicic - Church Bells/04 Church Bells, Near Distance, In Church Tower-3 Different Bell 02.wav",
+   "source_start": 1.614,
+   "gain_db": 1.3
+  },
+  {
+   "group": "28_chime",
+   "file": "28_chime/木琴上行_xylophone-ringtone-2-cb.wav",
+   "zh": "可爱、轻松调性的 Logo 长出",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/CB_Sounddesign - Applicable Sounds - Organic UI and Building Games SFX/UIMisc_Xylophone Ringtone 2_CB Sounddesign_APPlicable Sounds.wav",
+   "source_start": 0.004,
+   "gain_db": 1.4
+  },
+  {
+   "group": "28_chime",
+   "file": "28_chime/八音盒C_sbmb-music-box-c-059.wav",
+   "zh": "暖调性的收尾",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle4of5/Sonic Bat - Music Boxes/SBmb_Music Box C 059.wav",
+   "source_start": 0.048,
+   "gain_db": -0.6
+  },
+  {
+   "group": "28_chime",
+   "file": "28_chime/小铃叮_tone-ding-high.wav",
+   "zh": "打勾、完成",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 12.0
+  },
+  {
+   "group": "28_chime",
+   "file": "28_chime/拇指琴签名_sting-minimal-short.wav",
+   "zh": "极简的 Logo 小签名",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 10.0
+  },
+  {
+   "group": "29_故障",
+   "file": "29_故障/界面故障滋啦_user-interface-glitch-hi.wav",
+   "zh": "乱码、解码、画面错位",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle5of5/The Noisery - Rich Glitch/UIGlitch_User interface_Glitch_High_Electronic_The Noisery_Rich Glitch_05.wav",
+   "source_start": 0.0,
+   "gain_db": 3.8
+  },
+  {
+   "group": "29_故障",
+   "file": "29_故障/数据损坏故障_designed-glitch-corrupte.wav",
+   "zh": "频闪、出错",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle5of5/The Noisery - Rich Glitch/UIGlitch_Designed_Glitch_Corrupted_Data Error_The Noisery_Rich Glitch_06.wav",
+   "source_start": 0.0,
+   "gain_db": 3.8
+  },
+  {
+   "group": "29_故障",
+   "file": "29_故障/无线电杂音_radio-ham-loop-static-hu.wav",
+   "zh": "信号不好、切换失真",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Fake Advertisements and Radio Sound Effects Audio Construction Kit/COMStatic_Radio Ham Loop Static Hum Active Powered On Garbled Noise 01_ESM_FA.wav",
+   "source_start": 13.118,
+   "gain_db": -6.7
+  },
+  {
+   "group": "29_故障",
+   "file": "29_故障/电弧滋_arcdesign15-inmotionaudi.wav",
+   "zh": "短促的电流故障",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Arc/ELECArc_ArcDesign15_InMotionAudio_Arc.wav",
+   "source_start": 0.0,
+   "gain_db": 1.7
+  },
+  {
+   "group": "29_故障",
+   "file": "29_故障/小故障_digital-glitch-clear.wav",
+   "zh": "",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 11.0
+  },
+  {
+   "group": "29_故障",
+   "file": "29_故障/解码乱跳_digital-scramble.wav",
+   "zh": "",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 13.0
+  },
+  {
+   "group": "30_旋转",
+   "file": "30_旋转/颤音旋转_vibrato-impact-snap-spin.wav",
+   "zh": "轻松调性的旋转",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Cinematic Sound Design - Cartoon Impacts/Vibrato Impact Snap Spin Transition.wav",
+   "source_start": 0.498,
+   "gain_db": -6.9
+  },
+  {
+   "group": "30_旋转",
+   "file": "30_旋转/卷尺拉出_antique-measuring-tape-3.wav",
+   "zh": "一条线拉出来、绕一圈",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Antique Small Metals/METLMvmt_  Antique Measuring Tape_344 Audio_Antique Small Metals.wav",
+   "source_start": 0.017,
+   "gain_db": 23.0
+  },
+  {
+   "group": "31_电流",
+   "file": "31_电流/电流嗡嗡_buzz27-inmotionaudio-arc.wav",
+   "zh": "线一直亮着、通电",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Arc/ELECBuzz_Buzz27_InMotionAudio_Arc.wav",
+   "source_start": 3.689,
+   "gain_db": -0.1
+  },
+  {
+   "group": "31_电流",
+   "file": "31_电流/扫描线_digital-scan-clear.wav",
+   "zh": "扫描线划过",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 11.0
+  },
+  {
+   "group": "32_落下与垃圾桶",
+   "file": "32_落下与垃圾桶/洗衣篮闷响1_washingbasket-pats-movem.wav",
+   "zh": "丢进垃圾桶",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Washing Basket Foley/FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley.wav",
+   "source_start": 4.6,
+   "gain_db": -1.1
+  },
+  {
+   "group": "32_落下与垃圾桶",
+   "file": "32_落下与垃圾桶/洗衣篮闷响2_washingbasket-pats-movem.wav",
+   "zh": "",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle3of5/InMotionAudio - Washing Basket Foley/FOLYMisc_WashingBasket_Pats&Movement43_InMotionAudio_WashingBasketFoley.wav",
+   "source_start": 0.041,
+   "gain_db": 2.2
+  },
+  {
+   "group": "32_落下与垃圾桶",
+   "file": "32_落下与垃圾桶/一摞书倒下_pile-of-antique-books-fa.wav",
+   "zh": "一堆东西（手机、卡片）落下",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Antique Books/PAPRMisc_Pile Of Antique Books Falling Over 8_344 Audio_Antiques - Books.wav",
+   "source_start": 0.85,
+   "gain_db": 1.7
+  },
+  {
+   "group": "32_落下与垃圾桶",
+   "file": "32_落下与垃圾桶/木棋子倒下_event-board-reset-organi.wav",
+   "zh": "小东西散落",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Epic Stock Media - Board Game - Sound Set Kit for Tabletop and Digital Games/GAMEBoard_Event Board Reset Organic Multiple Pieces Wood Small 02_ESM_BG.wav",
+   "source_start": 0.006,
+   "gain_db": -8.3
+  },
+  {
+   "group": "33_彩纸",
+   "file": "33_彩纸/包装纸沙沙_wrapping-paper-opening-p.wav",
+   "zh": "接在拉炮后面当彩纸落下",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle1of5/344 Audio - Christmas Vol. 1/MAGMisc_Wrapping Paper, Opening Present 1_344 Audio_Christmas.wav",
+   "source_start": 2.1,
+   "gain_db": 21.7
+  },
+  {
+   "group": "33_彩纸",
+   "file": "33_彩纸/彩纸成品音_cofetti-whoosh-pluck-spi.wav",
+   "zh": "一个文件就是完整的彩纸效果",
+   "license": "Sonniss",
+   "variants": [],
+   "source": "Sonniss · Sonniss.com-GDC2026-GameAudioBundle2of5/Cinematic Sound Design - Hybrid Game & UI Elements/Cofetti Whoosh Pluck Spill.wav",
+   "source_start": 0.02,
+   "gain_db": -1.0
+  },
+  {
+   "group": "33_彩纸",
+   "file": "33_彩纸/彩纸噗_celebration-confetti.wav",
+   "zh": "",
+   "license": "CC0",
+   "variants": [],
+   "source": "Wyzowl sfx-kit（合成）",
+   "gain_db": 13.0
   }
  ]
 }

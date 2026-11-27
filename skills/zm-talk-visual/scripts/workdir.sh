@@ -15,6 +15,8 @@ tar --exclude='node_modules' --exclude='remotion/out' --exclude='remotion/public
 [ -f "$WORK/.Root.tsx.keep" ] && mv "$WORK/.Root.tsx.keep" "$ROOT"
 mkdir -p "$WORK/remotion/public/textures/live"
 cp shot-library/demos-own/camera/tilted-dashboard-pan-logo/textures/dash_*.png "$WORK/remotion/public/textures/live/" 2>/dev/null || true
+# 风格自带的字体（比如书桌的文楷、Fraunces）放进 public/fonts/<风格>/，渲染时用 staticFile 读
+for d in styles/*/fonts; do [ -d "$d" ] || continue; s=$(basename "$(dirname "$d")"); mkdir -p "$WORK/remotion/public/fonts/$s"; cp -R "$d"/. "$WORK/remotion/public/fonts/$s/"; done
 echo "工作区：$WORK"
 if [ -x "$WORK/remotion/node_modules/.bin/remotion" ]; then echo "依赖已经有了，不用再装"; else echo "下一步：cd \"$WORK/remotion\" && npm install（先问用户）"; fi
 echo "片子的素材放 $WORK/remotion/public/<片子名>/，代码放 $WORK/remotion/projects/<片子名>/；成片写回用户指定的文件夹。"
