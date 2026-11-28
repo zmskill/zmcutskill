@@ -5,3 +5,7 @@ node_modules/
 **/remotion/out/
 **/remotion/public/
 evals/
+Claude outputs/
+# 宣传片自由的 remotion/public 要带上（贴图、素材库占位图、10 款 OFL 字体、来源清单）
+!skills/zm-promo-freedom/remotion/public/
+!skills/zm-promo-freedom/remotion/public/**

@@ -1,0 +1,15 @@
+// 小零件：荧光大字斜着冲过（30 帧，1.0 秒）
+// 只播 SaasAdSearchAiCta 的第 120–150 帧，动画是原镜头的，这里不改。要换内容、读参数，去看原镜头：demos-own/groups/saas-ad-search-ai-cta/SaasAdSearchAiCta.tsx
+// 由 tools/shot-lab/build_parts.py 按 demos-own/parts/parts.py 生成，别手改。
+import React from 'react';
+import {Sequence} from 'remotion';
+import {SaasAdSearchAiCta as Source} from '../../groups/saas-ad-search-ai-cta/SaasAdSearchAiCta'; // 起个别名：零件名和原镜头同名时不会自己套自己
+
+export const NEON_WORD_EVERYWHERE_DURATION = 30;
+export const NeonWordEverywhere_RANGE = [120, 150] as const; // 在原镜头里的起止帧
+
+export const NeonWordEverywhere: React.FC = () => (
+  <Sequence from={-120} durationInFrames={150} layout="none">
+    <Source />
+  </Sequence>
+);

@@ -1,0 +1,15 @@
+// 小零件：句中开关 · 句尾光球弹出（81 帧，2.7 秒）
+// 只播 OrbRelayExplainer 的第 0–81 帧，动画是原镜头的，这里不改。要换内容、读参数，去看原镜头：demos-own/opening/orb-relay-explainer/OrbRelayExplainer.tsx
+// 由 tools/shot-lab/build_parts.py 按 demos-own/parts/parts.py 生成，别手改。
+import React from 'react';
+import {Sequence} from 'remotion';
+import {OrbRelayExplainer as Source} from '../../opening/orb-relay-explainer/OrbRelayExplainer'; // 起个别名：零件名和原镜头同名时不会自己套自己
+
+export const ORB_TOGGLE_POP_DURATION = 81;
+export const OrbTogglePop_RANGE = [0, 81] as const; // 在原镜头里的起止帧
+
+export const OrbTogglePop: React.FC = () => (
+  <Sequence from={-0} durationInFrames={81} layout="none">
+    <Source />
+  </Sequence>
+);

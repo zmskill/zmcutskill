@@ -1,0 +1,7 @@
+interface:
+  display_name: "zm-promo-freedom（宣传片自由）"
+  short_description: "给 AI 产品或新功能做卡点准确的宣传片：从真实痛点讲起，用真实页面、镜头库和音效库做出来"
+  brand_color: "#2563EB"
+  default_prompt: "使用 $zm-promo-freedom，给我的产品做一支宣传片：先看一遍产品，问我全自动还是共同创作，再从真实用户的痛点讲起。"
+policy:
+  allow_implicit_invocation: true

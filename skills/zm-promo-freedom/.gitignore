@@ -1,0 +1,9 @@
+node_modules/
+remotion/node_modules/
+remotion/out/
+__pycache__/
+*.pyc
+.DS_Store
+.capture-profile/
+out/
+reviews/

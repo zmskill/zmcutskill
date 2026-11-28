@@ -1,0 +1,6900 @@
+{
+ "说明": "落点 f 是零件自己的帧号（0 = 零件第一帧，30fps）。\"合同\"是镜头组合同里人定的落点，\"样片\"是从样片运动量机器量的：用之前对照样片图确认。",
+ "parts": {
+  "input-grow-type-chase": {
+   "frames": 66,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "from": "样片"
+    },
+    {
+     "f": 25,
+     "from": "样片"
+    },
+    {
+     "f": 62,
+     "from": "样片"
+    }
+   ]
+  },
+  "pullback-cursor-click": {
+   "frames": 46,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 20,
+     "from": "样片"
+    },
+    {
+     "f": 26,
+     "from": "样片"
+    }
+   ]
+  },
+  "result-page-tilt-scroll": {
+   "frames": 97,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 10,
+     "from": "样片"
+    },
+    {
+     "f": 61,
+     "from": "样片"
+    },
+    {
+     "f": 81,
+     "from": "样片"
+    }
+   ]
+  },
+  "word-card-rise": {
+   "frames": 56,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 19,
+     "from": "样片"
+    }
+   ]
+  },
+  "card-wall-swap-submit": {
+   "frames": 79,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 7,
+     "from": "样片"
+    },
+    {
+     "f": 28,
+     "from": "样片"
+    },
+    {
+     "f": 39,
+     "from": "样片"
+    },
+    {
+     "f": 43,
+     "from": "样片"
+    },
+    {
+     "f": 62,
+     "from": "样片"
+    },
+    {
+     "f": 69,
+     "from": "样片"
+    }
+   ]
+  },
+  "logo-letters-tagline": {
+   "frames": 80,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 29,
+     "from": "样片"
+    }
+   ]
+  },
+  "orb-toggle-pop": {
+   "frames": 81,
+   "fps": 30,
+   "landings": []
+  },
+  "word-swap-orbit": {
+   "frames": 69,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 28,
+     "from": "样片"
+    }
+   ]
+  },
+  "glow-flood-panel-reveal": {
+   "frames": 88,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "from": "样片"
+    },
+    {
+     "f": 12,
+     "from": "样片"
+    },
+    {
+     "f": 28,
+     "from": "样片"
+    },
+    {
+     "f": 60,
+     "from": "样片"
+    }
+   ]
+  },
+  "words-append-line": {
+   "frames": 45,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 11,
+     "from": "样片"
+    },
+    {
+     "f": 18,
+     "from": "样片"
+    },
+    {
+     "f": 25,
+     "from": "样片"
+    },
+    {
+     "f": 33,
+     "from": "样片"
+    }
+   ]
+  },
+  "file-cards-swallow": {
+   "frames": 80,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 46,
+     "from": "样片"
+    }
+   ]
+  },
+  "circle-to-progress-bar": {
+   "frames": 78,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 65,
+     "from": "样片"
+    },
+    {
+     "f": 70,
+     "from": "样片"
+    }
+   ]
+  },
+  "list-grow-toggles": {
+   "frames": 65,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 23,
+     "from": "样片"
+    }
+   ]
+  },
+  "jelly-orb-around-title": {
+   "frames": 52,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 38,
+     "from": "样片"
+    }
+   ]
+  },
+  "orb-to-button-card": {
+   "frames": 59,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "from": "样片"
+    },
+    {
+     "f": 26,
+     "from": "样片"
+    },
+    {
+     "f": 31,
+     "from": "样片"
+    },
+    {
+     "f": 42,
+     "from": "样片"
+    }
+   ]
+  },
+  "bead-ring-picker": {
+   "frames": 166,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 39,
+     "from": "样片"
+    },
+    {
+     "f": 51,
+     "from": "样片"
+    },
+    {
+     "f": 56,
+     "from": "样片"
+    },
+    {
+     "f": 92,
+     "from": "样片"
+    },
+    {
+     "f": 116,
+     "from": "样片"
+    },
+    {
+     "f": 151,
+     "from": "样片"
+    },
+    {
+     "f": 163,
+     "from": "样片"
+    }
+   ]
+  },
+  "big-lines-slam-exit": {
+   "frames": 50,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "from": "样片"
+    },
+    {
+     "f": 11,
+     "from": "样片"
+    }
+   ]
+  },
+  "tags-ring-implode": {
+   "frames": 100,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 94,
+     "from": "样片"
+    }
+   ]
+  },
+  "capsule-type-avatar-panel": {
+   "frames": 160,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 12,
+     "from": "样片"
+    },
+    {
+     "f": 16,
+     "from": "样片"
+    },
+    {
+     "f": 102,
+     "from": "样片"
+    }
+   ]
+  },
+  "wordmark-orb-period": {
+   "frames": 111,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 42,
+     "from": "样片"
+    },
+    {
+     "f": 50,
+     "from": "样片"
+    },
+    {
+     "f": 57,
+     "from": "样片"
+    }
+   ]
+  },
+  "button-grow-sphere-spin": {
+   "frames": 164,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 26,
+     "from": "样片"
+    },
+    {
+     "f": 78,
+     "from": "样片"
+    },
+    {
+     "f": 101,
+     "from": "样片"
+    },
+    {
+     "f": 113,
+     "from": "样片"
+    },
+    {
+     "f": 142,
+     "from": "样片"
+    }
+   ]
+  },
+  "sphere-search-filter": {
+   "frames": 144,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 7,
+     "from": "样片"
+    },
+    {
+     "f": 38,
+     "from": "样片"
+    },
+    {
+     "f": 84,
+     "from": "样片"
+    },
+    {
+     "f": 138,
+     "from": "样片"
+    }
+   ]
+  },
+  "triple-click-insert": {
+   "frames": 44,
+   "fps": 30,
+   "landings": []
+  },
+  "sphere-collapse-back": {
+   "frames": 56,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 7,
+     "from": "样片"
+    },
+    {
+     "f": 49,
+     "from": "样片"
+    }
+   ]
+  },
+  "filter-words-profile-roll": {
+   "frames": 66,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 47,
+     "from": "样片"
+    }
+   ]
+  },
+  "defocus-cut-searchbar-type": {
+   "frames": 75,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 14,
+     "from": "样片"
+    }
+   ]
+  },
+  "rows-slide-multi-cursor-pick": {
+   "frames": 99,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 52,
+     "from": "样片"
+    }
+   ]
+  },
+  "picked-cards-expand": {
+   "frames": 102,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 33,
+     "from": "样片"
+    },
+    {
+     "f": 45,
+     "from": "样片"
+    },
+    {
+     "f": 58,
+     "from": "样片"
+    },
+    {
+     "f": 94,
+     "from": "样片"
+    }
+   ]
+  },
+  "cards-to-shortlist-table": {
+   "frames": 72,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 18,
+     "from": "样片"
+    },
+    {
+     "f": 25,
+     "from": "样片"
+    }
+   ]
+  },
+  "three-words-title": {
+   "frames": 50,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 16,
+     "from": "样片"
+    }
+   ]
+  },
+  "quote-new-search-push": {
+   "frames": 114,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 37,
+     "from": "样片"
+    },
+    {
+     "f": 87,
+     "from": "样片"
+    },
+    {
+     "f": 93,
+     "from": "样片"
+    },
+    {
+     "f": 105,
+     "from": "样片"
+    }
+   ]
+  },
+  "wall-pullback-pushin": {
+   "frames": 102,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "from": "样片"
+    },
+    {
+     "f": 52,
+     "from": "样片"
+    }
+   ]
+  },
+  "big-card-liquid-invite": {
+   "frames": 66,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "from": "样片"
+    },
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 33,
+     "from": "样片"
+    },
+    {
+     "f": 41,
+     "from": "样片"
+    }
+   ]
+  },
+  "blur-swap-stream-write": {
+   "frames": 80,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 19,
+     "from": "样片"
+    },
+    {
+     "f": 41,
+     "from": "样片"
+    },
+    {
+     "f": 69,
+     "from": "样片"
+    }
+   ]
+  },
+  "send-tone-dropdown": {
+   "frames": 40,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 25,
+     "from": "样片"
+    }
+   ]
+  },
+  "success-card-avatars-pop": {
+   "frames": 45,
+   "fps": 30,
+   "landings": []
+  },
+  "title-reply-cards-fly": {
+   "frames": 72,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 40,
+     "from": "样片"
+    }
+   ]
+  },
+  "cards-fly-into-app": {
+   "frames": 76,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 52,
+     "from": "样片"
+    }
+   ]
+  },
+  "big-type-zoomout-send": {
+   "frames": 128,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "zoom",
+     "from": "合同"
+    },
+    {
+     "f": 54,
+     "from": "样片"
+    },
+    {
+     "f": 58,
+     "name": "glow",
+     "from": "合同"
+    },
+    {
+     "f": 112,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 116,
+     "name": "suck",
+     "from": "合同"
+    },
+    {
+     "f": 125,
+     "name": "pages",
+     "from": "合同"
+    }
+   ]
+  },
+  "pages-pop-fan-out": {
+   "frames": 97,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 44,
+     "name": "spread",
+     "from": "合同"
+    },
+    {
+     "f": 68,
+     "from": "样片"
+    },
+    {
+     "f": 85,
+     "name": "rush",
+     "from": "合同"
+    }
+   ]
+  },
+  "words-fly-pill-open": {
+   "frames": 108,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 10,
+     "from": "样片"
+    },
+    {
+     "f": 28,
+     "from": "样片"
+    },
+    {
+     "f": 32,
+     "name": "wipe",
+     "from": "合同"
+    },
+    {
+     "f": 50,
+     "name": "pill",
+     "from": "合同"
+    },
+    {
+     "f": 65,
+     "from": "样片"
+    },
+    {
+     "f": 103,
+     "name": "star",
+     "from": "合同"
+    }
+   ]
+  },
+  "star-intro-name-lockup": {
+   "frames": 140,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "name": "intro",
+     "from": "合同"
+    },
+    {
+     "f": 41,
+     "name": "dive",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 76,
+     "from": "样片"
+    },
+    {
+     "f": 98,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 103,
+     "from": "样片"
+    }
+   ]
+  },
+  "input-closeup-send-drop": {
+   "frames": 58,
+   "fps": 30,
+   "landings": []
+  },
+  "agent-panel-open-posts": {
+   "frames": 125,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 53,
+     "from": "样片"
+    },
+    {
+     "f": 62,
+     "from": "样片"
+    },
+    {
+     "f": 98,
+     "from": "样片"
+    }
+   ]
+  },
+  "floating-cards-cursors": {
+   "frames": 81,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 25,
+     "from": "样片"
+    }
+   ]
+  },
+  "detail-drag-select-match": {
+   "frames": 90,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "from": "样片"
+    },
+    {
+     "f": 9,
+     "from": "样片"
+    },
+    {
+     "f": 47,
+     "from": "样片"
+    },
+    {
+     "f": 53,
+     "from": "样片"
+    },
+    {
+     "f": 61,
+     "from": "样片"
+    }
+   ]
+  },
+  "complaint-wall-cursors-pick": {
+   "frames": 99,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 52,
+     "from": "样片"
+    }
+   ]
+  },
+  "complaints-to-top3": {
+   "frames": 174,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "from": "样片"
+    },
+    {
+     "f": 33,
+     "from": "样片"
+    },
+    {
+     "f": 45,
+     "from": "样片"
+    },
+    {
+     "f": 57,
+     "from": "样片"
+    },
+    {
+     "f": 94,
+     "from": "样片"
+    },
+    {
+     "f": 120,
+     "from": "样片"
+    },
+    {
+     "f": 127,
+     "from": "样片"
+    }
+   ]
+  },
+  "button-expand-create-card": {
+   "frames": 173,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "name": "headline",
+     "from": "合同"
+    },
+    {
+     "f": 35,
+     "name": "press",
+     "from": "合同"
+    },
+    {
+     "f": 38,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "from": "样片"
+    },
+    {
+     "f": 54,
+     "name": "typing",
+     "from": "合同"
+    },
+    {
+     "f": 107,
+     "name": "tags",
+     "from": "合同"
+    },
+    {
+     "f": 139,
+     "name": "add",
+     "from": "合同"
+    },
+    {
+     "f": 145,
+     "name": "list",
+     "from": "合同"
+    },
+    {
+     "f": 150,
+     "from": "样片"
+    },
+    {
+     "f": 160,
+     "from": "样片"
+    }
+   ]
+  },
+  "whip-word-drag-sort": {
+   "frames": 61,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 13,
+     "from": "样片"
+    },
+    {
+     "f": 18,
+     "from": "样片"
+    },
+    {
+     "f": 24,
+     "name": "pick",
+     "from": "合同"
+    },
+    {
+     "f": 47,
+     "from": "样片"
+    }
+   ]
+  },
+  "word-roll-side-card-edit": {
+   "frames": 62,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "name": "detail",
+     "from": "合同"
+    },
+    {
+     "f": 15,
+     "from": "样片"
+    },
+    {
+     "f": 44,
+     "name": "saved",
+     "from": "合同"
+    }
+   ]
+  },
+  "check-confetti-done": {
+   "frames": 74,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 20,
+     "name": "check",
+     "from": "合同"
+    },
+    {
+     "f": 29,
+     "name": "done",
+     "from": "合同"
+    }
+   ]
+  },
+  "carousel-pass-whip": {
+   "frames": 180,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 109,
+     "from": "样片"
+    }
+   ]
+  },
+  "carousel-settle-logo": {
+   "frames": 180,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 62,
+     "from": "样片"
+    },
+    {
+     "f": 74,
+     "from": "样片"
+    }
+   ]
+  },
+  "pain-lines-retype-cards": {
+   "frames": 115,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "name": "line1",
+     "from": "合同"
+    },
+    {
+     "f": 13,
+     "name": "cards",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 91,
+     "name": "line3",
+     "from": "合同"
+    },
+    {
+     "f": 98,
+     "from": "样片"
+    }
+   ]
+  },
+  "swirl-turn-dot-flood": {
+   "frames": 52,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "swirl",
+     "from": "合同"
+    },
+    {
+     "f": 13,
+     "name": "turn",
+     "from": "合同"
+    },
+    {
+     "f": 37,
+     "name": "dot",
+     "from": "合同"
+    }
+   ]
+  },
+  "sky-logo-grow-name": {
+   "frames": 109,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 38,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 44,
+     "from": "样片"
+    },
+    {
+     "f": 51,
+     "name": "tagline",
+     "from": "合同"
+    },
+    {
+     "f": 100,
+     "name": "flash",
+     "from": "合同"
+    },
+    {
+     "f": 105,
+     "from": "样片"
+    }
+   ]
+  },
+  "overexpose-focus-logo-podium": {
+   "frames": 112,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 11,
+     "from": "样片"
+    },
+    {
+     "f": 33,
+     "from": "样片"
+    },
+    {
+     "f": 56,
+     "from": "样片"
+    },
+    {
+     "f": 70,
+     "from": "样片"
+    }
+   ]
+  },
+  "panels-assemble-low-drift": {
+   "frames": 94,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 42,
+     "from": "样片"
+    },
+    {
+     "f": 50,
+     "from": "样片"
+    }
+   ]
+  },
+  "white-rise-logo-letters": {
+   "frames": 110,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 16,
+     "from": "样片"
+    }
+   ]
+  },
+  "logo-card-dissolve-tunnel": {
+   "frames": 120,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 49,
+     "from": "样片"
+    },
+    {
+     "f": 61,
+     "from": "样片"
+    }
+   ]
+  },
+  "benefit-lines-word-by-word": {
+   "frames": 86,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 13,
+     "from": "样片"
+    },
+    {
+     "f": 28,
+     "from": "样片"
+    },
+    {
+     "f": 69,
+     "from": "样片"
+    }
+   ]
+  },
+  "light-shift-logo-letters": {
+   "frames": 106,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 10,
+     "from": "样片"
+    }
+   ]
+  },
+  "message-ribbon-flow": {
+   "frames": 150,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 133,
+     "from": "样片"
+    }
+   ]
+  },
+  "trail-dot-captions": {
+   "frames": 130,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 45,
+     "from": "样片"
+    },
+    {
+     "f": 78,
+     "from": "样片"
+    },
+    {
+     "f": 107,
+     "from": "样片"
+    }
+   ]
+  },
+  "headline-input-to-page": {
+   "frames": 120,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 31,
+     "from": "样片"
+    },
+    {
+     "f": 62,
+     "from": "样片"
+    },
+    {
+     "f": 72,
+     "from": "样片"
+    }
+   ]
+  },
+  "card-orbit-counter": {
+   "frames": 114,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 87,
+     "from": "样片"
+    },
+    {
+     "f": 104,
+     "from": "样片"
+    }
+   ]
+  },
+  "mark-shrink-wordmark": {
+   "frames": 105,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "from": "样片"
+    },
+    {
+     "f": 41,
+     "from": "样片"
+    }
+   ]
+  },
+  "iso-cube-rings": {
+   "frames": 96,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 35,
+     "from": "样片"
+    },
+    {
+     "f": 54,
+     "from": "样片"
+    },
+    {
+     "f": 80,
+     "from": "样片"
+    },
+    {
+     "f": 84,
+     "from": "样片"
+    }
+   ]
+  },
+  "notification-scene-cuts": {
+   "frames": 96,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 30,
+     "from": "样片"
+    },
+    {
+     "f": 48,
+     "from": "样片"
+    }
+   ]
+  },
+  "task-list-ticker": {
+   "frames": 64,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "from": "样片"
+    },
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 22,
+     "from": "样片"
+    },
+    {
+     "f": 30,
+     "from": "样片"
+    },
+    {
+     "f": 39,
+     "from": "样片"
+    },
+    {
+     "f": 47,
+     "from": "样片"
+    },
+    {
+     "f": 56,
+     "from": "样片"
+    }
+   ]
+  },
+  "bookmark-tap-check": {
+   "frames": 69,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 28,
+     "from": "样片"
+    },
+    {
+     "f": 36,
+     "from": "样片"
+    },
+    {
+     "f": 40,
+     "from": "样片"
+    }
+   ]
+  },
+  "button-press-rings": {
+   "frames": 54,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "sweep",
+     "from": "合同"
+    },
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 34,
+     "name": "settle",
+     "from": "合同"
+    },
+    {
+     "f": 36,
+     "name": "press",
+     "from": "合同"
+    },
+    {
+     "f": 38,
+     "name": "rings",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "name": "release",
+     "from": "合同"
+    }
+   ]
+  },
+  "carousel-type-slots": {
+   "frames": 137,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 27,
+     "name": "swing1",
+     "from": "合同"
+    },
+    {
+     "f": 45,
+     "name": "swing2",
+     "from": "合同"
+    },
+    {
+     "f": 53,
+     "name": "word1",
+     "from": "合同"
+    },
+    {
+     "f": 64,
+     "name": "small1",
+     "from": "合同"
+    },
+    {
+     "f": 86,
+     "name": "swing3",
+     "from": "合同"
+    },
+    {
+     "f": 100,
+     "name": "small2",
+     "from": "合同"
+    },
+    {
+     "f": 111,
+     "name": "word2",
+     "from": "合同"
+    },
+    {
+     "f": 129,
+     "name": "out",
+     "from": "合同"
+    }
+   ]
+  },
+  "clock-check-card": {
+   "frames": 72,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "from": "样片"
+    },
+    {
+     "f": 9,
+     "name": "clock",
+     "from": "合同"
+    },
+    {
+     "f": 37,
+     "name": "tint",
+     "from": "合同"
+    },
+    {
+     "f": 43,
+     "name": "check",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "settle",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "scroll",
+     "from": "合同"
+    }
+   ]
+  },
+  "comet-dots-card": {
+   "frames": 53,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 10,
+     "name": "corner",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "name": "rise",
+     "from": "合同"
+    },
+    {
+     "f": 22,
+     "name": "square",
+     "from": "合同"
+    },
+    {
+     "f": 25,
+     "name": "flash",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "from": "样片"
+    }
+   ]
+  },
+  "form-card-build": {
+   "frames": 43,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "name": "label",
+     "from": "合同"
+    },
+    {
+     "f": 8,
+     "name": "icons",
+     "from": "合同"
+    },
+    {
+     "f": 12,
+     "name": "fields",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "name": "date",
+     "from": "合同"
+    },
+    {
+     "f": 20,
+     "name": "tabA",
+     "from": "合同"
+    },
+    {
+     "f": 24,
+     "name": "tabB",
+     "from": "合同"
+    },
+    {
+     "f": 32,
+     "name": "push",
+     "from": "合同"
+    }
+   ]
+  },
+  "form-tilt-road": {
+   "frames": 93,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 18,
+     "name": "dive",
+     "from": "合同"
+    },
+    {
+     "f": 35,
+     "name": "road",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "dash1",
+     "from": "合同"
+    },
+    {
+     "f": 64,
+     "name": "dash2",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "blue",
+     "from": "合同"
+    },
+    {
+     "f": 80,
+     "name": "dash3",
+     "from": "合同"
+    },
+    {
+     "f": 90,
+     "name": "close",
+     "from": "合同"
+    }
+   ]
+  },
+  "glow-bar-benchmark": {
+   "frames": 128,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "wipe",
+     "from": "合同"
+    },
+    {
+     "f": 9,
+     "name": "bar",
+     "from": "合同"
+    },
+    {
+     "f": 26,
+     "name": "rows",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "peak",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "labels",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "name": "title",
+     "from": "合同"
+    },
+    {
+     "f": 51,
+     "name": "sub",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "from": "样片"
+    }
+   ]
+  },
+  "headline-swap-dashboard-rise": {
+   "frames": 138,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "lead",
+     "from": "合同"
+    },
+    {
+     "f": 13,
+     "name": "word1",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "word2",
+     "from": "合同"
+    },
+    {
+     "f": 43,
+     "name": "word3",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "word4",
+     "from": "合同"
+    },
+    {
+     "f": 69,
+     "name": "panel",
+     "from": "合同"
+    },
+    {
+     "f": 86,
+     "name": "panelLand",
+     "from": "合同"
+    },
+    {
+     "f": 87,
+     "name": "pop",
+     "from": "合同"
+    },
+    {
+     "f": 90,
+     "name": "toast",
+     "from": "合同"
+    },
+    {
+     "f": 95,
+     "from": "样片"
+    },
+    {
+     "f": 102,
+     "name": "retract",
+     "from": "合同"
+    },
+    {
+     "f": 109,
+     "name": "push",
+     "from": "合同"
+    },
+    {
+     "f": 118,
+     "name": "pushPeak",
+     "from": "合同"
+    },
+    {
+     "f": 125,
+     "from": "样片"
+    },
+    {
+     "f": 129,
+     "name": "settle",
+     "from": "合同"
+    },
+    {
+     "f": 134,
+     "name": "cut",
+     "from": "合同"
+    }
+   ]
+  },
+  "icon-word-tint": {
+   "frames": 110,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 22,
+     "name": "line",
+     "from": "合同"
+    },
+    {
+     "f": 32,
+     "name": "icon1",
+     "from": "合同"
+    },
+    {
+     "f": 54,
+     "name": "icon4",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "done",
+     "from": "合同"
+    },
+    {
+     "f": 70,
+     "name": "sweep",
+     "from": "合同"
+    },
+    {
+     "f": 86,
+     "name": "tint1",
+     "from": "合同"
+    },
+    {
+     "f": 102,
+     "name": "tint4",
+     "from": "合同"
+    }
+   ]
+  },
+  "interface-wall-sync": {
+   "frames": 135,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "wall",
+     "from": "合同"
+    },
+    {
+     "f": 8,
+     "name": "line1",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "read",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "from": "样片"
+    },
+    {
+     "f": 126,
+     "name": "flash",
+     "from": "合同"
+    }
+   ]
+  },
+  "logo-orbit-features": {
+   "frames": 135,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 4,
+     "name": "line1",
+     "from": "合同"
+    },
+    {
+     "f": 8,
+     "name": "ring",
+     "from": "合同"
+    },
+    {
+     "f": 14,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 14,
+     "name": "item1",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "item6",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "orbit",
+     "from": "合同"
+    },
+    {
+     "f": 127,
+     "name": "out",
+     "from": "合同"
+    }
+   ]
+  },
+  "photo-flash-bulge": {
+   "frames": 53,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "name": "first",
+     "from": "合同"
+    },
+    {
+     "f": 11,
+     "name": "flick",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "name": "neon",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "name": "bulge",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "fill",
+     "from": "合同"
+    }
+   ]
+  },
+  "search-phrase-dropdown": {
+   "frames": 99,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "icon",
+     "from": "合同"
+    },
+    {
+     "f": 3,
+     "name": "words",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "from": "样片"
+    },
+    {
+     "f": 36,
+     "name": "fade",
+     "from": "合同"
+    },
+    {
+     "f": 45,
+     "name": "title",
+     "from": "合同"
+    },
+    {
+     "f": 70,
+     "name": "morph",
+     "from": "合同"
+    },
+    {
+     "f": 82,
+     "name": "open",
+     "from": "合同"
+    },
+    {
+     "f": 94,
+     "from": "样片"
+    }
+   ]
+  },
+  "spawn-tree-rows-focus": {
+   "frames": 138,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "line",
+     "from": "合同"
+    },
+    {
+     "f": 15,
+     "name": "sweep",
+     "from": "合同"
+    },
+    {
+     "f": 45,
+     "name": "brace",
+     "from": "合同"
+    },
+    {
+     "f": 56,
+     "name": "down",
+     "from": "合同"
+    },
+    {
+     "f": 75,
+     "name": "row1",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "row2",
+     "from": "合同"
+    },
+    {
+     "f": 81,
+     "name": "row3",
+     "from": "合同"
+    },
+    {
+     "f": 88,
+     "from": "样片"
+    },
+    {
+     "f": 92,
+     "name": "push",
+     "from": "合同"
+    },
+    {
+     "f": 105,
+     "name": "dissolve",
+     "from": "合同"
+    },
+    {
+     "f": 112,
+     "from": "样片"
+    },
+    {
+     "f": 117,
+     "name": "gather",
+     "from": "合同"
+    },
+    {
+     "f": 130,
+     "name": "push2",
+     "from": "合同"
+    }
+   ]
+  },
+  "toggle-autopilot-cards": {
+   "frames": 104,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "name": "toggle",
+     "from": "合同"
+    },
+    {
+     "f": 11,
+     "name": "flip",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "from": "样片"
+    },
+    {
+     "f": 20,
+     "name": "cards",
+     "from": "合同"
+    },
+    {
+     "f": 23,
+     "name": "reveal",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "settle",
+     "from": "合同"
+    },
+    {
+     "f": 96,
+     "name": "zoomOut",
+     "from": "合同"
+    }
+   ]
+  },
+  "type-swap-headline": {
+   "frames": 88,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 19,
+     "name": "settle",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "swap",
+     "from": "合同"
+    },
+    {
+     "f": 45,
+     "name": "gone",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "second",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "zoom",
+     "from": "合同"
+    },
+    {
+     "f": 82,
+     "name": "glow",
+     "from": "合同"
+    }
+   ]
+  },
+  "word-slot-icon-zoom": {
+   "frames": 110,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "fade",
+     "from": "合同"
+    },
+    {
+     "f": 12,
+     "name": "slide",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "name": "item1",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "spin",
+     "from": "合同"
+    },
+    {
+     "f": 37,
+     "from": "样片"
+    },
+    {
+     "f": 43,
+     "from": "样片"
+    },
+    {
+     "f": 53,
+     "name": "last",
+     "from": "合同"
+    },
+    {
+     "f": 61,
+     "name": "del",
+     "from": "合同"
+    },
+    {
+     "f": 75,
+     "name": "center",
+     "from": "合同"
+    },
+    {
+     "f": 79,
+     "name": "fill",
+     "from": "合同"
+    },
+    {
+     "f": 88,
+     "name": "zoom",
+     "from": "合同"
+    },
+    {
+     "f": 99,
+     "from": "样片"
+    }
+   ]
+  },
+  "words-morph-line": {
+   "frames": 76,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "name": "tail",
+     "from": "合同"
+    },
+    {
+     "f": 21,
+     "from": "样片"
+    },
+    {
+     "f": 30,
+     "name": "morph",
+     "from": "合同"
+    },
+    {
+     "f": 35,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 43,
+     "from": "样片"
+    },
+    {
+     "f": 54,
+     "name": "extra",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "from": "样片"
+    },
+    {
+     "f": 63,
+     "name": "rise",
+     "from": "合同"
+    }
+   ]
+  },
+  "words-split-lock-replace": {
+   "frames": 123,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "type1",
+     "from": "合同"
+    },
+    {
+     "f": 23,
+     "name": "type2",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "name": "split",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "lock",
+     "from": "合同"
+    },
+    {
+     "f": 64,
+     "name": "rise",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "under",
+     "from": "合同"
+    },
+    {
+     "f": 83,
+     "from": "样片"
+    },
+    {
+     "f": 88,
+     "from": "样片"
+    },
+    {
+     "f": 97,
+     "name": "swap",
+     "from": "合同"
+    },
+    {
+     "f": 110,
+     "name": "device",
+     "from": "合同"
+    },
+    {
+     "f": 116,
+     "from": "样片"
+    }
+   ]
+  },
+  "line-unfold-card-corridor": {
+   "frames": 162,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "unfold",
+     "from": "合同"
+    },
+    {
+     "f": 15,
+     "name": "sides",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "swap1",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "from": "样片"
+    },
+    {
+     "f": 48,
+     "name": "swap2",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "from": "样片"
+    },
+    {
+     "f": 64,
+     "name": "swap3",
+     "from": "合同"
+    },
+    {
+     "f": 69,
+     "from": "样片"
+    },
+    {
+     "f": 96,
+     "name": "swap4",
+     "from": "合同"
+    },
+    {
+     "f": 100,
+     "from": "样片"
+    },
+    {
+     "f": 126,
+     "name": "swap5",
+     "from": "合同"
+    },
+    {
+     "f": 130,
+     "from": "样片"
+    },
+    {
+     "f": 148,
+     "name": "swap6",
+     "from": "合同"
+    },
+    {
+     "f": 153,
+     "from": "样片"
+    }
+   ]
+  },
+  "lines-keep-word-swap-brand": {
+   "frames": 158,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 9,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 22,
+     "from": "样片"
+    },
+    {
+     "f": 26,
+     "name": "line3",
+     "from": "合同"
+    },
+    {
+     "f": 32,
+     "name": "key",
+     "from": "合同"
+    },
+    {
+     "f": 37,
+     "from": "样片"
+    },
+    {
+     "f": 56,
+     "name": "strip",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "from": "样片"
+    },
+    {
+     "f": 66,
+     "name": "rise",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "from": "样片"
+    },
+    {
+     "f": 97,
+     "name": "swap",
+     "from": "合同"
+    },
+    {
+     "f": 104,
+     "from": "样片"
+    },
+    {
+     "f": 126,
+     "name": "tagline",
+     "from": "合同"
+    },
+    {
+     "f": 134,
+     "from": "样片"
+    },
+    {
+     "f": 139,
+     "from": "样片"
+    }
+   ]
+  },
+  "logo-check-build-cta": {
+   "frames": 163,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "bar",
+     "from": "合同"
+    },
+    {
+     "f": 9,
+     "name": "arm",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "name": "dot",
+     "from": "合同"
+    },
+    {
+     "f": 22,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "name": "tagline",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "name": "button",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "name": "url",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "cursor",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "press",
+     "from": "合同"
+    },
+    {
+     "f": 80,
+     "name": "ring",
+     "from": "合同"
+    },
+    {
+     "f": 111,
+     "name": "settle",
+     "from": "合同"
+    }
+   ]
+  },
+  "row-status-flip-pan": {
+   "frames": 174,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 22,
+     "from": "样片"
+    },
+    {
+     "f": 30,
+     "name": "pay",
+     "from": "合同"
+    },
+    {
+     "f": 37,
+     "name": "status",
+     "from": "合同"
+    },
+    {
+     "f": 43,
+     "from": "样片"
+    },
+    {
+     "f": 51,
+     "name": "back",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "from": "样片"
+    },
+    {
+     "f": 73,
+     "from": "样片"
+    },
+    {
+     "f": 120,
+     "name": "forth",
+     "from": "合同"
+    },
+    {
+     "f": 134,
+     "from": "样片"
+    },
+    {
+     "f": 145,
+     "name": "done",
+     "from": "合同"
+    },
+    {
+     "f": 158,
+     "name": "rise",
+     "from": "合同"
+    }
+   ]
+  },
+  "ring-window-questions": {
+   "frames": 174,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "draw",
+     "from": "合同"
+    },
+    {
+     "f": 26,
+     "name": "close",
+     "from": "合同"
+    },
+    {
+     "f": 36,
+     "name": "open",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "reveal",
+     "from": "合同"
+    },
+    {
+     "f": 110,
+     "name": "sweep",
+     "from": "合同"
+    },
+    {
+     "f": 123,
+     "from": "样片"
+    },
+    {
+     "f": 134,
+     "name": "spin",
+     "from": "合同"
+    },
+    {
+     "f": 159,
+     "name": "front",
+     "from": "合同"
+    }
+   ]
+  },
+  "pills-slide-words-light": {
+   "frames": 42,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "pill1",
+     "from": "合同"
+    },
+    {
+     "f": 8,
+     "name": "word1",
+     "from": "合同"
+    },
+    {
+     "f": 13,
+     "name": "pill2",
+     "from": "合同"
+    },
+    {
+     "f": 19,
+     "name": "word2",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "from": "样片"
+    }
+   ]
+  },
+  "pills-split-logo-thumbs-cta": {
+   "frames": 108,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "split",
+     "from": "合同"
+    },
+    {
+     "f": 13,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 22,
+     "name": "thumbs",
+     "from": "合同"
+    },
+    {
+     "f": 24,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "shrink",
+     "from": "合同"
+    },
+    {
+     "f": 67,
+     "name": "dot",
+     "from": "合同"
+    },
+    {
+     "f": 75,
+     "name": "cta",
+     "from": "合同"
+    },
+    {
+     "f": 90,
+     "name": "settle",
+     "from": "合同"
+    }
+   ]
+  },
+  "type-shrink-glow-line": {
+   "frames": 57,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 17,
+     "from": "样片"
+    },
+    {
+     "f": 24,
+     "name": "period",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "shrink",
+     "from": "合同"
+    },
+    {
+     "f": 40,
+     "name": "glow",
+     "from": "合同"
+    }
+   ]
+  },
+  "glow-line-to-list": {
+   "frames": 96,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 28,
+     "name": "list",
+     "from": "合同"
+    },
+    {
+     "f": 32,
+     "name": "row1",
+     "from": "合同"
+    },
+    {
+     "f": 40,
+     "name": "row2",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "scroll",
+     "from": "合同"
+    }
+   ]
+  },
+  "giant-word-whip-cut": {
+   "frames": 48,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 32,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "wipe",
+     "from": "合同"
+    }
+   ]
+  },
+  "dot-logo-slam-name": {
+   "frames": 78,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 10,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 21,
+     "from": "样片"
+    },
+    {
+     "f": 34,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 44,
+     "from": "样片"
+    },
+    {
+     "f": 56,
+     "name": "small",
+     "from": "合同"
+    },
+    {
+     "f": 62,
+     "name": "sub",
+     "from": "合同"
+    }
+   ]
+  },
+  "name-wipe-word-swap": {
+   "frames": 44,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 11,
+     "name": "swap",
+     "from": "合同"
+    },
+    {
+     "f": 26,
+     "name": "turn",
+     "from": "合同"
+    }
+   ]
+  },
+  "scramble-decode-word": {
+   "frames": 42,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "move",
+     "from": "合同"
+    },
+    {
+     "f": 20,
+     "name": "scramble",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "name": "decoded",
+     "from": "合同"
+    }
+   ]
+  },
+  "field-slide-eye-stars": {
+   "frames": 134,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "name": "strip",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "field",
+     "from": "合同"
+    },
+    {
+     "f": 83,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 85,
+     "name": "stars",
+     "from": "合同"
+    },
+    {
+     "f": 106,
+     "from": "样片"
+    }
+   ]
+  },
+  "words-burst-whip-swap": {
+   "frames": 62,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 11,
+     "from": "样片"
+    },
+    {
+     "f": 36,
+     "name": "whip1",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "from": "样片"
+    }
+   ]
+  },
+  "highlight-erase-retype": {
+   "frames": 61,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 18,
+     "name": "erase",
+     "from": "合同"
+    },
+    {
+     "f": 20,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "from": "样片"
+    },
+    {
+     "f": 38,
+     "from": "样片"
+    },
+    {
+     "f": 49,
+     "from": "样片"
+    },
+    {
+     "f": 56,
+     "from": "样片"
+    }
+   ]
+  },
+  "toolbar-cover-zoomout-page": {
+   "frames": 78,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 11,
+     "name": "cursor",
+     "from": "合同"
+    },
+    {
+     "f": 19,
+     "from": "样片"
+    },
+    {
+     "f": 40,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 44,
+     "from": "样片"
+    },
+    {
+     "f": 55,
+     "name": "zoomOut",
+     "from": "合同"
+    },
+    {
+     "f": 59,
+     "name": "panel",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "from": "样片"
+    },
+    {
+     "f": 68,
+     "name": "pin1",
+     "from": "合同"
+    },
+    {
+     "f": 72,
+     "name": "pin2",
+     "from": "合同"
+    }
+   ]
+  },
+  "phone-rush-toss": {
+   "frames": 30,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 12,
+     "from": "样片"
+    },
+    {
+     "f": 16,
+     "name": "peak",
+     "from": "合同"
+    }
+   ]
+  },
+  "card-rain-pile-up": {
+   "frames": 64,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 37,
+     "name": "swap",
+     "from": "合同"
+    },
+    {
+     "f": 45,
+     "name": "full",
+     "from": "合同"
+    }
+   ]
+  },
+  "glitch-blocks-grow-word": {
+   "frames": 89,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 7,
+     "name": "black",
+     "from": "合同"
+    },
+    {
+     "f": 15,
+     "name": "wave2",
+     "from": "合同"
+    },
+    {
+     "f": 23,
+     "name": "stroke1",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "from": "样片"
+    },
+    {
+     "f": 51,
+     "name": "last",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "name": "clean",
+     "from": "合同"
+    }
+   ]
+  },
+  "comet-route-grid": {
+   "frames": 71,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 50,
+     "name": "arrive1",
+     "from": "合同"
+    },
+    {
+     "f": 61,
+     "name": "route2",
+     "from": "合同"
+    },
+    {
+     "f": 70,
+     "name": "top",
+     "from": "合同"
+    }
+   ]
+  },
+  "route-to-search-box": {
+   "frames": 136,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 23,
+     "name": "turn",
+     "from": "合同"
+    },
+    {
+     "f": 62,
+     "name": "arrive2",
+     "from": "合同"
+    },
+    {
+     "f": 79,
+     "name": "pill",
+     "from": "合同"
+    },
+    {
+     "f": 87,
+     "name": "box",
+     "from": "合同"
+    },
+    {
+     "f": 91,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 96,
+     "from": "样片"
+    },
+    {
+     "f": 116,
+     "from": "样片"
+    },
+    {
+     "f": 127,
+     "name": "flip",
+     "from": "合同"
+    }
+   ]
+  },
+  "word-shrink-card-slam": {
+   "frames": 70,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "from": "样片"
+    },
+    {
+     "f": 26,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 40,
+     "name": "line",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "from": "样片"
+    },
+    {
+     "f": 60,
+     "from": "样片"
+    }
+   ]
+  },
+  "ui-closeup-fill-scroll": {
+   "frames": 50,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "fill",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "scroll",
+     "from": "合同"
+    }
+   ]
+  },
+  "tilted-page-caption-swap": {
+   "frames": 75,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "cap1",
+     "from": "合同"
+    },
+    {
+     "f": 43,
+     "name": "cap2",
+     "from": "合同"
+    }
+   ]
+  },
+  "page-rise-big-word-swap": {
+   "frames": 65,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 11,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 23,
+     "from": "样片"
+    },
+    {
+     "f": 50,
+     "name": "swap",
+     "from": "合同"
+    },
+    {
+     "f": 56,
+     "name": "refill",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "from": "样片"
+    }
+   ]
+  },
+  "page-tilt-dive-flicks": {
+   "frames": 150,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "dive",
+     "from": "合同"
+    },
+    {
+     "f": 26,
+     "from": "样片"
+    },
+    {
+     "f": 37,
+     "name": "flick1",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "from": "样片"
+    },
+    {
+     "f": 75,
+     "name": "flick2",
+     "from": "合同"
+    },
+    {
+     "f": 94,
+     "from": "样片"
+    },
+    {
+     "f": 111,
+     "name": "flick3",
+     "from": "合同"
+    }
+   ]
+  },
+  "pill-type-click-card-open": {
+   "frames": 57,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "pill",
+     "from": "合同"
+    },
+    {
+     "f": 6,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 23,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 29,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "from": "样片"
+    },
+    {
+     "f": 41,
+     "name": "cardFull",
+     "from": "合同"
+    }
+   ]
+  },
+  "kanban-rise-drag-twice": {
+   "frames": 114,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "shrink",
+     "from": "合同"
+    },
+    {
+     "f": 7,
+     "name": "board",
+     "from": "合同"
+    },
+    {
+     "f": 17,
+     "from": "样片"
+    },
+    {
+     "f": 24,
+     "name": "boardLand",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "pick1",
+     "from": "合同"
+    },
+    {
+     "f": 43,
+     "from": "样片"
+    },
+    {
+     "f": 49,
+     "from": "样片"
+    },
+    {
+     "f": 53,
+     "name": "drop1",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "name": "pick2",
+     "from": "合同"
+    },
+    {
+     "f": 72,
+     "from": "样片"
+    },
+    {
+     "f": 77,
+     "name": "drop2",
+     "from": "合同"
+    },
+    {
+     "f": 79,
+     "name": "check",
+     "from": "合同"
+    },
+    {
+     "f": 93,
+     "name": "cursorOut",
+     "from": "合同"
+    }
+   ]
+  },
+  "type-lines-converge": {
+   "frames": 66,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "from": "样片"
+    },
+    {
+     "f": 31,
+     "name": "lines",
+     "from": "合同"
+    },
+    {
+     "f": 62,
+     "name": "fade",
+     "from": "合同"
+    }
+   ]
+  },
+  "dive-spin-icon-wordmark": {
+   "frames": 131,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "dive",
+     "from": "合同"
+    },
+    {
+     "f": 21,
+     "name": "spin",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "merge",
+     "from": "合同"
+    },
+    {
+     "f": 36,
+     "from": "样片"
+    },
+    {
+     "f": 42,
+     "name": "icon",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 73,
+     "from": "样片"
+    },
+    {
+     "f": 81,
+     "name": "settle",
+     "from": "合同"
+    }
+   ]
+  },
+  "word-whip-chatbox-type": {
+   "frames": 66,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 36,
+     "name": "swing",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "name": "type",
+     "from": "合同"
+    }
+   ]
+  },
+  "refusals-stack-up": {
+   "frames": 86,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 20,
+     "name": "shrink",
+     "from": "合同"
+    },
+    {
+     "f": 31,
+     "from": "样片"
+    },
+    {
+     "f": 40,
+     "name": "ask",
+     "from": "合同"
+    },
+    {
+     "f": 59,
+     "name": "reply1",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "reply2",
+     "from": "合同"
+    },
+    {
+     "f": 70,
+     "from": "样片"
+    },
+    {
+     "f": 74,
+     "name": "reply3",
+     "from": "合同"
+    },
+    {
+     "f": 81,
+     "name": "reply4",
+     "from": "合同"
+    }
+   ]
+  },
+  "dock-drag-into-trash": {
+   "frames": 84,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 10,
+     "name": "dock",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "from": "样片"
+    },
+    {
+     "f": 32,
+     "name": "grab",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "name": "lift",
+     "from": "合同"
+    },
+    {
+     "f": 50,
+     "name": "suck",
+     "from": "合同"
+    },
+    {
+     "f": 64,
+     "name": "drop",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "gone",
+     "from": "合同"
+    }
+   ]
+  },
+  "dock-type-genie-burst-name": {
+   "frames": 84,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 24,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 26,
+     "name": "genie",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "from": "样片"
+    },
+    {
+     "f": 38,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 81,
+     "from": "样片"
+    }
+   ]
+  },
+  "wash-white-logo-lines": {
+   "frames": 68,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "name": "wash",
+     "from": "合同"
+    },
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 18,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "line",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "from": "样片"
+    }
+   ]
+  },
+  "words-stagger-browser-reveal": {
+   "frames": 90,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "fade",
+     "from": "合同"
+    },
+    {
+     "f": 8,
+     "name": "across",
+     "from": "合同"
+    },
+    {
+     "f": 31,
+     "name": "items",
+     "from": "合同"
+    },
+    {
+     "f": 41,
+     "from": "样片"
+    },
+    {
+     "f": 46,
+     "from": "样片"
+    },
+    {
+     "f": 68,
+     "name": "ui",
+     "from": "合同"
+    },
+    {
+     "f": 80,
+     "from": "样片"
+    }
+   ]
+  },
+  "type-phrase-key-insert": {
+   "frames": 56,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 26,
+     "name": "words",
+     "from": "合同"
+    },
+    {
+     "f": 37,
+     "from": "样片"
+    },
+    {
+     "f": 46,
+     "name": "key",
+     "from": "合同"
+    },
+    {
+     "f": 50,
+     "from": "样片"
+    }
+   ]
+  },
+  "icons-absorbed-logo-name": {
+   "frames": 98,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 7,
+     "name": "spark",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "name": "app",
+     "from": "合同"
+    },
+    {
+     "f": 23,
+     "from": "样片"
+    },
+    {
+     "f": 31,
+     "name": "absorb",
+     "from": "合同"
+    },
+    {
+     "f": 49,
+     "from": "样片"
+    },
+    {
+     "f": 56,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 68,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 72,
+     "from": "样片"
+    },
+    {
+     "f": 86,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 91,
+     "from": "样片"
+    }
+   ]
+  },
+  "two-words-part-url": {
+   "frames": 93,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 19,
+     "from": "样片"
+    },
+    {
+     "f": 28,
+     "name": "work",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "from": "样片"
+    },
+    {
+     "f": 42,
+     "name": "url",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "from": "样片"
+    }
+   ]
+  },
+  "board-rise-push-bell-toast": {
+   "frames": 87,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 18,
+     "name": "push",
+     "from": "合同"
+    },
+    {
+     "f": 29,
+     "from": "样片"
+    },
+    {
+     "f": 36,
+     "name": "badge",
+     "from": "合同"
+    },
+    {
+     "f": 51,
+     "name": "drop",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "name": "toast",
+     "from": "合同"
+    },
+    {
+     "f": 69,
+     "from": "样片"
+    }
+   ]
+  },
+  "pullback-table-insert": {
+   "frames": 56,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 18,
+     "name": "pull",
+     "from": "合同"
+    },
+    {
+     "f": 45,
+     "name": "insert",
+     "from": "合同"
+    },
+    {
+     "f": 49,
+     "from": "样片"
+    }
+   ]
+  },
+  "tilt-row-drawer-open": {
+   "frames": 79,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "name": "tilt",
+     "from": "合同"
+    },
+    {
+     "f": 17,
+     "from": "样片"
+    },
+    {
+     "f": 47,
+     "from": "样片"
+    },
+    {
+     "f": 52,
+     "name": "drawer",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "from": "样片"
+    }
+   ]
+  },
+  "drawer-close-table-slide": {
+   "frames": 51,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 16,
+     "name": "close",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "slide",
+     "from": "合同"
+    }
+   ]
+  },
+  "searchbar-punch-type-icons": {
+   "frames": 105,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 14,
+     "name": "cursorIn",
+     "from": "合同"
+    },
+    {
+     "f": 22,
+     "name": "zoom1",
+     "from": "合同"
+    },
+    {
+     "f": 37,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "name": "zoom2",
+     "from": "合同"
+    },
+    {
+     "f": 56,
+     "name": "icon1",
+     "from": "合同"
+    },
+    {
+     "f": 67,
+     "from": "样片"
+    },
+    {
+     "f": 74,
+     "name": "icon2",
+     "from": "合同"
+    },
+    {
+     "f": 80,
+     "from": "样片"
+    },
+    {
+     "f": 90,
+     "name": "icon3",
+     "from": "合同"
+    },
+    {
+     "f": 95,
+     "from": "样片"
+    },
+    {
+     "f": 98,
+     "from": "样片"
+    }
+   ]
+  },
+  "icons-toss-into-trash": {
+   "frames": 66,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 17,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "trash",
+     "from": "合同"
+    },
+    {
+     "f": 38,
+     "name": "drop",
+     "from": "合同"
+    }
+   ]
+  },
+  "trash-to-dock-button-swarm": {
+   "frames": 126,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "name": "tile",
+     "from": "合同"
+    },
+    {
+     "f": 19,
+     "name": "dock",
+     "from": "合同"
+    },
+    {
+     "f": 44,
+     "from": "样片"
+    },
+    {
+     "f": 52,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 65,
+     "name": "dup",
+     "from": "合同"
+    },
+    {
+     "f": 96,
+     "name": "collapse",
+     "from": "合同"
+    },
+    {
+     "f": 97,
+     "name": "outro",
+     "from": "合同"
+    }
+   ]
+  },
+  "tags-decode-orbit": {
+   "frames": 87,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 7,
+     "name": "jump",
+     "from": "合同"
+    },
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 22,
+     "name": "orbit",
+     "from": "合同"
+    },
+    {
+     "f": 41,
+     "name": "decoded",
+     "from": "合同"
+    },
+    {
+     "f": 69,
+     "name": "yaw",
+     "from": "合同"
+    }
+   ]
+  },
+  "tag-ring-spin-dive": {
+   "frames": 125,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 17,
+     "name": "flat",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "from": "样片"
+    },
+    {
+     "f": 38,
+     "name": "dive",
+     "from": "合同"
+    },
+    {
+     "f": 56,
+     "name": "flip",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "from": "样片"
+    },
+    {
+     "f": 69,
+     "name": "quiet",
+     "from": "合同"
+    },
+    {
+     "f": 108,
+     "name": "whip",
+     "from": "合同"
+    },
+    {
+     "f": 124,
+     "name": "swap",
+     "from": "合同"
+    }
+   ]
+  },
+  "rays-panel-wave-strobe": {
+   "frames": 111,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "name": "panel",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "name": "dock",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "name": "wave",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "accel",
+     "from": "合同"
+    },
+    {
+     "f": 99,
+     "name": "strobe",
+     "from": "合同"
+    }
+   ]
+  },
+  "amount-split-pill-tags": {
+   "frames": 52,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "yellow",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "name": "pale",
+     "from": "合同"
+    },
+    {
+     "f": 22,
+     "name": "pills",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "hover",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "name": "glow",
+     "from": "合同"
+    }
+   ]
+  },
+  "arc-sweep-wordmark": {
+   "frames": 96,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 36,
+     "name": "lock",
+     "from": "合同"
+    },
+    {
+     "f": 71,
+     "from": "样片"
+    }
+   ]
+  },
+  "connect-word-icon-reel": {
+   "frames": 150,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 16,
+     "from": "样片"
+    },
+    {
+     "f": 32,
+     "name": "w2",
+     "from": "合同"
+    },
+    {
+     "f": 49,
+     "from": "样片"
+    },
+    {
+     "f": 70,
+     "name": "w3",
+     "from": "合同"
+    },
+    {
+     "f": 88,
+     "from": "样片"
+    },
+    {
+     "f": 106,
+     "name": "w4",
+     "from": "合同"
+    },
+    {
+     "f": 124,
+     "from": "样片"
+    },
+    {
+     "f": 139,
+     "name": "out",
+     "from": "合同"
+    }
+   ]
+  },
+  "dot-adapters-balls": {
+   "frames": 126,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 28,
+     "name": "title",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "balls",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "name": "labels",
+     "from": "合同"
+    },
+    {
+     "f": 102,
+     "name": "out",
+     "from": "合同"
+    },
+    {
+     "f": 120,
+     "name": "cloud",
+     "from": "合同"
+    }
+   ]
+  },
+  "dot-burst-sphere": {
+   "frames": 144,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "name": "circle",
+     "from": "合同"
+    },
+    {
+     "f": 32,
+     "from": "样片"
+    },
+    {
+     "f": 38,
+     "name": "dot",
+     "from": "合同"
+    },
+    {
+     "f": 40,
+     "name": "burst",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "name": "sphere",
+     "from": "合同"
+    },
+    {
+     "f": 56,
+     "name": "line1",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "from": "样片"
+    },
+    {
+     "f": 81,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 102,
+     "name": "sweep",
+     "from": "合同"
+    },
+    {
+     "f": 138,
+     "name": "exit",
+     "from": "合同"
+    }
+   ]
+  },
+  "dots-word-perspective-list": {
+   "frames": 129,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "lead",
+     "from": "合同"
+    },
+    {
+     "f": 15,
+     "name": "dots",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "up",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "list",
+     "from": "合同"
+    },
+    {
+     "f": 123,
+     "name": "flat",
+     "from": "合同"
+    }
+   ]
+  },
+  "feature-cards-social-wordmark": {
+   "frames": 98,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "from": "样片"
+    },
+    {
+     "f": 15,
+     "name": "tagline",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "face",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 44,
+     "name": "mark",
+     "from": "合同"
+    },
+    {
+     "f": 56,
+     "name": "rest",
+     "from": "合同"
+    }
+   ]
+  },
+  "folder-drop-chat": {
+   "frames": 88,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "panel",
+     "from": "合同"
+    },
+    {
+     "f": 2,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 25,
+     "from": "样片"
+    },
+    {
+     "f": 45,
+     "name": "type2",
+     "from": "合同"
+    },
+    {
+     "f": 47,
+     "name": "drop",
+     "from": "合同"
+    },
+    {
+     "f": 53,
+     "from": "样片"
+    },
+    {
+     "f": 58,
+     "name": "type3",
+     "from": "合同"
+    },
+    {
+     "f": 74,
+     "name": "press",
+     "from": "合同"
+    },
+    {
+     "f": 80,
+     "name": "ring",
+     "from": "合同"
+    }
+   ]
+  },
+  "generating-studio": {
+   "frames": 81,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 27,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "name": "settle",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "push",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "reveal",
+     "from": "合同"
+    },
+    {
+     "f": 75,
+     "from": "样片"
+    }
+   ]
+  },
+  "giant-word-scroll-intro": {
+   "frames": 96,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 15,
+     "name": "whip1",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "name": "drift1",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "whip2",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 76,
+     "name": "drift2",
+     "from": "合同"
+    },
+    {
+     "f": 90,
+     "name": "out",
+     "from": "合同"
+    }
+   ]
+  },
+  "giant-word-stack-faces": {
+   "frames": 144,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "giant",
+     "from": "合同"
+    },
+    {
+     "f": 21,
+     "name": "slide",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "word2",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "from": "样片"
+    },
+    {
+     "f": 75,
+     "name": "word3",
+     "from": "合同"
+    },
+    {
+     "f": 90,
+     "name": "stack",
+     "from": "合同"
+    },
+    {
+     "f": 97,
+     "from": "样片"
+    },
+    {
+     "f": 116,
+     "name": "badges",
+     "from": "合同"
+    },
+    {
+     "f": 136,
+     "name": "burst",
+     "from": "合同"
+    }
+   ]
+  },
+  "glass-dashboard-arc": {
+   "frames": 177,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "panel",
+     "from": "合同"
+    },
+    {
+     "f": 14,
+     "from": "样片"
+    },
+    {
+     "f": 26,
+     "name": "arc",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "fill",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "pull",
+     "from": "合同"
+    },
+    {
+     "f": 84,
+     "name": "title",
+     "from": "合同"
+    },
+    {
+     "f": 89,
+     "from": "样片"
+    },
+    {
+     "f": 98,
+     "from": "样片"
+    },
+    {
+     "f": 172,
+     "name": "star",
+     "from": "合同"
+    }
+   ]
+  },
+  "glass-number-cards": {
+   "frames": 60,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "t1",
+     "from": "合同"
+    },
+    {
+     "f": 12,
+     "name": "t2",
+     "from": "合同"
+    },
+    {
+     "f": 24,
+     "name": "t3",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "t4",
+     "from": "合同"
+    }
+   ]
+  },
+  "glow-word-trace-logo": {
+   "frames": 144,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 51,
+     "name": "trace",
+     "from": "合同"
+    },
+    {
+     "f": 76,
+     "name": "logo",
+     "from": "合同"
+    }
+   ]
+  },
+  "idea-card-role-pills": {
+   "frames": 128,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "name": "done",
+     "from": "合同"
+    },
+    {
+     "f": 51,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "name": "p1",
+     "from": "合同"
+    },
+    {
+     "f": 56,
+     "from": "样片"
+    },
+    {
+     "f": 61,
+     "name": "p2",
+     "from": "合同"
+    },
+    {
+     "f": 74,
+     "name": "p3",
+     "from": "合同"
+    },
+    {
+     "f": 82,
+     "from": "样片"
+    },
+    {
+     "f": 87,
+     "name": "p4",
+     "from": "合同"
+    },
+    {
+     "f": 96,
+     "from": "样片"
+    },
+    {
+     "f": 111,
+     "from": "样片"
+    }
+   ]
+  },
+  "mixed-glyph-type-glitch": {
+   "frames": 120,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "line1",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "pan",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "mono",
+     "from": "合同"
+    },
+    {
+     "f": 72,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 96,
+     "name": "settle",
+     "from": "合同"
+    },
+    {
+     "f": 112,
+     "name": "big",
+     "from": "合同"
+    }
+   ]
+  },
+  "notebook-ui-flow": {
+   "frames": 141,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 20,
+     "name": "cut1",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "swing",
+     "from": "合同"
+    },
+    {
+     "f": 38,
+     "name": "files",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "from": "样片"
+    },
+    {
+     "f": 60,
+     "name": "cut2",
+     "from": "合同"
+    },
+    {
+     "f": 64,
+     "name": "bubble",
+     "from": "合同"
+    },
+    {
+     "f": 84,
+     "name": "think",
+     "from": "合同"
+    },
+    {
+     "f": 94,
+     "name": "answer",
+     "from": "合同"
+    },
+    {
+     "f": 98,
+     "name": "photos",
+     "from": "合同"
+    },
+    {
+     "f": 111,
+     "name": "bubble2",
+     "from": "合同"
+    }
+   ]
+  },
+  "orb-split-three-one-app": {
+   "frames": 129,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "orb",
+     "from": "合同"
+    },
+    {
+     "f": 13,
+     "from": "样片"
+    },
+    {
+     "f": 18,
+     "name": "split",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "three",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "shrink",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "text",
+     "from": "合同"
+    },
+    {
+     "f": 114,
+     "name": "clear",
+     "from": "合同"
+    }
+   ]
+  },
+  "palette-steps-list": {
+   "frames": 63,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "bar",
+     "from": "合同"
+    },
+    {
+     "f": 8,
+     "name": "steps",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "from": "样片"
+    },
+    {
+     "f": 20,
+     "name": "full",
+     "from": "合同"
+    },
+    {
+     "f": 21,
+     "name": "labels",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "name": "out",
+     "from": "合同"
+    }
+   ]
+  },
+  "photo-lens-cursor-type": {
+   "frames": 129,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "shrink",
+     "from": "合同"
+    },
+    {
+     "f": 19,
+     "name": "cursor",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "slide",
+     "from": "合同"
+    },
+    {
+     "f": 47,
+     "name": "comet",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "done",
+     "from": "合同"
+    },
+    {
+     "f": 114,
+     "name": "close",
+     "from": "合同"
+    },
+    {
+     "f": 121,
+     "from": "样片"
+    }
+   ]
+  },
+  "pill-bar-report-slides": {
+   "frames": 180,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "blue",
+     "from": "合同"
+    },
+    {
+     "f": 24,
+     "name": "labels",
+     "from": "合同"
+    },
+    {
+     "f": 36,
+     "from": "样片"
+    },
+    {
+     "f": 52,
+     "name": "report",
+     "from": "合同"
+    },
+    {
+     "f": 68,
+     "name": "side",
+     "from": "合同"
+    },
+    {
+     "f": 103,
+     "from": "样片"
+    },
+    {
+     "f": 111,
+     "name": "slides",
+     "from": "合同"
+    },
+    {
+     "f": 120,
+     "name": "split",
+     "from": "合同"
+    },
+    {
+     "f": 139,
+     "name": "cards",
+     "from": "合同"
+    },
+    {
+     "f": 160,
+     "from": "样片"
+    },
+    {
+     "f": 172,
+     "name": "highlight",
+     "from": "合同"
+    }
+   ]
+  },
+  "pill-rows-slide-claims": {
+   "frames": 23,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "settle",
+     "from": "合同"
+    }
+   ]
+  },
+  "pills-out-progress-dashboard": {
+   "frames": 113,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "out",
+     "from": "合同"
+    },
+    {
+     "f": 12,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 17,
+     "from": "样片"
+    },
+    {
+     "f": 24,
+     "name": "tick1",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "name": "tick2",
+     "from": "合同"
+    },
+    {
+     "f": 68,
+     "name": "page",
+     "from": "合同"
+    },
+    {
+     "f": 73,
+     "from": "样片"
+    },
+    {
+     "f": 78,
+     "from": "样片"
+    },
+    {
+     "f": 100,
+     "name": "up",
+     "from": "合同"
+    }
+   ]
+  },
+  "pixel-cursors-merge-logo": {
+   "frames": 150,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "appear",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "gather",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "merge",
+     "from": "合同"
+    },
+    {
+     "f": 69,
+     "name": "logo",
+     "from": "合同"
+    }
+   ]
+  },
+  "planet-glow-title-cut": {
+   "frames": 117,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 12,
+     "name": "w1",
+     "from": "合同"
+    },
+    {
+     "f": 21,
+     "name": "w2",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "name": "w3",
+     "from": "合同"
+    },
+    {
+     "f": 70,
+     "from": "样片"
+    },
+    {
+     "f": 81,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 84,
+     "name": "pop",
+     "from": "合同"
+    }
+   ]
+  },
+  "progress-tilt-editor": {
+   "frames": 147,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 39,
+     "name": "rise",
+     "from": "合同"
+    },
+    {
+     "f": 56,
+     "name": "code",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "from": "样片"
+    },
+    {
+     "f": 138,
+     "name": "done",
+     "from": "合同"
+    }
+   ]
+  },
+  "ray-burst-counter": {
+   "frames": 177,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 12,
+     "name": "dots",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "from": "样片"
+    },
+    {
+     "f": 24,
+     "name": "rays",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "burst",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "n1",
+     "from": "合同"
+    },
+    {
+     "f": 69,
+     "name": "n2",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "name": "n3",
+     "from": "合同"
+    },
+    {
+     "f": 102,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 126,
+     "name": "cards",
+     "from": "合同"
+    },
+    {
+     "f": 168,
+     "name": "ring",
+     "from": "合同"
+    }
+   ]
+  },
+  "scatter-cards-lost-teams": {
+   "frames": 115,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "name": "w1",
+     "from": "合同"
+    },
+    {
+     "f": 11,
+     "name": "cards",
+     "from": "合同"
+    },
+    {
+     "f": 15,
+     "from": "样片"
+    },
+    {
+     "f": 27,
+     "from": "样片"
+    },
+    {
+     "f": 60,
+     "from": "样片"
+    },
+    {
+     "f": 89,
+     "from": "样片"
+    },
+    {
+     "f": 100,
+     "name": "drop",
+     "from": "合同"
+    },
+    {
+     "f": 110,
+     "name": "flash",
+     "from": "合同"
+    }
+   ]
+  },
+  "star-lead-word-roll": {
+   "frames": 147,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "name": "join",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "w1",
+     "from": "合同"
+    },
+    {
+     "f": 41,
+     "from": "样片"
+    },
+    {
+     "f": 54,
+     "name": "w2",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "from": "样片"
+    },
+    {
+     "f": 74,
+     "name": "w3",
+     "from": "合同"
+    },
+    {
+     "f": 79,
+     "from": "样片"
+    },
+    {
+     "f": 94,
+     "name": "w4",
+     "from": "合同"
+    },
+    {
+     "f": 99,
+     "from": "样片"
+    },
+    {
+     "f": 112,
+     "name": "w5",
+     "from": "合同"
+    },
+    {
+     "f": 134,
+     "name": "w6",
+     "from": "合同"
+    },
+    {
+     "f": 134,
+     "name": "drop",
+     "from": "合同"
+    }
+   ]
+  },
+  "star-pill-answer-cards": {
+   "frames": 141,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "ring",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "name": "pill",
+     "from": "合同"
+    },
+    {
+     "f": 44,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "pull",
+     "from": "合同"
+    },
+    {
+     "f": 70,
+     "name": "cards",
+     "from": "合同"
+    },
+    {
+     "f": 85,
+     "from": "样片"
+    }
+   ]
+  },
+  "star-spin-wordmark-arcs": {
+   "frames": 90,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 18,
+     "name": "glow",
+     "from": "合同"
+    },
+    {
+     "f": 19,
+     "name": "spin",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "name": "arcs",
+     "from": "合同"
+    },
+    {
+     "f": 47,
+     "from": "样片"
+    },
+    {
+     "f": 69,
+     "name": "lift",
+     "from": "合同"
+    }
+   ]
+  },
+  "strip-pixel-endcard": {
+   "frames": 140,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "strip",
+     "from": "合同"
+    },
+    {
+     "f": 40,
+     "from": "样片"
+    },
+    {
+     "f": 44,
+     "name": "pixels",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 75,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 92,
+     "name": "name",
+     "from": "合同"
+    },
+    {
+     "f": 111,
+     "name": "fade",
+     "from": "合同"
+    }
+   ]
+  },
+  "type-button-slides": {
+   "frames": 179,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 8,
+     "from": "样片"
+    },
+    {
+     "f": 14,
+     "name": "pull",
+     "from": "合同"
+    },
+    {
+     "f": 44,
+     "name": "glitch",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 59,
+     "name": "press",
+     "from": "合同"
+    },
+    {
+     "f": 74,
+     "name": "release",
+     "from": "合同"
+    },
+    {
+     "f": 82,
+     "from": "样片"
+    },
+    {
+     "f": 97,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 104,
+     "name": "flat",
+     "from": "合同"
+    },
+    {
+     "f": 121,
+     "name": "s1",
+     "from": "合同"
+    },
+    {
+     "f": 128,
+     "name": "s2",
+     "from": "合同"
+    },
+    {
+     "f": 136,
+     "name": "s3",
+     "from": "合同"
+    },
+    {
+     "f": 140,
+     "from": "样片"
+    },
+    {
+     "f": 151,
+     "name": "s4",
+     "from": "合同"
+    }
+   ]
+  },
+  "word-ring-tools": {
+   "frames": 144,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "reveal",
+     "from": "合同"
+    },
+    {
+     "f": 25,
+     "from": "样片"
+    },
+    {
+     "f": 32,
+     "name": "w2",
+     "from": "合同"
+    },
+    {
+     "f": 63,
+     "name": "w3",
+     "from": "合同"
+    },
+    {
+     "f": 87,
+     "name": "pile",
+     "from": "合同"
+    },
+    {
+     "f": 106,
+     "name": "cursor",
+     "from": "合同"
+    },
+    {
+     "f": 110,
+     "from": "样片"
+    },
+    {
+     "f": 126,
+     "name": "press",
+     "from": "合同"
+    },
+    {
+     "f": 136,
+     "name": "flip",
+     "from": "合同"
+    }
+   ]
+  },
+  "words-float-photo-cloud": {
+   "frames": 135,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "w1",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "w2",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "wipe",
+     "from": "合同"
+    },
+    {
+     "f": 69,
+     "name": "cloud",
+     "from": "合同"
+    },
+    {
+     "f": 78,
+     "from": "样片"
+    },
+    {
+     "f": 117,
+     "name": "gather",
+     "from": "合同"
+    }
+   ]
+  },
+  "card-hang-line-unfold": {
+   "frames": 50,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 12,
+     "from": "样片"
+    },
+    {
+     "f": 42,
+     "from": "样片"
+    }
+   ]
+  },
+  "line-bend-second-card": {
+   "frames": 73,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 13,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 19,
+     "name": "card2",
+     "from": "合同"
+    },
+    {
+     "f": 24,
+     "from": "样片"
+    },
+    {
+     "f": 30,
+     "from": "样片"
+    },
+    {
+     "f": 53,
+     "from": "样片"
+    }
+   ]
+  },
+  "line-turn-third-card-pull": {
+   "frames": 102,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "name": "card3",
+     "from": "合同"
+    },
+    {
+     "f": 16,
+     "from": "样片"
+    },
+    {
+     "f": 33,
+     "name": "loved",
+     "from": "合同"
+    },
+    {
+     "f": 72,
+     "name": "pull",
+     "from": "合同"
+    },
+    {
+     "f": 81,
+     "from": "样片"
+    },
+    {
+     "f": 95,
+     "name": "wipe",
+     "from": "合同"
+    },
+    {
+     "f": 99,
+     "from": "样片"
+    }
+   ]
+  },
+  "icon-tiles-whip-line-cards": {
+   "frames": 101,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "icons",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "whip",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "name": "line1",
+     "from": "合同"
+    },
+    {
+     "f": 43,
+     "from": "样片"
+    },
+    {
+     "f": 58,
+     "from": "样片"
+    },
+    {
+     "f": 84,
+     "name": "line2",
+     "from": "合同"
+    },
+    {
+     "f": 84,
+     "name": "avatars",
+     "from": "合同"
+    },
+    {
+     "f": 95,
+     "from": "样片"
+    }
+   ]
+  },
+  "line-avatars-roles-zoom": {
+   "frames": 118,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 22,
+     "name": "roles",
+     "from": "合同"
+    },
+    {
+     "f": 40,
+     "name": "line4",
+     "from": "合同"
+    },
+    {
+     "f": 55,
+     "name": "project",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "from": "样片"
+    },
+    {
+     "f": 71,
+     "from": "样片"
+    },
+    {
+     "f": 103,
+     "name": "zoom",
+     "from": "合同"
+    }
+   ]
+  },
+  "portrait-circles-squeeze-word": {
+   "frames": 87,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "name": "split",
+     "from": "合同"
+    },
+    {
+     "f": 20,
+     "name": "meet",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "ovals",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "name": "ripple",
+     "from": "合同"
+    },
+    {
+     "f": 72,
+     "name": "mark",
+     "from": "合同"
+    }
+   ]
+  },
+  "giant-word-dot-rings-faces": {
+   "frames": 111,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 12,
+     "name": "giant",
+     "from": "合同"
+    },
+    {
+     "f": 32,
+     "from": "样片"
+    },
+    {
+     "f": 38,
+     "name": "words",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "ring",
+     "from": "合同"
+    },
+    {
+     "f": 83,
+     "name": "burst",
+     "from": "合同"
+    },
+    {
+     "f": 92,
+     "from": "样片"
+    },
+    {
+     "f": 105,
+     "name": "faces",
+     "from": "合同"
+    }
+   ]
+  },
+  "orange-circle-ovals-turn-blue": {
+   "frames": 72,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 18,
+     "name": "train",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "name": "swap",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "why",
+     "from": "合同"
+    },
+    {
+     "f": 61,
+     "from": "样片"
+    },
+    {
+     "f": 69,
+     "name": "button",
+     "from": "合同"
+    }
+   ]
+  },
+  "circle-to-button-ask-rings": {
+   "frames": 138,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "from": "样片"
+    },
+    {
+     "f": 11,
+     "from": "样片"
+    },
+    {
+     "f": 18,
+     "name": "box",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 68,
+     "name": "rings",
+     "from": "合同"
+    },
+    {
+     "f": 82,
+     "from": "样片"
+    },
+    {
+     "f": 85,
+     "from": "样片"
+    },
+    {
+     "f": 98,
+     "name": "grow",
+     "from": "合同"
+    },
+    {
+     "f": 114,
+     "from": "样片"
+    },
+    {
+     "f": 120,
+     "name": "study",
+     "from": "合同"
+    },
+    {
+     "f": 129,
+     "from": "样片"
+    }
+   ]
+  },
+  "two-circles-questions-swap": {
+   "frames": 60,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 4,
+     "name": "q2",
+     "from": "合同"
+    },
+    {
+     "f": 17,
+     "from": "样片"
+    },
+    {
+     "f": 22,
+     "name": "q3",
+     "from": "合同"
+    },
+    {
+     "f": 35,
+     "from": "样片"
+    },
+    {
+     "f": 52,
+     "name": "out",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "from": "样片"
+    }
+   ]
+  },
+  "code-flythrough-pill-type-name": {
+   "frames": 123,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 42,
+     "name": "pill",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 102,
+     "name": "pull",
+     "from": "合同"
+    },
+    {
+     "f": 111,
+     "name": "logo",
+     "from": "合同"
+    }
+   ]
+  },
+  "generate-button-press-dot-wave": {
+   "frames": 87,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 27,
+     "name": "cut",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "dots",
+     "from": "合同"
+    }
+   ]
+  },
+  "condensed-tall-lines-reweight": {
+   "frames": 108,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 15,
+     "name": "l1",
+     "from": "合同"
+    },
+    {
+     "f": 30,
+     "name": "l2",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "l3",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "widen",
+     "from": "合同"
+    },
+    {
+     "f": 73,
+     "from": "样片"
+    },
+    {
+     "f": 78,
+     "name": "bold",
+     "from": "合同"
+    },
+    {
+     "f": 89,
+     "from": "样片"
+    },
+    {
+     "f": 96,
+     "name": "heavy",
+     "from": "合同"
+    },
+    {
+     "f": 104,
+     "from": "样片"
+    }
+   ]
+  },
+  "blue-poster-card-type-fonts": {
+   "frames": 147,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 20,
+     "name": "push",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 31,
+     "from": "样片"
+    },
+    {
+     "f": 52,
+     "name": "one",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "line",
+     "from": "合同"
+    },
+    {
+     "f": 77,
+     "from": "样片"
+    },
+    {
+     "f": 87,
+     "name": "hundred",
+     "from": "合同"
+    },
+    {
+     "f": 94,
+     "from": "样片"
+    },
+    {
+     "f": 102,
+     "name": "worlds",
+     "from": "合同"
+    }
+   ]
+  },
+  "dot-orbit-sentence": {
+   "frames": 60,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 12,
+     "name": "text",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "from": "样片"
+    }
+   ]
+  },
+  "photo-cards-arc-stair": {
+   "frames": 147,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "name": "slide",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "name": "s1",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "name": "s2",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "s3",
+     "from": "合同"
+    },
+    {
+     "f": 90,
+     "name": "s4",
+     "from": "合同"
+    },
+    {
+     "f": 114,
+     "name": "s5",
+     "from": "合同"
+    },
+    {
+     "f": 138,
+     "name": "s6",
+     "from": "合同"
+    }
+   ]
+  },
+  "dots-sphere-cube-wire": {
+   "frames": 78,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 24,
+     "name": "sphere",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "cube",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "name": "wire",
+     "from": "合同"
+    }
+   ]
+  },
+  "cube-invert-name-url": {
+   "frames": 162,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "from": "样片"
+    },
+    {
+     "f": 18,
+     "name": "shrink",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 49,
+     "from": "样片"
+    },
+    {
+     "f": 63,
+     "name": "url",
+     "from": "合同"
+    },
+    {
+     "f": 84,
+     "name": "cmd",
+     "from": "合同"
+    }
+   ]
+  },
+  "dots-scatter-cards-rise": {
+   "frames": 120,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 34,
+     "from": "样片"
+    },
+    {
+     "f": 72,
+     "name": "rise",
+     "from": "合同"
+    },
+    {
+     "f": 111,
+     "from": "样片"
+    }
+   ]
+  },
+  "cards-dissolve-to-dots-back": {
+   "frames": 69,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 30,
+     "name": "dissolve",
+     "from": "合同"
+    },
+    {
+     "f": 41,
+     "from": "样片"
+    },
+    {
+     "f": 48,
+     "name": "back",
+     "from": "合同"
+    },
+    {
+     "f": 62,
+     "from": "样片"
+    }
+   ]
+  },
+  "cards-leave-dots-form-word": {
+   "frames": 168,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 15,
+     "from": "样片"
+    },
+    {
+     "f": 24,
+     "name": "leave",
+     "from": "合同"
+    },
+    {
+     "f": 34,
+     "from": "样片"
+    },
+    {
+     "f": 54,
+     "from": "样片"
+    },
+    {
+     "f": 81,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 111,
+     "from": "样片"
+    },
+    {
+     "f": 121,
+     "name": "morph",
+     "from": "合同"
+    }
+   ]
+  },
+  "word-to-dots-gather": {
+   "frames": 87,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 48,
+     "name": "gather",
+     "from": "合同"
+    }
+   ]
+  },
+  "dots-reveal-cards": {
+   "frames": 96,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 15,
+     "from": "样片"
+    },
+    {
+     "f": 76,
+     "from": "样片"
+    }
+   ]
+  },
+  "sentence-folder-tile": {
+   "frames": 35,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 19,
+     "from": "样片"
+    }
+   ]
+  },
+  "dock-rise-click-ai-type": {
+   "frames": 69,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "dock",
+     "from": "合同"
+    },
+    {
+     "f": 6,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 24,
+     "name": "bar",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "type",
+     "from": "合同"
+    }
+   ]
+  },
+  "dock-grab-folder-drag": {
+   "frames": 91,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 32,
+     "name": "grab",
+     "from": "合同"
+    },
+    {
+     "f": 62,
+     "name": "drag",
+     "from": "合同"
+    },
+    {
+     "f": 90,
+     "name": "exit",
+     "from": "合同"
+    }
+   ]
+  },
+  "giant-word-lens-ovals": {
+   "frames": 90,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 12,
+     "name": "lens",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "from": "样片"
+    },
+    {
+     "f": 57,
+     "name": "text",
+     "from": "合同"
+    }
+   ]
+  },
+  "rings-blue-line-url": {
+   "frames": 87,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "rings",
+     "from": "合同"
+    },
+    {
+     "f": 9,
+     "from": "样片"
+    },
+    {
+     "f": 27,
+     "name": "blue",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "name": "url",
+     "from": "合同"
+    },
+    {
+     "f": 79,
+     "from": "样片"
+    },
+    {
+     "f": 82,
+     "from": "样片"
+    }
+   ]
+  },
+  "halftone-ear-to-logo": {
+   "frames": 93,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 45,
+     "name": "logo",
+     "from": "合同"
+    },
+    {
+     "f": 53,
+     "from": "样片"
+    }
+   ]
+  },
+  "glyphs-drawn-one-by-one": {
+   "frames": 114,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 2,
+     "name": "c1",
+     "from": "合同"
+    },
+    {
+     "f": 19,
+     "from": "样片"
+    },
+    {
+     "f": 33,
+     "from": "样片"
+    },
+    {
+     "f": 39,
+     "name": "c2",
+     "from": "合同"
+    },
+    {
+     "f": 57,
+     "from": "样片"
+    },
+    {
+     "f": 71,
+     "from": "样片"
+    },
+    {
+     "f": 76,
+     "name": "c3",
+     "from": "合同"
+    },
+    {
+     "f": 94,
+     "from": "样片"
+    },
+    {
+     "f": 108,
+     "from": "样片"
+    }
+   ]
+  },
+  "last-glyph-wordmark-solid": {
+   "frames": 78,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 18,
+     "from": "样片"
+    },
+    {
+     "f": 32,
+     "from": "样片"
+    },
+    {
+     "f": 40,
+     "name": "word",
+     "from": "合同"
+    },
+    {
+     "f": 60,
+     "from": "样片"
+    },
+    {
+     "f": 64,
+     "name": "solid",
+     "from": "合同"
+    }
+   ]
+  },
+  "app-home-rise-focus-input": {
+   "frames": 55,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "from": "样片"
+    },
+    {
+     "f": 8,
+     "name": "home",
+     "from": "合同"
+    },
+    {
+     "f": 23,
+     "from": "样片"
+    }
+   ]
+  },
+  "input-glow-type-send": {
+   "frames": 95,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "focus",
+     "from": "合同"
+    },
+    {
+     "f": 20,
+     "name": "type",
+     "from": "合同"
+    },
+    {
+     "f": 77,
+     "name": "send",
+     "from": "合同"
+    }
+   ]
+  },
+  "send-rings-result-card": {
+   "frames": 63,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 18,
+     "name": "card",
+     "from": "合同"
+    },
+    {
+     "f": 28,
+     "from": "样片"
+    }
+   ]
+  },
+  "small-words-drop": {
+   "frames": 41,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 10,
+     "from": "样片"
+    }
+   ]
+  },
+  "red-bubbles-roll-big-lines": {
+   "frames": 152,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "bubbles",
+     "from": "合同"
+    },
+    {
+     "f": 33,
+     "name": "whip",
+     "from": "合同"
+    },
+    {
+     "f": 46,
+     "name": "l1",
+     "from": "合同"
+    },
+    {
+     "f": 81,
+     "from": "样片"
+    },
+    {
+     "f": 94,
+     "name": "l2",
+     "from": "合同"
+    },
+    {
+     "f": 105,
+     "from": "样片"
+    },
+    {
+     "f": 124,
+     "name": "drop",
+     "from": "合同"
+    }
+   ]
+  },
+  "big-line-pixel-drop-out": {
+   "frames": 57,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 11,
+     "name": "l3",
+     "from": "合同"
+    },
+    {
+     "f": 23,
+     "from": "样片"
+    },
+    {
+     "f": 55,
+     "name": "pixel",
+     "from": "合同"
+    }
+   ]
+  },
+  "pixel-cursors-gather-caret": {
+   "frames": 56,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 52,
+     "from": "样片"
+    }
+   ]
+  },
+  "type-pan-select-restyle": {
+   "frames": 117,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 32,
+     "name": "pan1",
+     "from": "合同"
+    },
+    {
+     "f": 39,
+     "from": "样片"
+    },
+    {
+     "f": 71,
+     "name": "sel1",
+     "from": "合同"
+    },
+    {
+     "f": 79,
+     "name": "style1",
+     "from": "合同"
+    }
+   ]
+  },
+  "select-restyle-pixel-gradient": {
+   "frames": 121,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 10,
+     "from": "样片"
+    },
+    {
+     "f": 29,
+     "name": "sel2",
+     "from": "合同"
+    },
+    {
+     "f": 37,
+     "name": "style2",
+     "from": "合同"
+    },
+    {
+     "f": 80,
+     "name": "pixel",
+     "from": "合同"
+    },
+    {
+     "f": 115,
+     "name": "grad",
+     "from": "合同"
+    }
+   ]
+  },
+  "two-words-restyle-heavy-slant": {
+   "frames": 135,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "from": "样片"
+    },
+    {
+     "f": 54,
+     "name": "sel3",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "name": "style3",
+     "from": "合同"
+    },
+    {
+     "f": 80,
+     "from": "样片"
+    },
+    {
+     "f": 117,
+     "name": "sel4",
+     "from": "合同"
+    },
+    {
+     "f": 126,
+     "name": "style4",
+     "from": "合同"
+    }
+   ]
+  },
+  "zoomout-whole-sentence-cursors": {
+   "frames": 81,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 7,
+     "from": "样片"
+    },
+    {
+     "f": 11,
+     "from": "样片"
+    },
+    {
+     "f": 35,
+     "name": "wide",
+     "from": "合同"
+    }
+   ]
+  },
+  "search-type-click-customers": {
+   "frames": 120,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 48,
+     "name": "click",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "from": "样片"
+    }
+   ]
+  },
+  "neon-word-everywhere": {
+   "frames": 30,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 9,
+     "from": "样片"
+    }
+   ]
+  },
+  "ai-chat-ask-list": {
+   "frames": 135,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 7,
+     "from": "样片"
+    },
+    {
+     "f": 97,
+     "from": "样片"
+    }
+   ]
+  },
+  "list-side-question-you": {
+   "frames": 75,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    }
+   ]
+  },
+  "rank-first-card-map-pin": {
+   "frames": 90,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 45,
+     "name": "maps",
+     "from": "合同"
+    },
+    {
+     "f": 51,
+     "from": "样片"
+    }
+   ]
+  },
+  "ai-recommend-percent-fill": {
+   "frames": 90,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 5,
+     "from": "样片"
+    },
+    {
+     "f": 45,
+     "name": "pct",
+     "from": "合同"
+    }
+   ]
+  },
+  "phone-booking-toast-node-graph": {
+   "frames": 105,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 45,
+     "name": "results",
+     "from": "合同"
+    },
+    {
+     "f": 54,
+     "from": "样片"
+    }
+   ]
+  },
+  "revenue-line-dashboard": {
+   "frames": 105,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 6,
+     "from": "样片"
+    },
+    {
+     "f": 60,
+     "name": "dash",
+     "from": "合同"
+    },
+    {
+     "f": 64,
+     "from": "样片"
+    },
+    {
+     "f": 67,
+     "from": "样片"
+    }
+   ]
+  },
+  "counter-roll-graph": {
+   "frames": 45,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 30,
+     "from": "样片"
+    }
+   ]
+  },
+  "star-icon-headline-cta": {
+   "frames": 150,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 33,
+     "from": "样片"
+    },
+    {
+     "f": 45,
+     "name": "cta",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "from": "样片"
+    }
+   ]
+  },
+  "big-type-zoomout-insert-icons": {
+   "frames": 71,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 20,
+     "name": "zoomOut",
+     "from": "合同"
+    },
+    {
+     "f": 45,
+     "name": "split",
+     "from": "合同"
+    },
+    {
+     "f": 49,
+     "name": "icons",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "from": "样片"
+    }
+   ]
+  },
+  "icons-orbit-input-type": {
+   "frames": 63,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 15,
+     "name": "cut1",
+     "from": "合同"
+    },
+    {
+     "f": 17,
+     "name": "orbit",
+     "from": "合同"
+    },
+    {
+     "f": 59,
+     "name": "typed",
+     "from": "合同"
+    }
+   ]
+  },
+  "text-wall-rows-swap": {
+   "frames": 59,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 1,
+     "name": "collapse",
+     "from": "合同"
+    },
+    {
+     "f": 10,
+     "name": "cut2",
+     "from": "合同"
+    },
+    {
+     "f": 42,
+     "name": "swap",
+     "from": "合同"
+    }
+   ]
+  },
+  "words-in-dot-rings-frames": {
+   "frames": 98,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 3,
+     "name": "w1",
+     "from": "合同"
+    },
+    {
+     "f": 27,
+     "name": "w2",
+     "from": "合同"
+    },
+    {
+     "f": 68,
+     "name": "w3",
+     "from": "合同"
+    }
+   ]
+  },
+  "outline-word-to-heat-gradient": {
+   "frames": 94,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 31,
+     "name": "w5",
+     "from": "合同"
+    },
+    {
+     "f": 52,
+     "name": "dots",
+     "from": "合同"
+    },
+    {
+     "f": 64,
+     "name": "big",
+     "from": "合同"
+    },
+    {
+     "f": 72,
+     "from": "样片"
+    }
+   ]
+  },
+  "sentence-grows-around-icon": {
+   "frames": 75,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 16,
+     "name": "w1",
+     "from": "合同"
+    },
+    {
+     "f": 38,
+     "name": "w2",
+     "from": "合同"
+    },
+    {
+     "f": 48,
+     "name": "w3",
+     "from": "合同"
+    },
+    {
+     "f": 58,
+     "name": "w4",
+     "from": "合同"
+    },
+    {
+     "f": 62,
+     "from": "样片"
+    }
+   ]
+  },
+  "beam-burst-logo-name": {
+   "frames": 125,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 13,
+     "name": "whip",
+     "from": "合同"
+    },
+    {
+     "f": 18,
+     "from": "样片"
+    },
+    {
+     "f": 24,
+     "name": "beam",
+     "from": "合同"
+    },
+    {
+     "f": 69,
+     "name": "white",
+     "from": "合同"
+    },
+    {
+     "f": 77,
+     "name": "name",
+     "from": "合同"
+    }
+   ]
+  },
+  "small-type-pixel-word-gradient": {
+   "frames": 83,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 30,
+     "name": "pixel",
+     "from": "合同"
+    },
+    {
+     "f": 82,
+     "name": "push",
+     "from": "合同"
+    }
+   ]
+  },
+  "push-select-word-stretch-crowd": {
+   "frames": 91,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 8,
+     "from": "样片"
+    },
+    {
+     "f": 19,
+     "name": "crowd",
+     "from": "合同"
+    },
+    {
+     "f": 29,
+     "name": "stretch",
+     "from": "合同"
+    },
+    {
+     "f": 49,
+     "from": "样片"
+    },
+    {
+     "f": 59,
+     "name": "split",
+     "from": "合同"
+    },
+    {
+     "f": 66,
+     "from": "样片"
+    },
+    {
+     "f": 70,
+     "from": "样片"
+    },
+    {
+     "f": 76,
+     "name": "out",
+     "from": "合同"
+    },
+    {
+     "f": 83,
+     "from": "样片"
+    }
+   ]
+  },
+  "word-ten-fonts-grid-blob": {
+   "frames": 141,
+   "fps": 30,
+   "landings": [
+    {
+     "f": 64,
+     "name": "sweep",
+     "from": "合同"
+    },
+    {
+     "f": 126,
+     "name": "blob",
+     "from": "合同"
+    }
+   ]
+  }
+ }
+}

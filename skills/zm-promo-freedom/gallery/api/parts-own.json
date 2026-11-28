@@ -1,0 +1,4765 @@
+{
+ "count": 238,
+ "parts": [
+  {
+   "name": "input-grow-type-chase",
+   "zh": "输入框长大 · 追着打字",
+   "use": "输入",
+   "seconds": 2.2,
+   "frames": 66,
+   "summary": "输入框虚着从中间长大，4 帧推到特写，逐字越打越快、镜头追着字走，最新几个字是浅色尾巴",
+   "entry": "失焦硬切后进来（第一帧就是虚的、已经在动）",
+   "note": "",
+   "source": "prompt-to-site-wall",
+   "range": [
+    12,
+    78
+   ],
+   "whole": false,
+   "code": "demos-own/parts/input-grow-type-chase/InputGrowTypeChase.tsx",
+   "card": "references/parts-own/input-grow-type-chase.md",
+   "preview": "demos-own/parts/input-grow-type-chase/preview.mp4",
+   "sheet": "demos-own/parts/input-grow-type-chase/preview-sheet.jpg"
+  },
+  {
+   "name": "pullback-cursor-click",
+   "zh": "拉回 · 鼠标冲过来点发送",
+   "use": "点击确认",
+   "seconds": 1.5,
+   "frames": 46,
+   "summary": "镜头慢起步拉回全景，带拖影的鼠标 3 帧冲到发送键，点下去冒一团光，停一拍",
+   "entry": "接在打字特写后面",
+   "note": "推近只有 4 帧、拉回 0.9 秒且起步极慢，做成对称就机械",
+   "source": "prompt-to-site-wall",
+   "range": [
+    77,
+    123
+   ],
+   "whole": false,
+   "code": "demos-own/parts/pullback-cursor-click/PullbackCursorClick.tsx",
+   "card": "references/parts-own/pullback-cursor-click.md",
+   "preview": "demos-own/parts/pullback-cursor-click/preview.mp4",
+   "sheet": "demos-own/parts/pullback-cursor-click/preview-sheet.jpg"
+  },
+  {
+   "name": "result-page-tilt-scroll",
+   "zh": "结果页斜着进来 · 页内滚动",
+   "use": "结果登场",
+   "seconds": 3.2,
+   "frames": 97,
+   "summary": "失焦硬切，结果页斜着虚着进来 0.32 秒摆正（图片先马赛克再变清楚），推近的同时页内滚到底再滚回",
+   "entry": "失焦爬坡硬切",
+   "note": "只要\"斜入摆正\"取前 27 帧；滚动转折点不能停，左边栏不跟滚",
+   "source": "prompt-to-site-wall",
+   "range": [
+    123,
+    220
+   ],
+   "whole": false,
+   "code": "demos-own/parts/result-page-tilt-scroll/ResultPageTiltScroll.tsx",
+   "card": "references/parts-own/result-page-tilt-scroll.md",
+   "preview": "demos-own/parts/result-page-tilt-scroll/preview.mp4",
+   "sheet": "demos-own/parts/result-page-tilt-scroll/preview-sheet.jpg"
+  },
+  {
+   "name": "word-card-rise",
+   "zh": "逐词字卡 · 词浮上来变实",
+   "use": "字卡",
+   "seconds": 1.9,
+   "frames": 56,
+   "summary": "缩小失焦硬切到字卡：词一个个偏低、发虚、竖向拉伸着浮上来变实，重点词底下一块高亮从左擦出，最后失焦切走",
+   "entry": "失焦爬坡硬切",
+   "note": "放一句\"功能名 + 好处\"；两头自带失焦转场",
+   "source": "prompt-to-site-wall",
+   "range": [
+    220,
+    276
+   ],
+   "whole": false,
+   "code": "demos-own/parts/word-card-rise/WordCardRise.tsx",
+   "card": "references/parts-own/word-card-rise.md",
+   "preview": "demos-own/parts/word-card-rise/preview.mp4",
+   "sheet": "demos-own/parts/word-card-rise/preview-sheet.jpg"
+  },
+  {
+   "name": "card-wall-swap-submit",
+   "zh": "卡片墙到位 · 中心卡换稿 · 点提交",
+   "use": "列举",
+   "seconds": 2.6,
+   "frames": 79,
+   "summary": "卡片墙从纵深退后到位，中心卡被三层斜边色块连换几版，四周空位错开滑入补满；推近中心卡点\"提交\"，黑边同一帧压入",
+   "entry": "失焦爬坡硬切",
+   "note": "只要卡片墙取前 35 帧",
+   "source": "prompt-to-site-wall",
+   "range": [
+    276,
+    355
+   ],
+   "whole": false,
+   "code": "demos-own/parts/card-wall-swap-submit/CardWallSwapSubmit.tsx",
+   "card": "references/parts-own/card-wall-swap-submit.md",
+   "preview": "demos-own/parts/card-wall-swap-submit/preview.mp4",
+   "sheet": "demos-own/parts/card-wall-swap-submit/preview-sheet.jpg"
+  },
+  {
+   "name": "logo-letters-tagline",
+   "zh": "Logo 一帧一字长出 · 标语",
+   "use": "品牌落版",
+   "seconds": 2.7,
+   "frames": 80,
+   "summary": "失焦硬切后 Logo 一帧一个字从左往右虚着长出，黑边撤掉、Logo 上移，标语逐词阶梯浮出，胶囊按钮先字后底，停住",
+   "entry": "失焦爬坡硬切",
+   "note": "后面还有 2.7 秒的收场（435–515 帧：一层层收掉、Logo 落到中心）",
+   "source": "prompt-to-site-wall",
+   "range": [
+    355,
+    435
+   ],
+   "whole": false,
+   "code": "demos-own/parts/logo-letters-tagline/LogoLettersTagline.tsx",
+   "card": "references/parts-own/logo-letters-tagline.md",
+   "preview": "demos-own/parts/logo-letters-tagline/preview.mp4",
+   "sheet": "demos-own/parts/logo-letters-tagline/preview-sheet.jpg"
+  },
+  {
+   "name": "orb-toggle-pop",
+   "zh": "句中开关 · 句尾光球弹出",
+   "use": "钩子",
+   "seconds": 2.7,
+   "frames": 81,
+   "summary": "一句话中间嵌一个开关，句尾弹出一颗光球（过冲再回落），3D 光标过来点亮开关",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "orb-relay-explainer",
+   "range": [
+    0,
+    81
+   ],
+   "whole": false,
+   "code": "demos-own/parts/orb-toggle-pop/OrbTogglePop.tsx",
+   "card": "references/parts-own/orb-toggle-pop.md",
+   "preview": "demos-own/parts/orb-toggle-pop/preview.mp4",
+   "sheet": "demos-own/parts/orb-toggle-pop/preview-sheet.jpg"
+  },
+  {
+   "name": "word-swap-orbit",
+   "zh": "原地换词三次 · 光球绕字",
+   "use": "字卡",
+   "seconds": 2.3,
+   "frames": 69,
+   "summary": "句子里一个词原地硬切换三次，两颗光球绕着字越转越小越亮",
+   "entry": "硬切",
+   "note": "适合\"高效 → 聪明 → 贴心\"这类三连形容",
+   "source": "orb-relay-explainer",
+   "range": [
+    81,
+    150
+   ],
+   "whole": false,
+   "code": "demos-own/parts/word-swap-orbit/WordSwapOrbit.tsx",
+   "card": "references/parts-own/word-swap-orbit.md",
+   "preview": "demos-own/parts/word-swap-orbit/preview.mp4",
+   "sheet": "demos-own/parts/word-swap-orbit/preview-sheet.jpg"
+  },
+  {
+   "name": "glow-flood-panel-reveal",
+   "zh": "光晕胀满屏 · 面板从光里显出来",
+   "use": "转场",
+   "seconds": 2.9,
+   "frames": 88,
+   "summary": "一个词的光晕胀大到满屏变白，退光时面板从光里显影；面板换角度、里面的小球依次亮",
+   "entry": "接在上一个画面的亮点上",
+   "note": "只当转场用取前 27 帧（光晕胀满 → 退光）",
+   "source": "orb-relay-explainer",
+   "range": [
+    150,
+    238
+   ],
+   "whole": false,
+   "code": "demos-own/parts/glow-flood-panel-reveal/GlowFloodPanelReveal.tsx",
+   "card": "references/parts-own/glow-flood-panel-reveal.md",
+   "preview": "demos-own/parts/glow-flood-panel-reveal/preview.mp4",
+   "sheet": "demos-own/parts/glow-flood-panel-reveal/preview-sheet.jpg"
+  },
+  {
+   "name": "words-append-line",
+   "zh": "逐词追加 · 整行一直居中",
+   "use": "字卡",
+   "seconds": 1.5,
+   "frames": 45,
+   "summary": "一行字一个词一个词往后加，整行始终居中，新词从远处深灰靠拢变白",
+   "entry": "硬切",
+   "note": "",
+   "source": "orb-relay-explainer",
+   "range": [
+    238,
+    283
+   ],
+   "whole": false,
+   "code": "demos-own/parts/words-append-line/WordsAppendLine.tsx",
+   "card": "references/parts-own/words-append-line.md",
+   "preview": "demos-own/parts/words-append-line/preview.mp4",
+   "sheet": "demos-own/parts/words-append-line/preview-sheet.jpg"
+  },
+  {
+   "name": "file-cards-swallow",
+   "zh": "文件卡升起被圆吞掉",
+   "use": "功能演示",
+   "seconds": 2.7,
+   "frames": 80,
+   "summary": "资料库卡慢推，三张文件卡从底下升起、顶端渐隐，被上方的圆吞进去",
+   "entry": "硬切",
+   "note": "",
+   "source": "orb-relay-explainer",
+   "range": [
+    283,
+    363
+   ],
+   "whole": false,
+   "code": "demos-own/parts/file-cards-swallow/FileCardsSwallow.tsx",
+   "card": "references/parts-own/file-cards-swallow.md",
+   "preview": "demos-own/parts/file-cards-swallow/preview.mp4",
+   "sheet": "demos-own/parts/file-cards-swallow/preview-sheet.jpg"
+  },
+  {
+   "name": "circle-to-progress-bar",
+   "zh": "圆被擀成进度条",
+   "use": "功能演示",
+   "seconds": 2.6,
+   "frames": 78,
+   "summary": "圆 → 透镜 → 胶囊 → 细条，进度条缓出走满、冒光点，卡片前后摆一下",
+   "entry": "接上一拍的圆",
+   "note": "",
+   "source": "orb-relay-explainer",
+   "range": [
+    363,
+    441
+   ],
+   "whole": false,
+   "code": "demos-own/parts/circle-to-progress-bar/CircleToProgressBar.tsx",
+   "card": "references/parts-own/circle-to-progress-bar.md",
+   "preview": "demos-own/parts/circle-to-progress-bar/preview.mp4",
+   "sheet": "demos-own/parts/circle-to-progress-bar/preview-sheet.jpg"
+  },
+  {
+   "name": "list-grow-toggles",
+   "zh": "卡片长成列表 · 关掉两行开关",
+   "use": "功能演示",
+   "seconds": 2.2,
+   "frames": 65,
+   "summary": "卡片长成文件列表，光标关掉其中两行的开关",
+   "entry": "接上一拍的卡片",
+   "note": "",
+   "source": "orb-relay-explainer",
+   "range": [
+    441,
+    506
+   ],
+   "whole": false,
+   "code": "demos-own/parts/list-grow-toggles/ListGrowToggles.tsx",
+   "card": "references/parts-own/list-grow-toggles.md",
+   "preview": "demos-own/parts/list-grow-toggles/preview.mp4",
+   "sheet": "demos-own/parts/list-grow-toggles/preview-sheet.jpg"
+  },
+  {
+   "name": "jelly-orb-around-title",
+   "zh": "果冻球绕标题一圈冲出去",
+   "use": "过渡动作",
+   "seconds": 1.7,
+   "frames": 52,
+   "summary": "一颗果冻球从底边冲上来绕标题一圈，挤开词缝冲出顶部，最后一整帧全黑",
+   "entry": "硬切",
+   "note": "结尾的全黑帧是给下一镜接的",
+   "source": "orb-relay-explainer",
+   "range": [
+    506,
+    558
+   ],
+   "whole": false,
+   "code": "demos-own/parts/jelly-orb-around-title/JellyOrbAroundTitle.tsx",
+   "card": "references/parts-own/jelly-orb-around-title.md",
+   "preview": "demos-own/parts/jelly-orb-around-title/preview.mp4",
+   "sheet": "demos-own/parts/jelly-orb-around-title/preview-sheet.jpg"
+  },
+  {
+   "name": "orb-to-button-card",
+   "zh": "光球变按钮再变卡片",
+   "use": "结果登场",
+   "seconds": 2.0,
+   "frames": 59,
+   "summary": "玻璃球从底部升起，投影光晕、冲击光环，变成圆角方块再变按钮，冷却成卡片、长出输入框打字",
+   "entry": "接在全黑帧后",
+   "note": "",
+   "source": "orb-relay-explainer",
+   "range": [
+    558,
+    617
+   ],
+   "whole": false,
+   "code": "demos-own/parts/orb-to-button-card/OrbToButtonCard.tsx",
+   "card": "references/parts-own/orb-to-button-card.md",
+   "preview": "demos-own/parts/orb-to-button-card/preview.mp4",
+   "sheet": "demos-own/parts/orb-to-button-card/preview-sheet.jpg"
+  },
+  {
+   "name": "bead-ring-picker",
+   "zh": "串珠成环 · 光标挨个悬停选一个",
+   "use": "功能演示",
+   "seconds": 5.5,
+   "frames": 166,
+   "summary": "小球冒出串成一圈珠子，3D 光标翻转着挨个悬停，选中一个，环先撑大再吸回卡片",
+   "entry": "接上一拍的卡片",
+   "note": "5.5 秒，较长；适合\"选一个风格 / 语气\"",
+   "source": "orb-relay-explainer",
+   "range": [
+    617,
+    783
+   ],
+   "whole": false,
+   "code": "demos-own/parts/bead-ring-picker/BeadRingPicker.tsx",
+   "card": "references/parts-own/bead-ring-picker.md",
+   "preview": "demos-own/parts/bead-ring-picker/preview.mp4",
+   "sheet": "demos-own/parts/bead-ring-picker/preview-sheet.jpg"
+  },
+  {
+   "name": "big-lines-slam-exit",
+   "zh": "两行大字缩小落定 · 猛推出画",
+   "use": "字卡",
+   "seconds": 1.7,
+   "frames": 50,
+   "summary": "两行大字从 1.4 倍带长尾巴缩小落定，停住，再 2–3 帧猛推出画",
+   "entry": "硬切",
+   "note": "出画那一下可以直接接下一镜",
+   "source": "orb-relay-explainer",
+   "range": [
+    783,
+    833
+   ],
+   "whole": false,
+   "code": "demos-own/parts/big-lines-slam-exit/BigLinesSlamExit.tsx",
+   "card": "references/parts-own/big-lines-slam-exit.md",
+   "preview": "demos-own/parts/big-lines-slam-exit/preview.mp4",
+   "sheet": "demos-own/parts/big-lines-slam-exit/preview-sheet.jpg"
+  },
+  {
+   "name": "tags-ring-implode",
+   "zh": "两个标签画环 · 吸进光团爆亮",
+   "use": "转场",
+   "seconds": 3.3,
+   "frames": 100,
+   "summary": "两个标签之间上半圈虚线、下半圈实线带流光画成环，往外撑一下再急吸进中心光团，光团爆亮到近满屏",
+   "entry": "硬切",
+   "note": "爆亮那一帧接下一镜",
+   "source": "orb-relay-explainer",
+   "range": [
+    833,
+    933
+   ],
+   "whole": false,
+   "code": "demos-own/parts/tags-ring-implode/TagsRingImplode.tsx",
+   "card": "references/parts-own/tags-ring-implode.md",
+   "preview": "demos-own/parts/tags-ring-implode/preview.mp4",
+   "sheet": "demos-own/parts/tags-ring-implode/preview-sheet.jpg"
+  },
+  {
+   "name": "capsule-type-avatar-panel",
+   "zh": "胶囊打字变宽 · 头像长成对话面板",
+   "use": "功能演示",
+   "seconds": 5.3,
+   "frames": 160,
+   "summary": "胶囊被虚线夹住、描边亮光绕一圈；打字变宽；头像球从一个点长出，变成 3D 倾斜的对话面板，上滑出画",
+   "entry": "接在爆亮后",
+   "note": "",
+   "source": "orb-relay-explainer",
+   "range": [
+    930,
+    1090
+   ],
+   "whole": false,
+   "code": "demos-own/parts/capsule-type-avatar-panel/CapsuleTypeAvatarPanel.tsx",
+   "card": "references/parts-own/capsule-type-avatar-panel.md",
+   "preview": "demos-own/parts/capsule-type-avatar-panel/preview.mp4",
+   "sheet": "demos-own/parts/capsule-type-avatar-panel/preview-sheet.jpg"
+  },
+  {
+   "name": "wordmark-orb-period",
+   "zh": "光球绕字标落成句点",
+   "use": "品牌落版",
+   "seconds": 3.7,
+   "frames": 111,
+   "summary": "硬切到字标，光球绕字标一圈越跑越小，顶进字缝变成方形句点，扫光从落点往左",
+   "entry": "硬切",
+   "note": "",
+   "source": "orb-relay-explainer",
+   "range": [
+    1090,
+    1201
+   ],
+   "whole": false,
+   "code": "demos-own/parts/wordmark-orb-period/WordmarkOrbPeriod.tsx",
+   "card": "references/parts-own/wordmark-orb-period.md",
+   "preview": "demos-own/parts/wordmark-orb-period/preview.mp4",
+   "sheet": "demos-own/parts/wordmark-orb-period/preview-sheet.jpg"
+  },
+  {
+   "name": "button-grow-sphere-spin",
+   "zh": "按钮长成 3D 球 · 拖着转",
+   "use": "功能演示",
+   "seconds": 5.5,
+   "frames": 164,
+   "summary": "点按钮，图标淡掉，玻璃小球从按钮里冒出来边转边长大飞到输入框上方；光标拖着球横转、反转、斜翻",
+   "entry": "光标已在按钮上",
+   "note": "弹出必须是\"从按钮里长出来\"，不能淡入",
+   "source": "sticker-sphere-picker",
+   "range": [
+    22,
+    186
+   ],
+   "whole": false,
+   "code": "demos-own/parts/button-grow-sphere-spin/ButtonGrowSphereSpin.tsx",
+   "card": "references/parts-own/button-grow-sphere-spin.md",
+   "preview": "demos-own/parts/button-grow-sphere-spin/preview.mp4",
+   "sheet": "demos-own/parts/button-grow-sphere-spin/preview-sheet.jpg"
+  },
+  {
+   "name": "sphere-search-filter",
+   "zh": "打字筛选 · 不匹配的原地变暗",
+   "use": "功能演示",
+   "seconds": 4.8,
+   "frames": 144,
+   "summary": "弯曲的搜索胶囊沿球外圈打字变长，不匹配的原地变暗；上下键切换时计数先变、球滞后才转到结果",
+   "entry": "接上一拍的球",
+   "note": "",
+   "source": "sticker-sphere-picker",
+   "range": [
+    186,
+    330
+   ],
+   "whole": false,
+   "code": "demos-own/parts/sphere-search-filter/SphereSearchFilter.tsx",
+   "card": "references/parts-own/sphere-search-filter.md",
+   "preview": "demos-own/parts/sphere-search-filter/preview.mp4",
+   "sheet": "demos-own/parts/sphere-search-filter/preview-sheet.jpg"
+  },
+  {
+   "name": "triple-click-insert",
+   "zh": "连点三下插入",
+   "use": "点击确认",
+   "seconds": 1.5,
+   "frames": 44,
+   "summary": "小手悬停放大，连点三下，每下\"按下 → 猛弹 → 回位\"，输入框里瞬间多一个",
+   "entry": "接上一拍的球",
+   "note": "",
+   "source": "sticker-sphere-picker",
+   "range": [
+    336,
+    380
+   ],
+   "whole": false,
+   "code": "demos-own/parts/triple-click-insert/TripleClickInsert.tsx",
+   "card": "references/parts-own/triple-click-insert.md",
+   "preview": "demos-own/parts/triple-click-insert/preview.mp4",
+   "sheet": "demos-own/parts/triple-click-insert/preview-sheet.jpg"
+  },
+  {
+   "name": "sphere-collapse-back",
+   "zh": "球缩回按钮",
+   "use": "过渡动作",
+   "seconds": 1.9,
+   "frames": 56,
+   "summary": "按两次 Esc：搜索清空全部亮回，球缩小变玻璃飞回按钮，图标重现",
+   "entry": "接上一拍的球",
+   "note": "",
+   "source": "sticker-sphere-picker",
+   "range": [
+    429,
+    485
+   ],
+   "whole": false,
+   "code": "demos-own/parts/sphere-collapse-back/SphereCollapseBack.tsx",
+   "card": "references/parts-own/sphere-collapse-back.md",
+   "preview": "demos-own/parts/sphere-collapse-back/preview.mp4",
+   "sheet": "demos-own/parts/sphere-collapse-back/preview-sheet.jpg"
+  },
+  {
+   "name": "filter-words-profile-roll",
+   "zh": "左边换筛选词 · 右边资料卡滚",
+   "use": "钩子",
+   "seconds": 2.2,
+   "frames": 66,
+   "summary": "左边筛选词原地换三次，右边资料卡慢滚、猛跳下一张，蓝色选中底刷过",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "search-pick-shortlist",
+   "range": [
+    0,
+    66
+   ],
+   "whole": false,
+   "code": "demos-own/parts/filter-words-profile-roll/FilterWordsProfileRoll.tsx",
+   "card": "references/parts-own/filter-words-profile-roll.md",
+   "preview": "demos-own/parts/filter-words-profile-roll/preview.mp4",
+   "sheet": "demos-own/parts/filter-words-profile-roll/preview-sheet.jpg"
+  },
+  {
+   "name": "defocus-cut-searchbar-type",
+   "zh": "失焦硬切到搜索框 · 打字点发送",
+   "use": "输入",
+   "seconds": 2.5,
+   "frames": 75,
+   "summary": "整屏失焦轻缩，硬切到白底搜索框（一出来就是虚的），字一块块蹦出，光标转身横移到发送键按下",
+   "entry": "失焦爬坡硬切",
+   "note": "",
+   "source": "search-pick-shortlist",
+   "range": [
+    66,
+    141
+   ],
+   "whole": false,
+   "code": "demos-own/parts/defocus-cut-searchbar-type/DefocusCutSearchbarType.tsx",
+   "card": "references/parts-own/defocus-cut-searchbar-type.md",
+   "preview": "demos-own/parts/defocus-cut-searchbar-type/preview.mp4",
+   "sheet": "demos-own/parts/defocus-cut-searchbar-type/preview-sheet.jpg"
+  },
+  {
+   "name": "rows-slide-multi-cursor-pick",
+   "zh": "资料卡整排交错滑入 · 多个光标点选",
+   "use": "列举",
+   "seconds": 3.3,
+   "frames": 99,
+   "summary": "搜索框缩小被中间一排卡挤走，上排从右、下排从左\"嗖\"地滑进铺满，急停后慢漂；四个光标错开点选，有一个选了又退选",
+   "entry": "接上一拍的搜索框",
+   "note": "卡片是整排左右交错滑入，不能放射炸开",
+   "source": "search-pick-shortlist",
+   "range": [
+    141,
+    240
+   ],
+   "whole": false,
+   "code": "demos-own/parts/rows-slide-multi-cursor-pick/RowsSlideMultiCursorPick.tsx",
+   "card": "references/parts-own/rows-slide-multi-cursor-pick.md",
+   "preview": "demos-own/parts/rows-slide-multi-cursor-pick/preview.mp4",
+   "sheet": "demos-own/parts/rows-slide-multi-cursor-pick/preview-sheet.jpg"
+  },
+  {
+   "name": "picked-cards-expand",
+   "zh": "没选中的退成虚影 · 选中的展开详情",
+   "use": "功能演示",
+   "seconds": 3.4,
+   "frames": 102,
+   "summary": "没选中的卡一层层退成背景虚影，倾斜归零；选中的三张摆正散开，字段每帧一行往下长，\"高度匹配\"错开弹出",
+   "entry": "接上一拍的卡片墙",
+   "note": "",
+   "source": "search-pick-shortlist",
+   "range": [
+    237,
+    339
+   ],
+   "whole": false,
+   "code": "demos-own/parts/picked-cards-expand/PickedCardsExpand.tsx",
+   "card": "references/parts-own/picked-cards-expand.md",
+   "preview": "demos-own/parts/picked-cards-expand/preview.mp4",
+   "sheet": "demos-own/parts/picked-cards-expand/preview-sheet.jpg"
+  },
+  {
+   "name": "cards-to-shortlist-table",
+   "zh": "卡缩成小条落进名单",
+   "use": "结果登场",
+   "seconds": 2.4,
+   "frames": 72,
+   "summary": "卡的字段从下往上收、缩成小条竖叠，一条条落进表格 → 浅蓝骨架条 → 扫光填字 → 绿勾",
+   "entry": "接上一拍的三张卡",
+   "note": "小条 → 落 → 骨架 → 扫光 → 勾，一步都不能省",
+   "source": "search-pick-shortlist",
+   "range": [
+    339,
+    411
+   ],
+   "whole": false,
+   "code": "demos-own/parts/cards-to-shortlist-table/CardsToShortlistTable.tsx",
+   "card": "references/parts-own/cards-to-shortlist-table.md",
+   "preview": "demos-own/parts/cards-to-shortlist-table/preview.mp4",
+   "sheet": "demos-own/parts/cards-to-shortlist-table/preview-sheet.jpg"
+  },
+  {
+   "name": "three-words-title",
+   "zh": "三词标题逐词浮现",
+   "use": "字卡",
+   "seconds": 1.7,
+   "frames": 50,
+   "summary": "\"找到。看懂。约上。\"三个词逐个浮现，停住极慢后拉，再加速后拉切走",
+   "entry": "接上一拍",
+   "note": "",
+   "source": "search-pick-shortlist",
+   "range": [
+    411,
+    461
+   ],
+   "whole": false,
+   "code": "demos-own/parts/three-words-title/ThreeWordsTitle.tsx",
+   "card": "references/parts-own/three-words-title.md",
+   "preview": "demos-own/parts/three-words-title/preview.mp4",
+   "sheet": "demos-own/parts/three-words-title/preview-sheet.jpg"
+  },
+  {
+   "name": "quote-new-search-push",
+   "zh": "金句 · 新搜索框冲上来再打一句",
+   "use": "钩子",
+   "seconds": 3.8,
+   "frames": 114,
+   "summary": "硬切白底，金句逐词上浮；新搜索框从下冲上来，打第二句同时慢推，冲近发送键按下，玻璃高光",
+   "entry": "硬切",
+   "note": "",
+   "source": "search-pick-shortlist",
+   "range": [
+    461,
+    575
+   ],
+   "whole": false,
+   "code": "demos-own/parts/quote-new-search-push/QuoteNewSearchPush.tsx",
+   "card": "references/parts-own/quote-new-search-push.md",
+   "preview": "demos-own/parts/quote-new-search-push/preview.mp4",
+   "sheet": "demos-own/parts/quote-new-search-push/preview-sheet.jpg"
+  },
+  {
+   "name": "wall-pullback-pushin",
+   "zh": "单卡急拉远成墙 · 慢推到下一张",
+   "use": "列举",
+   "seconds": 3.4,
+   "frames": 102,
+   "summary": "一张卡一帧急拉远，露出整面联系人卡片墙，几个指针各自漂；慢推右移到另一张卡，最后一帧急推",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "invite-wall-to-chat",
+   "range": [
+    0,
+    102
+   ],
+   "whole": false,
+   "code": "demos-own/parts/wall-pullback-pushin/WallPullbackPushin.tsx",
+   "card": "references/parts-own/wall-pullback-pushin.md",
+   "preview": "demos-own/parts/wall-pullback-pushin/preview.mp4",
+   "sheet": "demos-own/parts/wall-pullback-pushin/preview-sheet.jpg"
+  },
+  {
+   "name": "big-card-liquid-invite",
+   "zh": "大卡信息逐行变实 · 点\"邀请\"出光泡",
+   "use": "点击确认",
+   "seconds": 2.2,
+   "frames": 66,
+   "summary": "硬切到干净大卡，信息逐行由浅灰模糊变深；慢推，点\"邀请\"，液态光泡擦出\"已邀请\"",
+   "entry": "急推硬切",
+   "note": "",
+   "source": "invite-wall-to-chat",
+   "range": [
+    102,
+    168
+   ],
+   "whole": false,
+   "code": "demos-own/parts/big-card-liquid-invite/BigCardLiquidInvite.tsx",
+   "card": "references/parts-own/big-card-liquid-invite.md",
+   "preview": "demos-own/parts/big-card-liquid-invite/preview.mp4",
+   "sheet": "demos-own/parts/big-card-liquid-invite/preview-sheet.jpg"
+  },
+  {
+   "name": "blur-swap-stream-write",
+   "zh": "虚化换场 · 流式写出一段话",
+   "use": "功能演示",
+   "seconds": 2.7,
+   "frames": 80,
+   "summary": "资料卡失焦放大变淡，消息卡从右上虚着进来落定；正文流式生成带渐变尾巴，卡片变高，镜头跟着写到的那一行",
+   "entry": "虚化转场（自带）",
+   "note": "AI 写东西的画面用这个",
+   "source": "invite-wall-to-chat",
+   "range": [
+    166,
+    246
+   ],
+   "whole": false,
+   "code": "demos-own/parts/blur-swap-stream-write/BlurSwapStreamWrite.tsx",
+   "card": "references/parts-own/blur-swap-stream-write.md",
+   "preview": "demos-own/parts/blur-swap-stream-write/preview.mp4",
+   "sheet": "demos-own/parts/blur-swap-stream-write/preview-sheet.jpg"
+  },
+  {
+   "name": "send-tone-dropdown",
+   "zh": "全部发送 · 下拉选语气",
+   "use": "点击确认",
+   "seconds": 1.3,
+   "frames": 40,
+   "summary": "按\"全部发送\"出光泡变\"已发送\"；语气下拉从卡后面滑出，选项一帧一项，指针弧线飞过去点选出蓝勾",
+   "entry": "接上一拍",
+   "note": "",
+   "source": "invite-wall-to-chat",
+   "range": [
+    243,
+    283
+   ],
+   "whole": false,
+   "code": "demos-own/parts/send-tone-dropdown/SendToneDropdown.tsx",
+   "card": "references/parts-own/send-tone-dropdown.md",
+   "preview": "demos-own/parts/send-tone-dropdown/preview.mp4",
+   "sheet": "demos-own/parts/send-tone-dropdown/preview-sheet.jpg"
+  },
+  {
+   "name": "success-card-avatars-pop",
+   "zh": "成功卡 · 头像一个个弹出",
+   "use": "证据",
+   "seconds": 1.5,
+   "frames": 45,
+   "summary": "蓝勾从小点弹出，词逐个由浅变深，四个头像每 2 帧从小点弹出（过冲、互相压着），最后是\"+21\"",
+   "entry": "加速推近硬切",
+   "note": "数量证据用",
+   "source": "invite-wall-to-chat",
+   "range": [
+    283,
+    328
+   ],
+   "whole": false,
+   "code": "demos-own/parts/success-card-avatars-pop/SuccessCardAvatarsPop.tsx",
+   "card": "references/parts-own/success-card-avatars-pop.md",
+   "preview": "demos-own/parts/success-card-avatars-pop/preview.mp4",
+   "sheet": "demos-own/parts/success-card-avatars-pop/preview-sheet.jpg"
+  },
+  {
+   "name": "title-reply-cards-fly",
+   "zh": "三词标题 · 三张回复卡飞入",
+   "use": "字卡",
+   "seconds": 2.4,
+   "frames": 72,
+   "summary": "硬切暖白底，三词标题逐词先虚后实、整行居中；标题上移，三张回复卡从右下依次 3D 飞入，各自倾斜不同",
+   "entry": "硬切",
+   "note": "",
+   "source": "invite-wall-to-chat",
+   "range": [
+    328,
+    400
+   ],
+   "whole": false,
+   "code": "demos-own/parts/title-reply-cards-fly/TitleReplyCardsFly.tsx",
+   "card": "references/parts-own/title-reply-cards-fly.md",
+   "preview": "demos-own/parts/title-reply-cards-fly/preview.mp4",
+   "sheet": "demos-own/parts/title-reply-cards-fly/preview-sheet.jpg"
+  },
+  {
+   "name": "cards-fly-into-app",
+   "zh": "三张卡飘进应用界面落位",
+   "use": "结果登场",
+   "seconds": 2.5,
+   "frames": 76,
+   "summary": "硬切到聊天应用（先虚后实），三张卡成一串斜着飘进来、放平、散开、各自落位，扫光骨架变成真实消息",
+   "entry": "失焦硬切",
+   "note": "",
+   "source": "invite-wall-to-chat",
+   "range": [
+    400,
+    476
+   ],
+   "whole": false,
+   "code": "demos-own/parts/cards-fly-into-app/CardsFlyIntoApp.tsx",
+   "card": "references/parts-own/cards-fly-into-app.md",
+   "preview": "demos-own/parts/cards-fly-into-app/preview.mp4",
+   "sheet": "demos-own/parts/cards-fly-into-app/preview-sheet.jpg"
+  },
+  {
+   "name": "big-type-zoomout-send",
+   "zh": "大字拉远成输入框 · 点发送被吸进去",
+   "use": "输入",
+   "seconds": 4.3,
+   "frames": 128,
+   "summary": "一句需求从 4.5 倍大字开始打，拉远成输入框，字流式冒出变实；发送钮点亮，手形光标按下，输入框往中心吸进去",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "prompt-pages-pill-reveal",
+   "range": [
+    0,
+    128
+   ],
+   "whole": false,
+   "code": "demos-own/parts/big-type-zoomout-send/BigTypeZoomoutSend.tsx",
+   "card": "references/parts-own/big-type-zoomout-send.md",
+   "preview": "demos-own/parts/big-type-zoomout-send/preview.mp4",
+   "sheet": "demos-own/parts/big-type-zoomout-send/preview-sheet.jpg"
+  },
+  {
+   "name": "pages-pop-fan-out",
+   "zh": "页面从一个点弹出 · 散成四页",
+   "use": "结果登场",
+   "seconds": 3.2,
+   "frames": 97,
+   "summary": "首页从输入框的中心弹出，慢推；三张页面从身后抽出散开，静漂，再冲进去",
+   "entry": "接上一拍吸进去的点",
+   "note": "",
+   "source": "prompt-pages-pill-reveal",
+   "range": [
+    125,
+    222
+   ],
+   "whole": false,
+   "code": "demos-own/parts/pages-pop-fan-out/PagesPopFanOut.tsx",
+   "card": "references/parts-own/pages-pop-fan-out.md",
+   "preview": "demos-own/parts/pages-pop-fan-out/preview.mp4",
+   "sheet": "demos-own/parts/pages-pop-fan-out/preview-sheet.jpg"
+  },
+  {
+   "name": "words-fly-pill-open",
+   "zh": "大字飞来 · 柔边擦掉 · 胶囊撑开一句话",
+   "use": "字卡",
+   "seconds": 3.6,
+   "frames": 108,
+   "summary": "三块大字先后从中心飞来减速停住，柔边擦除，胶囊从中线撑开、三组字浮起，停住读完，胶囊缩回",
+   "entry": "接上一拍冲进去",
+   "note": "",
+   "source": "prompt-pages-pill-reveal",
+   "range": [
+    213,
+    321
+   ],
+   "whole": false,
+   "code": "demos-own/parts/words-fly-pill-open/WordsFlyPillOpen.tsx",
+   "card": "references/parts-own/words-fly-pill-open.md",
+   "preview": "demos-own/parts/words-fly-pill-open/preview.mp4",
+   "sheet": "demos-own/parts/words-fly-pill-open/preview-sheet.jpg"
+  },
+  {
+   "name": "star-intro-name-lockup",
+   "zh": "\"隆重介绍\" · 冲进字缝 · 产品名升起",
+   "use": "品牌落版",
+   "seconds": 4.7,
+   "frames": 140,
+   "summary": "星纹从胶囊背后长出旋转，\"隆重介绍\"两帧一字打出，慢推后冲进字缝；产品名三帧一个字从底下升起，硬切到 Logo 落版",
+   "entry": "接上一拍缩回的胶囊",
+   "note": "",
+   "source": "prompt-pages-pill-reveal",
+   "range": [
+    316,
+    456
+   ],
+   "whole": false,
+   "code": "demos-own/parts/star-intro-name-lockup/StarIntroNameLockup.tsx",
+   "card": "references/parts-own/star-intro-name-lockup.md",
+   "preview": "demos-own/parts/star-intro-name-lockup/preview.mp4",
+   "sheet": "demos-own/parts/star-intro-name-lockup/preview-sheet.jpg"
+  },
+  {
+   "name": "input-closeup-send-drop",
+   "zh": "输入框特写 · 打字 · 横冲点发送",
+   "use": "输入",
+   "seconds": 1.9,
+   "frames": 58,
+   "summary": "硬切输入框特写，光标指上、转身、打字，横冲向发送键停 0.25 秒按下，输入框从光标下面掉走",
+   "entry": "硬切",
+   "note": "",
+   "source": "agent-browse-match",
+   "range": [
+    38,
+    96
+   ],
+   "whole": false,
+   "code": "demos-own/parts/input-closeup-send-drop/InputCloseupSendDrop.tsx",
+   "card": "references/parts-own/input-closeup-send-drop.md",
+   "preview": "demos-own/parts/input-closeup-send-drop/preview.mp4",
+   "sheet": "demos-own/parts/input-closeup-send-drop/preview-sheet.jpg"
+  },
+  {
+   "name": "agent-panel-open-posts",
+   "zh": "小面板弹出撑大 · 帖子卡依次弹出",
+   "use": "功能演示",
+   "seconds": 4.2,
+   "frames": 125,
+   "summary": "消息发出后右上弹出深灰小面板，2 帧猛推近，面板变亮、撑大，里面先骨架再弹出三张帖子卡，各自左右错开",
+   "entry": "硬切",
+   "note": "AI 自己去翻网页的画面用这个",
+   "source": "agent-browse-match",
+   "range": [
+    96,
+    221
+   ],
+   "whole": false,
+   "code": "demos-own/parts/agent-panel-open-posts/AgentPanelOpenPosts.tsx",
+   "card": "references/parts-own/agent-panel-open-posts.md",
+   "preview": "demos-own/parts/agent-panel-open-posts/preview.mp4",
+   "sheet": "demos-own/parts/agent-panel-open-posts/preview-sheet.jpg"
+  },
+  {
+   "name": "floating-cards-cursors",
+   "zh": "卡片变漂浮卡 · 几个光标逐张看",
+   "use": "功能演示",
+   "seconds": 2.7,
+   "frames": 81,
+   "summary": "硬切渐变底，三张卡变半透明漂浮卡，标题逐词被卡片揭开；镜头上漂、新卡进场，三个光标各看各的",
+   "entry": "硬切",
+   "note": "",
+   "source": "agent-browse-match",
+   "range": [
+    221,
+    302
+   ],
+   "whole": false,
+   "code": "demos-own/parts/floating-cards-cursors/FloatingCardsCursors.tsx",
+   "card": "references/parts-own/floating-cards-cursors.md",
+   "preview": "demos-own/parts/floating-cards-cursors/preview.mp4",
+   "sheet": "demos-own/parts/floating-cards-cursors/preview-sheet.jpg"
+  },
+  {
+   "name": "detail-drag-select-match",
+   "zh": "详情页 · 拖选关键词 · 条件一条条对上",
+   "use": "证据",
+   "seconds": 3.0,
+   "frames": 90,
+   "summary": "硬切详情页，左边大字逐词出，光标从右往左拖选关键词（浅蓝变深蓝加选框），页面滚动和左边换词同一帧",
+   "entry": "硬切",
+   "note": "\"它找到的真的符合你的要求\"",
+   "source": "agent-browse-match",
+   "range": [
+    302,
+    392
+   ],
+   "whole": false,
+   "code": "demos-own/parts/detail-drag-select-match/DetailDragSelectMatch.tsx",
+   "card": "references/parts-own/detail-drag-select-match.md",
+   "preview": "demos-own/parts/detail-drag-select-match/preview.mp4",
+   "sheet": "demos-own/parts/detail-drag-select-match/preview-sheet.jpg"
+  },
+  {
+   "name": "complaint-wall-cursors-pick",
+   "zh": "吐槽墙整排滑入 · 三个光标各挑一条",
+   "use": "痛点",
+   "seconds": 3.3,
+   "frames": 99,
+   "summary": "评论卡整排左右交错滑进来铺满斜墙，三个带名字的彩色光标各挑中一条吐槽",
+   "entry": "接在搜索框后面",
+   "note": "痛点开场：把真实吐槽原话放进卡里",
+   "source": "complaint-wall-pick",
+   "range": [
+    62,
+    161
+   ],
+   "whole": false,
+   "code": "demos-own/parts/complaint-wall-cursors-pick/ComplaintWallCursorsPick.tsx",
+   "card": "references/parts-own/complaint-wall-cursors-pick.md",
+   "preview": "demos-own/parts/complaint-wall-cursors-pick/preview.mp4",
+   "sheet": "demos-own/parts/complaint-wall-cursors-pick/preview-sheet.jpg"
+  },
+  {
+   "name": "complaints-to-top3",
+   "zh": "挑中的展开 · 收成\"最痛的 3 条\"",
+   "use": "痛点",
+   "seconds": 5.8,
+   "frames": 174,
+   "summary": "没挑中的退成虚影，挑中的三条展开成证据卡，再缩成小条落进清单、扫光填字",
+   "entry": "接上一拍的墙",
+   "note": "5.8 秒，较长",
+   "source": "complaint-wall-pick",
+   "range": [
+    158,
+    332
+   ],
+   "whole": false,
+   "code": "demos-own/parts/complaints-to-top3/ComplaintsToTop3.tsx",
+   "card": "references/parts-own/complaints-to-top3.md",
+   "preview": "demos-own/parts/complaints-to-top3/preview.mp4",
+   "sheet": "demos-own/parts/complaints-to-top3/preview-sheet.jpg"
+  },
+  {
+   "name": "button-expand-create-card",
+   "zh": "按钮撑开成新建卡 · 打字出标签",
+   "use": "功能演示",
+   "seconds": 5.8,
+   "frames": 173,
+   "summary": "大字逐字出，光标点按钮，按钮原地撑开成新建卡；输入一句话自动出三个标签，点确定后卡变成列表",
+   "entry": "第一帧开始",
+   "note": "5.8 秒，较长；只要\"按钮撑开成卡\"取 35–100 帧",
+   "source": "task-card-three-verbs",
+   "range": [
+    0,
+    173
+   ],
+   "whole": false,
+   "code": "demos-own/parts/button-expand-create-card/ButtonExpandCreateCard.tsx",
+   "card": "references/parts-own/button-expand-create-card.md",
+   "preview": "demos-own/parts/button-expand-create-card/preview.mp4",
+   "sheet": "demos-own/parts/button-expand-create-card/preview-sheet.jpg"
+  },
+  {
+   "name": "whip-word-drag-sort",
+   "zh": "甩糊换词 · 拖一行到顶",
+   "use": "功能演示",
+   "seconds": 2.0,
+   "frames": 61,
+   "summary": "大字甩糊换成下一个词，光标拿起列表第三行拖到顶放下",
+   "entry": "甩糊（自带）",
+   "note": "",
+   "source": "task-card-three-verbs",
+   "range": [
+    173,
+    234
+   ],
+   "whole": false,
+   "code": "demos-own/parts/whip-word-drag-sort/WhipWordDragSort.tsx",
+   "card": "references/parts-own/whip-word-drag-sort.md",
+   "preview": "demos-own/parts/whip-word-drag-sort/preview.mp4",
+   "sheet": "demos-own/parts/whip-word-drag-sort/preview-sheet.jpg"
+  },
+  {
+   "name": "word-roll-side-card-edit",
+   "zh": "滚词 · 侧卡滑入改一个值",
+   "use": "功能演示",
+   "seconds": 2.1,
+   "frames": 62,
+   "summary": "大字竖向滚到下一个词，侧卡晚半拍带横糊滑入；点时间字段，旧值上浮淡出、新值淡入，列表同步",
+   "entry": "接上一拍",
+   "note": "字先动、界面晚半拍",
+   "source": "task-card-three-verbs",
+   "range": [
+    234,
+    296
+   ],
+   "whole": false,
+   "code": "demos-own/parts/word-roll-side-card-edit/WordRollSideCardEdit.tsx",
+   "card": "references/parts-own/word-roll-side-card-edit.md",
+   "preview": "demos-own/parts/word-roll-side-card-edit/preview.mp4",
+   "sheet": "demos-own/parts/word-roll-side-card-edit/preview-sheet.jpg"
+  },
+  {
+   "name": "check-confetti-done",
+   "zh": "打勾 · 彩纸 · \"已完成\"胶囊",
+   "use": "证据",
+   "seconds": 2.5,
+   "frames": 74,
+   "summary": "滚词变蓝，光标按下变实心加彩纸，白勾写出、删除线划过，胶囊和计数跟着变，彩纸飘落淡出",
+   "entry": "接上一拍",
+   "note": "\"搞定了\"的那一下",
+   "source": "task-card-three-verbs",
+   "range": [
+    296,
+    370
+   ],
+   "whole": false,
+   "code": "demos-own/parts/check-confetti-done/CheckConfettiDone.tsx",
+   "card": "references/parts-own/check-confetti-done.md",
+   "preview": "demos-own/parts/check-confetti-done/preview.mp4",
+   "sheet": "demos-own/parts/check-confetti-done/preview-sheet.jpg"
+  },
+  {
+   "name": "carousel-pass-whip",
+   "zh": "弯曲轮播匀速滑 · 甩一下",
+   "use": "列举",
+   "seconds": 6.0,
+   "frames": 180,
+   "summary": "一排卡贴在圆筒内壁上从右往左滑，中间平、两边拉高拖虚带色散，中途\"甩一下\"加速",
+   "entry": "已经在滑",
+   "note": "外框类：卡里放什么自己定，卡数减到 4–6 张；卡里的内容要在卡经过正中时演到高潮",
+   "source": "curved-carousel-reel",
+   "range": [
+    300,
+    480
+   ],
+   "whole": false,
+   "code": "demos-own/parts/carousel-pass-whip/CarouselPassWhip.tsx",
+   "card": "references/parts-own/carousel-pass-whip.md",
+   "preview": "demos-own/parts/carousel-pass-whip/preview.mp4",
+   "sheet": "demos-own/parts/carousel-pass-whip/preview-sheet.jpg"
+  },
+  {
+   "name": "carousel-settle-logo",
+   "zh": "轮播减速 · Logo 卡停在正中",
+   "use": "品牌落版",
+   "seconds": 6.0,
+   "frames": 180,
+   "summary": "轮播减速，最后一张 Logo 卡停在正中，停住",
+   "entry": "接着轮播",
+   "note": "",
+   "source": "curved-carousel-reel",
+   "range": [
+    1200,
+    1380
+   ],
+   "whole": false,
+   "code": "demos-own/parts/carousel-settle-logo/CarouselSettleLogo.tsx",
+   "card": "references/parts-own/carousel-settle-logo.md",
+   "preview": "demos-own/parts/carousel-settle-logo/preview.mp4",
+   "sheet": "demos-own/parts/carousel-settle-logo/preview-sheet.jpg"
+  },
+  {
+   "name": "pain-lines-retype-cards",
+   "zh": "痛点句重打三次 · 小卡围过来",
+   "use": "痛点",
+   "seconds": 3.8,
+   "frames": 115,
+   "summary": "浅色柔光底上痛点句逐词出现，八张琐碎小卡从四周滑进来各自漂；整行重打三次，旧句变灰上飘、新句逐词升上来",
+   "entry": "第一帧开始",
+   "note": "三句痛点用真实吐槽原话",
+   "source": "pain-swirl-dot-logo",
+   "range": [
+    0,
+    115
+   ],
+   "whole": false,
+   "code": "demos-own/parts/pain-lines-retype-cards/PainLinesRetypeCards.tsx",
+   "card": "references/parts-own/pain-lines-retype-cards.md",
+   "preview": "demos-own/parts/pain-lines-retype-cards/preview.mp4",
+   "sheet": "demos-own/parts/pain-lines-retype-cards/preview-sheet.jpg"
+  },
+  {
+   "name": "swirl-turn-dot-flood",
+   "zh": "漩涡卷走 · 转折句 · 蓝点吞满屏",
+   "use": "转场",
+   "seconds": 1.7,
+   "frames": 52,
+   "summary": "漩涡把小卡卷进中心、标题缩没，品牌色转折句斜着逐词浮出停一下；句心长出同色圆点，指数长大吞满屏",
+   "entry": "接上一拍的痛点句",
+   "note": "纯色那两帧里硬切下一镜",
+   "source": "pain-swirl-dot-logo",
+   "range": [
+    115,
+    167
+   ],
+   "whole": false,
+   "code": "demos-own/parts/swirl-turn-dot-flood/SwirlTurnDotFlood.tsx",
+   "card": "references/parts-own/swirl-turn-dot-flood.md",
+   "preview": "demos-own/parts/swirl-turn-dot-flood/preview.mp4",
+   "sheet": "demos-own/parts/swirl-turn-dot-flood/preview-sheet.jpg"
+  },
+  {
+   "name": "sky-logo-grow-name",
+   "zh": "天空里长出 Logo · 名字抽出 · 标语",
+   "use": "品牌落版",
+   "seconds": 3.6,
+   "frames": 109,
+   "summary": "硬切深蓝天空，Logo 方块从小点边转边长出、三圈白线外扩；Logo 往左甩，名字从后面逐字抽出，标语逐词浮现，停住",
+   "entry": "纯色满屏后硬切",
+   "note": "",
+   "source": "pain-swirl-dot-logo",
+   "range": [
+    167,
+    276
+   ],
+   "whole": false,
+   "code": "demos-own/parts/sky-logo-grow-name/SkyLogoGrowName.tsx",
+   "card": "references/parts-own/sky-logo-grow-name.md",
+   "preview": "demos-own/parts/sky-logo-grow-name/preview.mp4",
+   "sheet": "demos-own/parts/sky-logo-grow-name/preview-sheet.jpg"
+  },
+  {
+   "name": "overexpose-focus-logo-podium",
+   "zh": "过曝退去对焦 · Logo 落到石台回弹",
+   "use": "品牌落版",
+   "seconds": 3.7,
+   "frames": 112,
+   "summary": "全白停住，过曝退去、整场从虚里对焦出来；Logo 由灰变墨落到圆台上回弹一次，两行字逐词出，停住时光影还在晃",
+   "entry": "接在一个过曝到白的镜头后面",
+   "note": "前面 0–150 帧就是 message-ribbon-flow",
+   "source": "ribbon-podium-intro",
+   "range": [
+    146,
+    258
+   ],
+   "whole": false,
+   "code": "demos-own/parts/overexpose-focus-logo-podium/OverexposeFocusLogoPodium.tsx",
+   "card": "references/parts-own/overexpose-focus-logo-podium.md",
+   "preview": "demos-own/parts/overexpose-focus-logo-podium/preview.mp4",
+   "sheet": "demos-own/parts/overexpose-focus-logo-podium/preview-sheet.jpg"
+  },
+  {
+   "name": "panels-assemble-low-drift",
+   "zh": "散开的面板拼回一整面 · 硬切低角度慢漂",
+   "use": "结果登场",
+   "seconds": 3.1,
+   "frames": 94,
+   "summary": "斜躺的仪表盘面板一开始是散开的，镜头一边移一边各自拼回一整面；硬切到低角度一直匀速慢漂",
+   "entry": "第一帧开始",
+   "note": "面板贴图是烘焙好的图（textures/live/dash_*.png），换产品要换贴图",
+   "source": "tilted-dashboard-pan-logo",
+   "range": [
+    0,
+    94
+   ],
+   "whole": false,
+   "code": "demos-own/parts/panels-assemble-low-drift/PanelsAssembleLowDrift.tsx",
+   "card": "references/parts-own/panels-assemble-low-drift.md",
+   "preview": "demos-own/parts/panels-assemble-low-drift/preview.mp4",
+   "sheet": "demos-own/parts/panels-assemble-low-drift/preview-sheet.jpg"
+  },
+  {
+   "name": "white-rise-logo-letters",
+   "zh": "从下往上淡成白 · Logo 逐字出",
+   "use": "品牌落版",
+   "seconds": 3.7,
+   "frames": 110,
+   "summary": "低角度慢漂的画面从下往上淡成白，同时 Logo 图形和名字逐字出，标语和底部小字跟上",
+   "entry": "接着慢漂",
+   "note": "",
+   "source": "tilted-dashboard-pan-logo",
+   "range": [
+    90,
+    200
+   ],
+   "whole": false,
+   "code": "demos-own/parts/white-rise-logo-letters/WhiteRiseLogoLetters.tsx",
+   "card": "references/parts-own/white-rise-logo-letters.md",
+   "preview": "demos-own/parts/white-rise-logo-letters/preview.mp4",
+   "sheet": "demos-own/parts/white-rise-logo-letters/preview-sheet.jpg"
+  },
+  {
+   "name": "logo-card-dissolve-tunnel",
+   "zh": "Logo 卡转正溶掉 · 色块擦出标语 · 卡片飞进隧道",
+   "use": "钩子",
+   "seconds": 4.0,
+   "frames": 120,
+   "summary": "带厚边的 Logo 卡转正缩小后溶掉，渐变色块从左往右把品牌名擦掉、把标语擦出来；热成像色卡片从画外飞上方形隧道四壁、逐张褪回原色",
+   "entry": "第一帧开始",
+   "note": "后面 120–207 帧是隧道匀速后退，可以当背景接着用",
+   "source": "card-tunnel-tagline",
+   "range": [
+    0,
+    120
+   ],
+   "whole": false,
+   "code": "demos-own/parts/logo-card-dissolve-tunnel/LogoCardDissolveTunnel.tsx",
+   "card": "references/parts-own/logo-card-dissolve-tunnel.md",
+   "preview": "demos-own/parts/logo-card-dissolve-tunnel/preview.mp4",
+   "sheet": "demos-own/parts/logo-card-dissolve-tunnel/preview-sheet.jpg"
+  },
+  {
+   "name": "benefit-lines-word-by-word",
+   "zh": "两句好处逐词出 · 拖影退场",
+   "use": "字卡",
+   "seconds": 2.9,
+   "frames": 86,
+   "summary": "第一句逐词出（浅灰带虚滑进来再变墨、整行一直居中），虚掉退场；第二句逐词出，往左拖影退场",
+   "entry": "第一帧开始",
+   "note": "两句写成对比式的好处",
+   "source": "benefit-lines-to-logo",
+   "range": [
+    0,
+    86
+   ],
+   "whole": false,
+   "code": "demos-own/parts/benefit-lines-word-by-word/BenefitLinesWordByWord.tsx",
+   "card": "references/parts-own/benefit-lines-word-by-word.md",
+   "preview": "demos-own/parts/benefit-lines-word-by-word/preview.mp4",
+   "sheet": "demos-own/parts/benefit-lines-word-by-word/preview-sheet.jpg"
+  },
+  {
+   "name": "light-shift-logo-letters",
+   "zh": "换光 · Logo 逐字由浅变深 · 两行小字",
+   "use": "品牌落版",
+   "seconds": 3.5,
+   "frames": 106,
+   "summary": "第二句退场的同时背景换光，Logo 图形和名字逐字由浅变深，整组上移，两行小字收尾，停住",
+   "entry": "接上一拍的字",
+   "note": "",
+   "source": "benefit-lines-to-logo",
+   "range": [
+    80,
+    186
+   ],
+   "whole": false,
+   "code": "demos-own/parts/light-shift-logo-letters/LightShiftLogoLetters.tsx",
+   "card": "references/parts-own/light-shift-logo-letters.md",
+   "preview": "demos-own/parts/light-shift-logo-letters/preview.mp4",
+   "sheet": "demos-own/parts/light-shift-logo-letters/preview-sheet.jpg"
+  },
+  {
+   "name": "message-ribbon-flow",
+   "zh": "通知卡飞过 · 落到飘带上一直流",
+   "use": "痛点",
+   "seconds": 5.0,
+   "frames": 150,
+   "summary": "问句先出，一大片通知卡从镜头前飞过、落到一条弯曲的 3D 飘带上一直流动，最后中间亮起光点、整屏失焦过曝转场",
+   "entry": "第一帧开始",
+   "note": "结尾过曝到白，可以接 overexpose-focus-logo-podium",
+   "source": "message-ribbon-flow",
+   "range": [
+    0,
+    150
+   ],
+   "whole": true,
+   "code": "demos-own/parts/message-ribbon-flow/MessageRibbonFlow.tsx",
+   "card": "references/parts-own/message-ribbon-flow.md",
+   "preview": "demos-own/parts/message-ribbon-flow/preview.mp4",
+   "sheet": "demos-own/parts/message-ribbon-flow/preview-sheet.jpg"
+  },
+  {
+   "name": "trail-dot-captions",
+   "zh": "绿点拖虚线前进 · 带角标的字幕接力",
+   "use": "证据",
+   "seconds": 4.3,
+   "frames": 130,
+   "summary": "黑底网格 HUD 上一颗绿点拖着虚线前进、镜头跟随（速度会\"呼吸\"但从不停），像素块硬闪、像素小蛇逐格爬，1 帧马赛克换场后，带四角角标框的字幕一帧一个词接力三句",
+   "entry": "第一帧开始",
+   "note": "首尾相接，可循环",
+   "source": "trail-dot-captions",
+   "range": [
+    0,
+    130
+   ],
+   "whole": true,
+   "code": "demos-own/parts/trail-dot-captions/TrailDotCaptions.tsx",
+   "card": "references/parts-own/trail-dot-captions.md",
+   "preview": "demos-own/parts/trail-dot-captions/preview.mp4",
+   "sheet": "demos-own/parts/trail-dot-captions/preview-sheet.jpg"
+  },
+  {
+   "name": "headline-input-to-page",
+   "zh": "发光大字横移 · 输入条长成网页",
+   "use": "结果登场",
+   "seconds": 4.0,
+   "frames": 120,
+   "summary": "巨大的发光字第 1 帧就在横移后退、揭出整句（新词先偏青发虚再变白）→ 变玻璃字上移 → 玻璃长条升起、身后撑开面板长成整个网页 → 网页缩小上移、标题反向下沉",
+   "entry": "第一帧就在动",
+   "note": "",
+   "source": "headline-input-to-page",
+   "range": [
+    0,
+    120
+   ],
+   "whole": true,
+   "code": "demos-own/parts/headline-input-to-page/HeadlineInputToPage.tsx",
+   "card": "references/parts-own/headline-input-to-page.md",
+   "preview": "demos-own/parts/headline-input-to-page/preview.mp4",
+   "sheet": "demos-own/parts/headline-input-to-page/preview-sheet.jpg"
+  },
+  {
+   "name": "card-orbit-counter",
+   "zh": "卡片绕大数字转 · 数字滚到终值",
+   "use": "证据",
+   "seconds": 3.8,
+   "frames": 114,
+   "summary": "一圈 3D 场景卡片贴在圆筒上绕着中间的大数字转（前景卡往左上变大、远景卡往右上变小、前景卡会擦过把数字挡住），数字线性滚到终值的那一刻正好镜头甩得最快，长尾减速后所有卡收进文件夹",
+   "entry": "第一帧开始",
+   "note": "数量感的证据",
+   "source": "card-orbit-counter",
+   "range": [
+    0,
+    114
+   ],
+   "whole": true,
+   "code": "demos-own/parts/card-orbit-counter/CardOrbitCounter.tsx",
+   "card": "references/parts-own/card-orbit-counter.md",
+   "preview": "demos-own/parts/card-orbit-counter/preview.mp4",
+   "sheet": "demos-own/parts/card-orbit-counter/preview-sheet.jpg"
+  },
+  {
+   "name": "mark-shrink-wordmark",
+   "zh": "大标志猛缩 · 名字逐字浮出",
+   "use": "品牌落版",
+   "seconds": 3.5,
+   "frames": 105,
+   "summary": "深藏青底上一个超大白色标志猛地缩小，名字的字从它右边一个个浮出、字距收拢，下面淡入一行小字标语，静止落版",
+   "entry": "硬切",
+   "note": "暗色片子的最后一镜",
+   "source": "mark-shrink-wordmark",
+   "range": [
+    0,
+    105
+   ],
+   "whole": true,
+   "code": "demos-own/parts/mark-shrink-wordmark/MarkShrinkWordmark.tsx",
+   "card": "references/parts-own/mark-shrink-wordmark.md",
+   "preview": "demos-own/parts/mark-shrink-wordmark/preview.mp4",
+   "sheet": "demos-own/parts/mark-shrink-wordmark/preview-sheet.jpg"
+  },
+  {
+   "name": "iso-cube-rings",
+   "zh": "线框立方体 · 拉远成方块地板换色",
+   "use": "转场",
+   "seconds": 3.2,
+   "frames": 96,
+   "summary": "黑底上一个线框立方体转着填色、缩小，镜头一下拉远成斜俯视的方块地板，一圈圈蓝白方块从外往里换色，最后拉远转正成俯视",
+   "entry": "硬切",
+   "note": "暗色、科技感",
+   "source": "iso-cube-rings",
+   "range": [
+    0,
+    96
+   ],
+   "whole": true,
+   "code": "demos-own/parts/iso-cube-rings/IsoCubeRings.tsx",
+   "card": "references/parts-own/iso-cube-rings.md",
+   "preview": "demos-own/parts/iso-cube-rings/preview.mp4",
+   "sheet": "demos-own/parts/iso-cube-rings/preview-sheet.jpg"
+  },
+  {
+   "name": "notification-scene-cuts",
+   "zh": "通知卡钉在正中 · 背后场景硬切",
+   "use": "钩子",
+   "seconds": 3.2,
+   "frames": 96,
+   "summary": "一张毛玻璃通知卡钉在正中，背后的大场景长短不一地硬切；卡先弹出字再打，光标从下方滑上来点一下，一个液态玻璃泡鼓起扫过卡面",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "notification-scene-cuts",
+   "range": [
+    0,
+    96
+   ],
+   "whole": true,
+   "code": "demos-own/parts/notification-scene-cuts/NotificationSceneCuts.tsx",
+   "card": "references/parts-own/notification-scene-cuts.md",
+   "preview": "demos-own/parts/notification-scene-cuts/preview.mp4",
+   "sheet": "demos-own/parts/notification-scene-cuts/preview-sheet.jpg"
+  },
+  {
+   "name": "task-list-ticker",
+   "zh": "任务短句转盘",
+   "use": "列举",
+   "seconds": 2.1,
+   "frames": 64,
+   "summary": "白底上一圈很大的任务短句像转盘一样转，每行左沿排在一条往右弯的弧上，每 0.28 秒往上转一行，正中那行变黑、左边一颗发光蓝球，长句被画面右沿裁掉",
+   "entry": "第一帧开始",
+   "note": "可循环",
+   "source": "task-list-ticker",
+   "range": [
+    0,
+    64
+   ],
+   "whole": true,
+   "code": "demos-own/parts/task-list-ticker/TaskListTicker.tsx",
+   "card": "references/parts-own/task-list-ticker.md",
+   "preview": "demos-own/parts/task-list-ticker/preview.mp4",
+   "sheet": "demos-own/parts/task-list-ticker/preview-sheet.jpg"
+  },
+  {
+   "name": "bookmark-tap-check",
+   "zh": "按钮点下 · 光环 · 白勾写出",
+   "use": "点击确认",
+   "seconds": 2.3,
+   "frames": 69,
+   "summary": "特写里一个白色圆按钮上的描边书签被点下：按钮一缩、书签变实心渐变，光环外扩加整屏淡紫柔光一闪，按钮放大，渐变慢慢流动，白勾写出，柔光轻轻呼吸",
+   "entry": "特写已经对着按钮",
+   "note": "组件名 BookmarkTap",
+   "source": "itinerary-scroll-bookmark",
+   "range": [
+    0,
+    69
+   ],
+   "whole": true,
+   "code": "demos-own/parts/bookmark-tap-check/BookmarkTapCheck.tsx",
+   "card": "references/parts-own/bookmark-tap-check.md",
+   "preview": "demos-own/parts/bookmark-tap-check/preview.mp4",
+   "sheet": "demos-own/parts/bookmark-tap-check/preview-sheet.jpg"
+  },
+  {
+   "name": "button-press-rings",
+   "zh": "按钮扫进来摆正 · 按下光环荡开",
+   "use": "点击确认",
+   "seconds": 1.8,
+   "frames": 54,
+   "summary": "一个超近、斜着、离焦的淡紫按钮扫进来，镜头拉远摆正；按下一帧变深蓝，外面一圈圈光环荡开，缩一点、发光，松开变浅",
+   "entry": "从一片虚的紫色开始",
+   "note": "",
+   "source": "button-press-rings",
+   "range": [
+    0,
+    54
+   ],
+   "whole": true,
+   "code": "demos-own/parts/button-press-rings/ButtonPressRings.tsx",
+   "card": "references/parts-own/button-press-rings.md",
+   "preview": "demos-own/parts/button-press-rings/preview.mp4",
+   "sheet": "demos-own/parts/button-press-rings/preview-sheet.jpg"
+  },
+  {
+   "name": "carousel-type-slots",
+   "zh": "贴脸页面拉远成轮播 · 大字蹦进文字框",
+   "use": "字卡",
+   "seconds": 4.6,
+   "frames": 137,
+   "summary": "贴脸的斜放任务页猛地拉远摆正，变成横向轮播里的一张卡；轮播一下下往左甩，文字框里大字逐个蹦出\"一眼看清 / 全家的\"，再甩到第二框\"大事 / 小事\"",
+   "entry": "贴脸的页面",
+   "note": "结尾甩出去接 Logo",
+   "source": "carousel-type-slots",
+   "range": [
+    0,
+    137
+   ],
+   "whole": true,
+   "code": "demos-own/parts/carousel-type-slots/CarouselTypeSlots.tsx",
+   "card": "references/parts-own/carousel-type-slots.md",
+   "preview": "demos-own/parts/carousel-type-slots/preview.mp4",
+   "sheet": "demos-own/parts/carousel-type-slots/preview-sheet.jpg"
+  },
+  {
+   "name": "clock-check-card",
+   "zh": "照片缩成时钟 · 一晃变对勾 · 卡片甩走",
+   "use": "点击确认",
+   "seconds": 2.4,
+   "frames": 72,
+   "summary": "鼓起的照片缩成一个圆，圆原地变成行程卡片里的时钟；镜头贴着它斜着、转着往后拉，露出整张卡片；时钟一晃变成绿对勾，卡片带动态模糊往上甩走",
+   "entry": "接一张鼓起的照片",
+   "note": "",
+   "source": "clock-check-card",
+   "range": [
+    0,
+    72
+   ],
+   "whole": true,
+   "code": "demos-own/parts/clock-check-card/ClockCheckCard.tsx",
+   "card": "references/parts-own/clock-check-card.md",
+   "preview": "demos-own/parts/clock-check-card/preview.mp4",
+   "sheet": "demos-own/parts/clock-check-card/preview-sheet.jpg"
+  },
+  {
+   "name": "comet-dots-card",
+   "zh": "流星线把点串起来 · 变成白卡片",
+   "use": "转场",
+   "seconds": 1.8,
+   "frames": 53,
+   "summary": "几条彩色流星线沿着弯路径把散开的小点连起来，汇到中间变成一个小方块，方块撑成白卡片、按钮出现",
+   "entry": "上一镜的字变虚散掉",
+   "note": "口号接产品界面",
+   "source": "comet-dots-card",
+   "range": [
+    0,
+    53
+   ],
+   "whole": true,
+   "code": "demos-own/parts/comet-dots-card/CometDotsCard.tsx",
+   "card": "references/parts-own/comet-dots-card.md",
+   "preview": "demos-own/parts/comet-dots-card/preview.mp4",
+   "sheet": "demos-own/parts/comet-dots-card/preview-sheet.jpg"
+  },
+  {
+   "name": "form-card-build",
+   "zh": "空卡片里表单一样样长出来",
+   "use": "结果登场",
+   "seconds": 1.4,
+   "frames": 43,
+   "summary": "白卡片在正中长大，按钮从小圆点撑开，表单内容一样样由虚到实填进去；卡片一直慢慢往后仰（上窄下宽），四周是一排排别的表单卡片（点阵按钮 + 淡字）",
+   "entry": "接一张白卡片",
+   "note": "",
+   "source": "form-card-build",
+   "range": [
+    0,
+    43
+   ],
+   "whole": true,
+   "code": "demos-own/parts/form-card-build/FormCardBuild.tsx",
+   "card": "references/parts-own/form-card-build.md",
+   "preview": "demos-own/parts/form-card-build/preview.mp4",
+   "sheet": "demos-own/parts/form-card-build/preview-sheet.jpg"
+  },
+  {
+   "name": "form-tilt-road",
+   "zh": "卡片往后倒 · 镜头扎进去变成一条路",
+   "use": "转场",
+   "seconds": 3.1,
+   "frames": 93,
+   "summary": "表单卡片往后倒下去、镜头贴着它冲过去，卡片变成一条往前延伸的路，\"开车\"选中块滑下来变成分道线，几段分道线从下往上冲过",
+   "entry": "接表单卡片",
+   "note": "结尾白场",
+   "source": "form-tilt-road",
+   "range": [
+    0,
+    93
+   ],
+   "whole": true,
+   "code": "demos-own/parts/form-tilt-road/FormTiltRoad.tsx",
+   "card": "references/parts-own/form-tilt-road.md",
+   "preview": "demos-own/parts/form-tilt-road/preview.mp4",
+   "sheet": "demos-own/parts/form-tilt-road/preview-sheet.jpg"
+  },
+  {
+   "name": "glow-bar-benchmark",
+   "zh": "发光条伸出 · 灰条长出 · 对比图成形",
+   "use": "证据",
+   "seconds": 4.3,
+   "frames": 128,
+   "summary": "深色圆吞掉上一镜，一根发光青条伸出、镜头贴着推近；推到最近时灰条依次长出，镜头慢慢后退，名字、数值逐位、标题依次打出，成为一张完整的对比图",
+   "entry": "深色圆吞掉上一镜",
+   "note": "\"比别家强多少\"；数字要有出处",
+   "source": "glow-bar-benchmark",
+   "range": [
+    0,
+    128
+   ],
+   "whole": true,
+   "code": "demos-own/parts/glow-bar-benchmark/GlowBarBenchmark.tsx",
+   "card": "references/parts-own/glow-bar-benchmark.md",
+   "preview": "demos-own/parts/glow-bar-benchmark/preview.mp4",
+   "sheet": "demos-own/parts/glow-bar-benchmark/preview-sheet.jpg"
+  },
+  {
+   "name": "headline-swap-dashboard-rise",
+   "zh": "一句话换词四次 · 产品面板升起",
+   "use": "结果登场",
+   "seconds": 4.6,
+   "frames": 138,
+   "summary": "一句话逐词打出、句尾的词在原地换三次，换完产品面板从下面升起，目标卡浮出放大分身、左下弹出\"已完成\"，停住看；弹出收掉、字淡走，镜头推进右上角的\"新建任务\"按钮，最后只剩这颗按钮",
+   "entry": "浅色底",
+   "note": "结尾推进一个按钮，一帧切",
+   "source": "headline-swap-dashboard-rise",
+   "range": [
+    0,
+    138
+   ],
+   "whole": true,
+   "code": "demos-own/parts/headline-swap-dashboard-rise/HeadlineSwapDashboardRise.tsx",
+   "card": "references/parts-own/headline-swap-dashboard-rise.md",
+   "preview": "demos-own/parts/headline-swap-dashboard-rise/preview.mp4",
+   "sheet": "demos-own/parts/headline-swap-dashboard-rise/preview-sheet.jpg"
+  },
+  {
+   "name": "icon-word-tint",
+   "zh": "图标飞进一个词 · 把它染成自己的颜色",
+   "use": "列举",
+   "seconds": 3.7,
+   "frames": 110,
+   "summary": "斜放的平面上打出一个短词，换成一整句，四周四个线条小图标弹出来；前半句往左甩走，最后一个词居中放大，图标一个个飞进去、词跟着换成图标的颜色",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "icon-word-tint",
+   "range": [
+    0,
+    110
+   ],
+   "whole": true,
+   "code": "demos-own/parts/icon-word-tint/IconWordTint.tsx",
+   "card": "references/parts-own/icon-word-tint.md",
+   "preview": "demos-own/parts/icon-word-tint/preview.mp4",
+   "sheet": "demos-own/parts/icon-word-tint/preview-sheet.jpg"
+  },
+  {
+   "name": "interface-wall-sync",
+   "zh": "界面墙斜着浮出 · 两句好处 · 过曝到白",
+   "use": "列举",
+   "seconds": 4.5,
+   "frames": 135,
+   "summary": "一整面斜铺的产品界面墙从虚里浮出来、往左上滑、一路减速慢漂，上方两句好处逐词出现；最后整个画面猛地变虚过曝到白",
+   "entry": "浅色底",
+   "note": "结尾纯白，接品牌落版",
+   "source": "interface-wall-sync",
+   "range": [
+    0,
+    135
+   ],
+   "whole": true,
+   "code": "demos-own/parts/interface-wall-sync/InterfaceWallSync.tsx",
+   "card": "references/parts-own/interface-wall-sync.md",
+   "preview": "demos-own/parts/interface-wall-sync/preview.mp4",
+   "sheet": "demos-own/parts/interface-wall-sync/preview-sheet.jpg"
+  },
+  {
+   "name": "logo-orbit-features",
+   "zh": "图标弹出 · 六个功能小圆绕着转",
+   "use": "列举",
+   "seconds": 4.5,
+   "frames": 135,
+   "summary": "App 图标斜着弹出、带光晕轻晃，两行大字逐词出现；6 颗功能小圆在图标四周的轨道上顺时针依次弹出，整圈慢慢转，最后整画面变虚淡掉",
+   "entry": "浅色底",
+   "note": "收尾前的功能全家福",
+   "source": "logo-orbit-features",
+   "range": [
+    0,
+    135
+   ],
+   "whole": true,
+   "code": "demos-own/parts/logo-orbit-features/LogoOrbitFeatures.tsx",
+   "card": "references/parts-own/logo-orbit-features.md",
+   "preview": "demos-own/parts/logo-orbit-features/preview.mp4",
+   "sheet": "demos-own/parts/logo-orbit-features/preview-sheet.jpg"
+  },
+  {
+   "name": "photo-flash-bulge",
+   "zh": "照片飞快地换 · 最后一张鼓起来撑满",
+   "use": "转场",
+   "seconds": 1.8,
+   "frames": 53,
+   "summary": "按钮拉成两道光带分开，中间冒出小照片，背景铺开像素格；照片一张接一张飞快地换、边换边变大、越来越霓虹，最后一张四边内凹、鼓起来撑满画面",
+   "entry": "接按下的按钮",
+   "note": "",
+   "source": "photo-flash-bulge",
+   "range": [
+    0,
+    53
+   ],
+   "whole": true,
+   "code": "demos-own/parts/photo-flash-bulge/PhotoFlashBulge.tsx",
+   "card": "references/parts-own/photo-flash-bulge.md",
+   "preview": "demos-own/parts/photo-flash-bulge/preview.mp4",
+   "sheet": "demos-own/parts/photo-flash-bulge/preview-sheet.jpg"
+  },
+  {
+   "name": "search-phrase-dropdown",
+   "zh": "\"在找什么\" · 标题拉开成下拉 · 露出结果",
+   "use": "功能演示",
+   "seconds": 3.3,
+   "frames": 99,
+   "summary": "白底一个历史图标转一下、逐词冒出\"在找什么\"；退掉后换成灰色「信用卡 ⌄」，箭头一路折成 ⌃、标题和箭头往两边拉开成下拉栏，往上一走露出找到的三条记录",
+   "entry": "白底",
+   "note": "",
+   "source": "search-phrase-dropdown",
+   "range": [
+    0,
+    99
+   ],
+   "whole": true,
+   "code": "demos-own/parts/search-phrase-dropdown/SearchPhraseDropdown.tsx",
+   "card": "references/parts-own/search-phrase-dropdown.md",
+   "preview": "demos-own/parts/search-phrase-dropdown/preview.mp4",
+   "sheet": "demos-own/parts/search-phrase-dropdown/preview-sheet.jpg"
+  },
+  {
+   "name": "spawn-tree-rows-focus",
+   "zh": "线扫过标题 · 分出三行子任务 · 推近第一行",
+   "use": "功能演示",
+   "seconds": 4.6,
+   "frames": 138,
+   "summary": "镜头跟着一根细线横扫过大标题，标题右端伸出花括号、线拐弯往下，蓝点领着跑出三行子任务；推近第一行，字从两头消掉，只剩两个图标靠拢",
+   "entry": "第一帧开始",
+   "note": "\"同时派几个助手\"",
+   "source": "spawn-tree-rows-focus",
+   "range": [
+    0,
+    138
+   ],
+   "whole": true,
+   "code": "demos-own/parts/spawn-tree-rows-focus/SpawnTreeRowsFocus.tsx",
+   "card": "references/parts-own/spawn-tree-rows-focus.md",
+   "preview": "demos-own/parts/spawn-tree-rows-focus/preview.mp4",
+   "sheet": "demos-own/parts/spawn-tree-rows-focus/preview-sheet.jpg"
+  },
+  {
+   "name": "toggle-autopilot-cards",
+   "zh": "大开关打开 · 卡片从四周飞来围着大字转",
+   "use": "功能演示",
+   "seconds": 3.5,
+   "frames": 104,
+   "summary": "一颗超大开关在白底上浮出、\"啪\"地打开变绿，十几张助手卡片从四周飞进来围住它；开关缩小右移，露出后面的大字\"自动安排\"；整团卡片绕着大字顺时针转，最后整团缩远",
+   "entry": "白底",
+   "note": "\"一键开启\"",
+   "source": "toggle-autopilot-cards",
+   "range": [
+    0,
+    104
+   ],
+   "whole": true,
+   "code": "demos-own/parts/toggle-autopilot-cards/ToggleAutopilotCards.tsx",
+   "card": "references/parts-own/toggle-autopilot-cards.md",
+   "preview": "demos-own/parts/toggle-autopilot-cards/preview.mp4",
+   "sheet": "demos-own/parts/toggle-autopilot-cards/preview-sheet.jpg"
+  },
+  {
+   "name": "type-swap-headline",
+   "zh": "大字打出一个问题 · 原地改写成回答",
+   "use": "钩子",
+   "seconds": 2.9,
+   "frames": 88,
+   "summary": "白底上一行大黑字打出来，镜头推近、平移，前半句掉下去淡掉，只留后半个词，再换成两个词「早就安排 / 好了。」，四周散开几颗彩色小点",
+   "entry": "白底",
+   "note": "",
+   "source": "type-swap-headline",
+   "range": [
+    0,
+    88
+   ],
+   "whole": true,
+   "code": "demos-own/parts/type-swap-headline/TypeSwapHeadline.tsx",
+   "card": "references/parts-own/type-swap-headline.md",
+   "preview": "demos-own/parts/type-swap-headline/preview.mp4",
+   "sheet": "demos-own/parts/type-swap-headline/preview-sheet.jpg"
+  },
+  {
+   "name": "word-slot-icon-zoom",
+   "zh": "像老虎机一样翻能力 · 图标放大铺满",
+   "use": "列举",
+   "seconds": 3.7,
+   "frames": 110,
+   "summary": "产品名退掉、半句话往左让，右边像老虎机一样一项项往上翻（图标 + 能做的事）越翻越快；停在最后一项，字从尾巴删掉，只剩图标滑到正中、变实心、猛地放大铺满",
+   "entry": "接产品名",
+   "note": "结尾图标铺满，接下一镜",
+   "source": "word-slot-icon-zoom",
+   "range": [
+    0,
+    110
+   ],
+   "whole": true,
+   "code": "demos-own/parts/word-slot-icon-zoom/WordSlotIconZoom.tsx",
+   "card": "references/parts-own/word-slot-icon-zoom.md",
+   "preview": "demos-own/parts/word-slot-icon-zoom/preview.mp4",
+   "sheet": "demos-own/parts/word-slot-icon-zoom/preview-sheet.jpg"
+  },
+  {
+   "name": "words-morph-line",
+   "zh": "同一句话里换几个字 · 整行飘走",
+   "use": "字卡",
+   "seconds": 2.5,
+   "frames": 76,
+   "summary": "一句话补上最后一个词滑到正中，前后的词逐字溶掉换成新词，中间不变的词变大挪位，补一个字后整行加速往上飘走",
+   "entry": "第一帧开始",
+   "note": "\"从乱到清楚\"的转折",
+   "source": "words-morph-line",
+   "range": [
+    0,
+    76
+   ],
+   "whole": true,
+   "code": "demos-own/parts/words-morph-line/WordsMorphLine.tsx",
+   "card": "references/parts-own/words-morph-line.md",
+   "preview": "demos-own/parts/words-morph-line/preview.mp4",
+   "sheet": "demos-own/parts/words-morph-line/preview-sheet.jpg"
+  },
+  {
+   "name": "words-split-lock-replace",
+   "zh": "词拉开插进一把锁 · 原位换词",
+   "use": "字卡",
+   "seconds": 4.1,
+   "frames": 123,
+   "summary": "白底打出一句话，词与词拉开、第一个词消失、中间插进一把锁；「锁 + 词」斜着往上让，下面浮出新一行；再在原位把词一个个换掉，浮出最后一行",
+   "entry": "白底",
+   "note": "隐私 / 安全",
+   "source": "words-split-lock-replace",
+   "range": [
+    0,
+    123
+   ],
+   "whole": true,
+   "code": "demos-own/parts/words-split-lock-replace/WordsSplitLockReplace.tsx",
+   "card": "references/parts-own/words-split-lock-replace.md",
+   "preview": "demos-own/parts/words-split-lock-replace/preview.mp4",
+   "sheet": "demos-own/parts/words-split-lock-replace/preview-sheet.jpg"
+  },
+  {
+   "name": "line-unfold-card-corridor",
+   "zh": "竖线展开成卡 · 走廊里一张张换到中间",
+   "use": "列举",
+   "seconds": 5.4,
+   "frames": 162,
+   "summary": "黑底蓝图风，一根竖线从右边滑进来在中间展开成一张霓虹像素卡，左右灰色卡从它背后滑出来排成走廊，之后右边的卡一张张飞到中间变彩色，整排一直慢慢往左漂",
+   "entry": "黑底",
+   "note": "暗色蓝图风",
+   "source": "line-unfold-card-corridor",
+   "range": [
+    0,
+    162
+   ],
+   "whole": true,
+   "code": "demos-own/parts/line-unfold-card-corridor/LineUnfoldCardCorridor.tsx",
+   "card": "references/parts-own/line-unfold-card-corridor.md",
+   "preview": "demos-own/parts/line-unfold-card-corridor/preview.mp4",
+   "sheet": "demos-own/parts/line-unfold-card-corridor/preview-sheet.jpg"
+  },
+  {
+   "name": "lines-keep-word-swap-brand",
+   "zh": "三行字只留一个词 · 原位换成产品名",
+   "use": "字卡",
+   "seconds": 5.3,
+   "frames": 158,
+   "summary": "暗底逐行打出三行字，最后一行带地球图标；其余的字退掉、只留「🌐 关键词」升到正中，在原位一下换成产品标志 + 产品名，再往上让、下面浮出一句话",
+   "entry": "暗底",
+   "note": "中段点出产品名",
+   "source": "lines-keep-word-swap-brand",
+   "range": [
+    0,
+    158
+   ],
+   "whole": true,
+   "code": "demos-own/parts/lines-keep-word-swap-brand/LinesKeepWordSwapBrand.tsx",
+   "card": "references/parts-own/lines-keep-word-swap-brand.md",
+   "preview": "demos-own/parts/lines-keep-word-swap-brand/preview.mp4",
+   "sheet": "demos-own/parts/lines-keep-word-swap-brand/preview-sheet.jpg"
+  },
+  {
+   "name": "logo-check-build-cta",
+   "zh": "标志一笔笔长出 · 名字 · 按钮被按下",
+   "use": "品牌落版",
+   "seconds": 5.4,
+   "frames": 163,
+   "summary": "白闪后硬切品牌色，毛玻璃方块里一笔笔\"长\"出标志（横条拉出 → 长成勾 → 一颗点落进来），图标缩小左移、名字从图标后面抽出，标语、按钮、网址依次出现；光标点一下按钮、两圈描边往外扩，品牌落版静看",
+   "entry": "接一个白场",
+   "note": "最后 5 秒",
+   "source": "logo-check-build-cta",
+   "range": [
+    0,
+    163
+   ],
+   "whole": true,
+   "code": "demos-own/parts/logo-check-build-cta/LogoCheckBuildCta.tsx",
+   "card": "references/parts-own/logo-check-build-cta.md",
+   "preview": "demos-own/parts/logo-check-build-cta/preview.mp4",
+   "sheet": "demos-own/parts/logo-check-build-cta/preview-sheet.jpg"
+  },
+  {
+   "name": "row-status-flip-pan",
+   "zh": "贴脸看一行 · 横滑 · 状态格整格换色",
+   "use": "功能演示",
+   "seconds": 5.8,
+   "frames": 174,
+   "summary": "贴脸看任务表的一行，整条横着滑到最右，费用、状态两格整格换色；快滑回左边看人，再滑回来状态变\"已完成\"，整个画面往上走",
+   "entry": "贴脸的表格",
+   "note": "\"进度一目了然\"",
+   "source": "row-status-flip-pan",
+   "range": [
+    0,
+    174
+   ],
+   "whole": true,
+   "code": "demos-own/parts/row-status-flip-pan/RowStatusFlipPan.tsx",
+   "card": "references/parts-own/row-status-flip-pan.md",
+   "preview": "demos-own/parts/row-status-flip-pan/preview.mp4",
+   "sheet": "demos-own/parts/row-status-flip-pan/preview-sheet.jpg"
+  },
+  {
+   "name": "ring-window-questions",
+   "zh": "圆环像窗一样打开 · 露出一团问题气泡",
+   "use": "痛点",
+   "seconds": 5.8,
+   "frames": 174,
+   "summary": "黑底里一道蓝光画出圆环，圆环侧过来张开光锥，露出一团贴着球面在转的问题气泡；随后圆环甩回来把问题收走，转一圈缩没",
+   "entry": "黑底",
+   "note": "结尾圆环缩没，硬切产品登场",
+   "source": "ring-window-questions",
+   "range": [
+    0,
+    174
+   ],
+   "whole": true,
+   "code": "demos-own/parts/ring-window-questions/RingWindowQuestions.tsx",
+   "card": "references/parts-own/ring-window-questions.md",
+   "preview": "demos-own/parts/ring-window-questions/preview.mp4",
+   "sheet": "demos-own/parts/ring-window-questions/preview-sheet.jpg"
+  },
+  {
+   "name": "pills-slide-words-light",
+   "zh": "两颗胶囊滑进来 · 字逐个亮",
+   "use": "字卡",
+   "seconds": 1.4,
+   "frames": 42,
+   "summary": "黑胶囊从右边高速滑进来、长尾巴减速，字一个个从灰变白；渐变胶囊跟进来，字从浅变黑；两颗停住",
+   "entry": "浅灰底",
+   "note": "两个词的口号",
+   "source": "pill-pair-logo-scatter",
+   "range": [
+    0,
+    42
+   ],
+   "whole": false,
+   "code": "demos-own/parts/pills-slide-words-light/PillsSlideWordsLight.tsx",
+   "card": "references/parts-own/pills-slide-words-light.md",
+   "preview": "demos-own/parts/pills-slide-words-light/preview.mp4",
+   "sheet": "demos-own/parts/pills-slide-words-light/preview-sheet.jpg"
+  },
+  {
+   "name": "pills-split-logo-thumbs-cta",
+   "zh": "胶囊甩开 · 标志弹出 · 截图弹进飞走 · 按钮",
+   "use": "品牌落版",
+   "seconds": 3.6,
+   "frames": 108,
+   "summary": "两颗胶囊往两边甩出画，标志从一个点弹大，名字从后面抽出来，四周界面截图错开弹进来又飞走；标志缩小让位，一颗圆点撑成按钮",
+   "entry": "接上一拍的两颗胶囊",
+   "note": "",
+   "source": "pill-pair-logo-scatter",
+   "range": [
+    42,
+    150
+   ],
+   "whole": false,
+   "code": "demos-own/parts/pills-split-logo-thumbs-cta/PillsSplitLogoThumbsCta.tsx",
+   "card": "references/parts-own/pills-split-logo-thumbs-cta.md",
+   "preview": "demos-own/parts/pills-split-logo-thumbs-cta/preview.mp4",
+   "sheet": "demos-own/parts/pills-split-logo-thumbs-cta/preview-sheet.jpg"
+  },
+  {
+   "name": "type-shrink-glow-line",
+   "zh": "大黑字打出 · 缩小变灰 · 彩字糊入",
+   "use": "字卡",
+   "seconds": 1.9,
+   "frames": 57,
+   "summary": "一行大黑字边打边滑上来，缩小、变灰、淡掉；第二句渐变彩字逐字糊入，带柔光、颜色流动",
+   "entry": "白底",
+   "note": "",
+   "source": "type-glow-list",
+   "range": [
+    0,
+    57
+   ],
+   "whole": false,
+   "code": "demos-own/parts/type-shrink-glow-line/TypeShrinkGlowLine.tsx",
+   "card": "references/parts-own/type-shrink-glow-line.md",
+   "preview": "demos-own/parts/type-shrink-glow-line/preview.mp4",
+   "sheet": "demos-own/parts/type-shrink-glow-line/preview-sheet.jpg"
+  },
+  {
+   "name": "glow-line-to-list",
+   "zh": "彩字缩淡 · 小标题和两行推荐擦出来",
+   "use": "结果登场",
+   "seconds": 3.2,
+   "frames": 96,
+   "summary": "彩字缩小淡掉，小标题和两行推荐由糊变清地擦出来，错落上浮，然后上滑走",
+   "entry": "接上一拍的彩字",
+   "note": "",
+   "source": "type-glow-list",
+   "range": [
+    57,
+    153
+   ],
+   "whole": false,
+   "code": "demos-own/parts/glow-line-to-list/GlowLineToList.tsx",
+   "card": "references/parts-own/glow-line-to-list.md",
+   "preview": "demos-own/parts/glow-line-to-list/preview.mp4",
+   "sheet": "demos-own/parts/glow-line-to-list/preview-sheet.jpg"
+  },
+  {
+   "name": "giant-word-whip-cut",
+   "zh": "超大字越甩越快 · 硬切成一行小字",
+   "use": "钩子",
+   "seconds": 1.6,
+   "frames": 48,
+   "summary": "超大白字一半埋在蓝光里，往左越甩越快，硬切成一行小字，最后一个词擦出",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "giant-word-logo-lockup",
+   "range": [
+    0,
+    48
+   ],
+   "whole": false,
+   "code": "demos-own/parts/giant-word-whip-cut/GiantWordWhipCut.tsx",
+   "card": "references/parts-own/giant-word-whip-cut.md",
+   "preview": "demos-own/parts/giant-word-whip-cut/preview.mp4",
+   "sheet": "demos-own/parts/giant-word-whip-cut/preview-sheet.jpg"
+  },
+  {
+   "name": "dot-logo-slam-name",
+   "zh": "小字缩成点 · Logo 砸下来 · 名字滑进",
+   "use": "品牌落版",
+   "seconds": 2.6,
+   "frames": 78,
+   "summary": "小字加速缩成一个点，大 Logo 砸下来缩小、两块合拢；Logo 往左让，名字字母一个个滑进来，副标题跟上",
+   "entry": "接上一拍的小字",
+   "note": "",
+   "source": "giant-word-logo-lockup",
+   "range": [
+    48,
+    126
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dot-logo-slam-name/DotLogoSlamName.tsx",
+   "card": "references/parts-own/dot-logo-slam-name.md",
+   "preview": "demos-own/parts/dot-logo-slam-name/preview.mp4",
+   "sheet": "demos-own/parts/dot-logo-slam-name/preview-sheet.jpg"
+  },
+  {
+   "name": "name-wipe-word-swap",
+   "zh": "擦掉名字 · 原地换词停在转折词",
+   "use": "字卡",
+   "seconds": 1.5,
+   "frames": 44,
+   "summary": "从左擦掉名字，副标题居中，原地换词，最后换成一个转折词停住",
+   "entry": "接上一拍的落版",
+   "note": "接转折",
+   "source": "giant-word-logo-lockup",
+   "range": [
+    126,
+    170
+   ],
+   "whole": false,
+   "code": "demos-own/parts/name-wipe-word-swap/NameWipeWordSwap.tsx",
+   "card": "references/parts-own/name-wipe-word-swap.md",
+   "preview": "demos-own/parts/name-wipe-word-swap/preview.mp4",
+   "sheet": "demos-own/parts/name-wipe-word-swap/preview-sheet.jpg"
+  },
+  {
+   "name": "scramble-decode-word",
+   "zh": "词挪开 · 乱码从左到右解成一个词",
+   "use": "字卡",
+   "seconds": 1.4,
+   "frames": 42,
+   "summary": "一个词挪到左边，右边一串乱码从左到右解码成另一个词",
+   "entry": "白底",
+   "note": "隐私 / 安全",
+   "source": "decode-word-password-field",
+   "range": [
+    0,
+    42
+   ],
+   "whole": false,
+   "code": "demos-own/parts/scramble-decode-word/ScrambleDecodeWord.tsx",
+   "card": "references/parts-own/scramble-decode-word.md",
+   "preview": "demos-own/parts/scramble-decode-word/preview.mp4",
+   "sheet": "demos-own/parts/scramble-decode-word/preview-sheet.jpg"
+  },
+  {
+   "name": "field-slide-eye-stars",
+   "zh": "只留一个词 · 输入框滑入 · 点眼睛变星号",
+   "use": "功能演示",
+   "seconds": 4.5,
+   "frames": 134,
+   "summary": "换一句话，中间的词退掉只剩一个；右边滑进一个大输入框，镜头跟着往右摇；手点框尾的眼睛，眼睛划掉、字变星号",
+   "entry": "接上一拍的字",
+   "note": "",
+   "source": "decode-word-password-field",
+   "range": [
+    42,
+    176
+   ],
+   "whole": false,
+   "code": "demos-own/parts/field-slide-eye-stars/FieldSlideEyeStars.tsx",
+   "card": "references/parts-own/field-slide-eye-stars.md",
+   "preview": "demos-own/parts/field-slide-eye-stars/preview.mp4",
+   "sheet": "demos-own/parts/field-slide-eye-stars/preview-sheet.jpg"
+  },
+  {
+   "name": "words-burst-whip-swap",
+   "zh": "词各自冲到原位 · 甩出画换下一个词",
+   "use": "字卡",
+   "seconds": 2.1,
+   "frames": 62,
+   "summary": "每个词各自从很小冲到原位，停一下，整句被甩出画（横糊），第二个词从右边甩进来长尾巴停到正中",
+   "entry": "白底",
+   "note": "",
+   "source": "edit-flash-type-toolbar",
+   "range": [
+    0,
+    62
+   ],
+   "whole": false,
+   "code": "demos-own/parts/words-burst-whip-swap/WordsBurstWhipSwap.tsx",
+   "card": "references/parts-own/words-burst-whip-swap.md",
+   "preview": "demos-own/parts/words-burst-whip-swap/preview.mp4",
+   "sheet": "demos-own/parts/words-burst-whip-swap/preview-sheet.jpg"
+  },
+  {
+   "name": "highlight-erase-retype",
+   "zh": "整块高亮 · 删掉重打一句",
+   "use": "功能演示",
+   "seconds": 2.0,
+   "frames": 61,
+   "summary": "整块蓝色高亮、字同一帧放大；字删掉只剩光标，逐字打出新的一句，整句始终居中",
+   "entry": "接上一拍的词",
+   "note": "\"编辑\"的画面",
+   "source": "edit-flash-type-toolbar",
+   "range": [
+    62,
+    123
+   ],
+   "whole": false,
+   "code": "demos-own/parts/highlight-erase-retype/HighlightEraseRetype.tsx",
+   "card": "references/parts-own/highlight-erase-retype.md",
+   "preview": "demos-own/parts/highlight-erase-retype/preview.mp4",
+   "sheet": "demos-own/parts/highlight-erase-retype/preview-sheet.jpg"
+  },
+  {
+   "name": "toolbar-cover-zoomout-page",
+   "zh": "巨大工具栏盖进来 · 点一下 · 猛拉远原来是网页",
+   "use": "结果登场",
+   "seconds": 2.6,
+   "frames": 78,
+   "summary": "巨大的工具栏从左边滑进来盖住字，光标点\"评论\"；镜头 0.2 秒从 4.5 倍拉到 1 倍，工具栏原来是网页下沿的工具条，评论栏从右边滑进来",
+   "entry": "接上一拍的字",
+   "note": "",
+   "source": "edit-flash-type-toolbar",
+   "range": [
+    123,
+    201
+   ],
+   "whole": false,
+   "code": "demos-own/parts/toolbar-cover-zoomout-page/ToolbarCoverZoomoutPage.tsx",
+   "card": "references/parts-own/toolbar-cover-zoomout-page.md",
+   "preview": "demos-own/parts/toolbar-cover-zoomout-page/preview.mp4",
+   "sheet": "demos-own/parts/toolbar-cover-zoomout-page/preview-sheet.jpg"
+  },
+  {
+   "name": "phone-rush-toss",
+   "zh": "手机冲到镜头前 · 抛起落下",
+   "use": "钩子",
+   "seconds": 1.0,
+   "frames": 30,
+   "summary": "斜着的小手机 3 帧内冲到镜头前转正，取景框收紧套住它，到最高点后越落越快掉出画面",
+   "entry": "深蓝星空",
+   "note": "只有 1 秒；下落最快的一帧硬切",
+   "source": "card-rain-pixel-word",
+   "range": [
+    0,
+    30
+   ],
+   "whole": false,
+   "code": "demos-own/parts/phone-rush-toss/PhoneRushToss.tsx",
+   "card": "references/parts-own/phone-rush-toss.md",
+   "preview": "demos-own/parts/phone-rush-toss/preview.mp4",
+   "sheet": "demos-own/parts/phone-rush-toss/preview-sheet.jpg"
+  },
+  {
+   "name": "card-rain-pile-up",
+   "zh": "上百张小卡从天而降 · 堆满整屏",
+   "use": "列举",
+   "seconds": 2.1,
+   "frames": 64,
+   "summary": "画面顶上掉下一堆小卡片，有重力、落地滑行、后来的盖在上面，堆成小山，2.5 秒填满整屏",
+   "entry": "硬切",
+   "note": "\"海量内容\"",
+   "source": "card-rain-pixel-word",
+   "range": [
+    30,
+    94
+   ],
+   "whole": false,
+   "code": "demos-own/parts/card-rain-pile-up/CardRainPileUp.tsx",
+   "card": "references/parts-own/card-rain-pile-up.md",
+   "preview": "demos-own/parts/card-rain-pile-up/preview.mp4",
+   "sheet": "demos-own/parts/card-rain-pile-up/preview-sheet.jpg"
+  },
+  {
+   "name": "glitch-blocks-grow-word",
+   "zh": "卡片一张张消失 · 白块长成一个大字",
+   "use": "字卡",
+   "seconds": 3.0,
+   "frames": 89,
+   "summary": "卡片一张张一帧消失、故障色块乱跳，背景变纯黑；几块白块原地停住长成笔画，拼出一个大字，整词推近",
+   "entry": "接上一拍堆满的卡片",
+   "note": "",
+   "source": "card-rain-pixel-word",
+   "range": [
+    94,
+    183
+   ],
+   "whole": false,
+   "code": "demos-own/parts/glitch-blocks-grow-word/GlitchBlocksGrowWord.tsx",
+   "card": "references/parts-own/glitch-blocks-grow-word.md",
+   "preview": "demos-own/parts/glitch-blocks-grow-word/preview.mp4",
+   "sheet": "demos-own/parts/glitch-blocks-grow-word/preview-sheet.jpg"
+  },
+  {
+   "name": "comet-route-grid",
+   "zh": "彗星线沿格子地图冲进来 · 拐到第一站",
+   "use": "功能演示",
+   "seconds": 2.4,
+   "frames": 71,
+   "summary": "斜俯视的格子地图上，蓝色彗星线沿格子冲进来、拐上去到第一个地点，身后的格子亮起来",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "grid-route-search",
+   "range": [
+    0,
+    71
+   ],
+   "whole": false,
+   "code": "demos-own/parts/comet-route-grid/CometRouteGrid.tsx",
+   "card": "references/parts-own/comet-route-grid.md",
+   "preview": "demos-own/parts/comet-route-grid/preview.mp4",
+   "sheet": "demos-own/parts/comet-route-grid/preview-sheet.jpg"
+  },
+  {
+   "name": "route-to-search-box",
+   "zh": "第二条线走到第二站 · 线头变成搜索框打字",
+   "use": "结果登场",
+   "seconds": 4.5,
+   "frames": 136,
+   "summary": "镜头转正成俯视，紫粉线拐两个弯到第二个地点；镜头扎近，线头鼓成胶囊、变成搜索框，框里打字；搜索框缩小往后一翻",
+   "entry": "接上一拍的地图",
+   "note": "",
+   "source": "grid-route-search",
+   "range": [
+    71,
+    207
+   ],
+   "whole": false,
+   "code": "demos-own/parts/route-to-search-box/RouteToSearchBox.tsx",
+   "card": "references/parts-own/route-to-search-box.md",
+   "preview": "demos-own/parts/route-to-search-box/preview.mp4",
+   "sheet": "demos-own/parts/route-to-search-box/preview-sheet.jpg"
+  },
+  {
+   "name": "word-shrink-card-slam",
+   "zh": "大字越缩越快 · 白卡片砸下来 · 界面显出",
+   "use": "结果登场",
+   "seconds": 2.3,
+   "frames": 70,
+   "summary": "大字先冲上来再越缩越快，一张白卡片砸下来、四边拉出参考线；一句话逐词出，卡片里从左上显出界面（先蓝后清）",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "smarter-card-board-tilt",
+   "range": [
+    0,
+    70
+   ],
+   "whole": false,
+   "code": "demos-own/parts/word-shrink-card-slam/WordShrinkCardSlam.tsx",
+   "card": "references/parts-own/word-shrink-card-slam.md",
+   "preview": "demos-own/parts/word-shrink-card-slam/preview.mp4",
+   "sheet": "demos-own/parts/word-shrink-card-slam/preview-sheet.jpg"
+  },
+  {
+   "name": "ui-closeup-fill-scroll",
+   "zh": "硬切放大界面 · 表格一格格填好 · 往上滚",
+   "use": "功能演示",
+   "seconds": 1.7,
+   "frames": 50,
+   "summary": "硬切放大界面从右滑进，表格一格一格填好，再往上滚",
+   "entry": "硬切",
+   "note": "",
+   "source": "smarter-card-board-tilt",
+   "range": [
+    70,
+    120
+   ],
+   "whole": false,
+   "code": "demos-own/parts/ui-closeup-fill-scroll/UiCloseupFillScroll.tsx",
+   "card": "references/parts-own/ui-closeup-fill-scroll.md",
+   "preview": "demos-own/parts/ui-closeup-fill-scroll/preview.mp4",
+   "sheet": "demos-own/parts/ui-closeup-fill-scroll/preview-sheet.jpg"
+  },
+  {
+   "name": "tilted-page-caption-swap",
+   "zh": "硬切斜放整页 · 上方换一句话 · 甩走",
+   "use": "证据",
+   "seconds": 2.5,
+   "frames": 75,
+   "summary": "硬切到斜放的整页，上方一句话、换一句，整页慢慢转过去、往左甩走",
+   "entry": "硬切",
+   "note": "",
+   "source": "smarter-card-board-tilt",
+   "range": [
+    120,
+    195
+   ],
+   "whole": false,
+   "code": "demos-own/parts/tilted-page-caption-swap/TiltedPageCaptionSwap.tsx",
+   "card": "references/parts-own/tilted-page-caption-swap.md",
+   "preview": "demos-own/parts/tilted-page-caption-swap/preview.mp4",
+   "sheet": "demos-own/parts/tilted-page-caption-swap/preview-sheet.jpg"
+  },
+  {
+   "name": "page-rise-big-word-swap",
+   "zh": "整页升起 · 后面冒出大字 · 字和表一起换",
+   "use": "结果登场",
+   "seconds": 2.2,
+   "frames": 65,
+   "summary": "蓝底上一整页任务表升起，页面后面冒出巨大白字；大字一换，表格内容也换一批",
+   "entry": "蓝底",
+   "note": "",
+   "source": "page-tilt-scroll",
+   "range": [
+    0,
+    65
+   ],
+   "whole": false,
+   "code": "demos-own/parts/page-rise-big-word-swap/PageRiseBigWordSwap.tsx",
+   "card": "references/parts-own/page-rise-big-word-swap.md",
+   "preview": "demos-own/parts/page-rise-big-word-swap/preview.mp4",
+   "sheet": "demos-own/parts/page-rise-big-word-swap/preview-sheet.jpg"
+  },
+  {
+   "name": "page-tilt-dive-flicks",
+   "zh": "页面斜过来 · 镜头扎进去 · 三下往下翻",
+   "use": "功能演示",
+   "seconds": 5.0,
+   "frames": 150,
+   "summary": "页面猛地斜过来、镜头扎进去，贴着斜放的表格三下往下翻",
+   "entry": "接上一拍的整页",
+   "note": "5 秒；\"所有事都在一页里\"",
+   "source": "page-tilt-scroll",
+   "range": [
+    65,
+    215
+   ],
+   "whole": false,
+   "code": "demos-own/parts/page-tilt-dive-flicks/PageTiltDiveFlicks.tsx",
+   "card": "references/parts-own/page-tilt-dive-flicks.md",
+   "preview": "demos-own/parts/page-tilt-dive-flicks/preview.mp4",
+   "sheet": "demos-own/parts/page-tilt-dive-flicks/preview-sheet.jpg"
+  },
+  {
+   "name": "pill-type-click-card-open",
+   "zh": "胶囊长出 · 大字两行打 · 点一下撑成项目卡",
+   "use": "结果登场",
+   "seconds": 1.9,
+   "frames": 57,
+   "summary": "白胶囊从小长出，大字两行叠着从下浮上来；光标飞过去按下、水波圈，项目卡从胶囊处撑开，停住看卡",
+   "entry": "浅色底",
+   "note": "",
+   "source": "project-card-kanban-drag",
+   "range": [
+    0,
+    57
+   ],
+   "whole": false,
+   "code": "demos-own/parts/pill-type-click-card-open/PillTypeClickCardOpen.tsx",
+   "card": "references/parts-own/pill-type-click-card-open.md",
+   "preview": "demos-own/parts/pill-type-click-card-open/preview.mp4",
+   "sheet": "demos-own/parts/pill-type-click-card-open/preview-sheet.jpg"
+  },
+  {
+   "name": "kanban-rise-drag-twice",
+   "zh": "看板浮上来 · 拖卡两次 · 绿勾",
+   "use": "功能演示",
+   "seconds": 3.8,
+   "frames": 114,
+   "summary": "项目卡缩小上移，三列看板错开浮上来，进度一路涨；卡片被拿起、横移、落下两次，落进\"已完成\"后长出绿勾",
+   "entry": "接上一拍的项目卡",
+   "note": "\"建 → 管 → 推进\"",
+   "source": "project-card-kanban-drag",
+   "range": [
+    57,
+    171
+   ],
+   "whole": false,
+   "code": "demos-own/parts/kanban-rise-drag-twice/KanbanRiseDragTwice.tsx",
+   "card": "references/parts-own/kanban-rise-drag-twice.md",
+   "preview": "demos-own/parts/kanban-rise-drag-twice/preview.mp4",
+   "sheet": "demos-own/parts/kanban-rise-drag-twice/preview-sheet.jpg"
+  },
+  {
+   "name": "type-lines-converge",
+   "zh": "斜面上打一句话 · 四条彩色虚线汇过来",
+   "use": "钩子",
+   "seconds": 2.2,
+   "frames": 66,
+   "summary": "一行字在斜放的平面上被打出来，四条彩色虚线从画面外画进来，汇到句末的那个圈",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "route-hub-logo",
+   "range": [
+    0,
+    66
+   ],
+   "whole": false,
+   "code": "demos-own/parts/type-lines-converge/TypeLinesConverge.tsx",
+   "card": "references/parts-own/type-lines-converge.md",
+   "preview": "demos-own/parts/type-lines-converge/preview.mp4",
+   "sheet": "demos-own/parts/type-lines-converge/preview-sheet.jpg"
+  },
+  {
+   "name": "dive-spin-icon-wordmark",
+   "zh": "扑向圆圈越转越快 · 变成图标 · 擦出品牌字",
+   "use": "品牌落版",
+   "seconds": 4.4,
+   "frames": 131,
+   "summary": "字淡掉，镜头扑向那个圈、越转越快，线缩回蓝团，蓝团变成 App 图标；图标往左让位，右边擦出品牌字，定格",
+   "entry": "接上一拍的圈",
+   "note": "",
+   "source": "route-hub-logo",
+   "range": [
+    66,
+    197
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dive-spin-icon-wordmark/DiveSpinIconWordmark.tsx",
+   "card": "references/parts-own/dive-spin-icon-wordmark.md",
+   "preview": "demos-own/parts/dive-spin-icon-wordmark/preview.mp4",
+   "sheet": "demos-own/parts/dive-spin-icon-wordmark/preview-sheet.jpg"
+  },
+  {
+   "name": "word-whip-chatbox-type",
+   "zh": "一个词往左一甩 · 黑色对话框滑进来打字",
+   "use": "痛点",
+   "seconds": 2.2,
+   "frames": 66,
+   "summary": "一个词居中，往左一甩，黑色对话框滑进来，逐词打出一句话",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "stop-chat-drag-trash",
+   "range": [
+    0,
+    66
+   ],
+   "whole": false,
+   "code": "demos-own/parts/word-whip-chatbox-type/WordWhipChatboxType.tsx",
+   "card": "references/parts-own/word-whip-chatbox-type.md",
+   "preview": "demos-own/parts/word-whip-chatbox-type/preview.mp4",
+   "sheet": "demos-own/parts/word-whip-chatbox-type/preview-sheet.jpg"
+  },
+  {
+   "name": "refusals-stack-up",
+   "zh": "问一句 · 拒绝回复一条条越堆越高",
+   "use": "痛点",
+   "seconds": 2.9,
+   "frames": 86,
+   "summary": "字退掉，框收成输入栏；用户问一句，左边一条条冒出拒绝回复，越堆越高",
+   "entry": "接上一拍的对话框",
+   "note": "\"现有工具一到关键就不行\"",
+   "source": "stop-chat-drag-trash",
+   "range": [
+    66,
+    152
+   ],
+   "whole": false,
+   "code": "demos-own/parts/refusals-stack-up/RefusalsStackUp.tsx",
+   "card": "references/parts-own/refusals-stack-up.md",
+   "preview": "demos-own/parts/refusals-stack-up/preview.mp4",
+   "sheet": "demos-own/parts/refusals-stack-up/preview-sheet.jpg"
+  },
+  {
+   "name": "dock-drag-into-trash",
+   "zh": "程序坞升起 · 把图标连对话一起拖进垃圾桶",
+   "use": "痛点",
+   "seconds": 2.8,
+   "frames": 84,
+   "summary": "整块往上让，下面升起程序坞；光标把图标拖出来，对话框缩成细条、那串回复像尾巴一样跟着甩过去，一起被吸进垃圾桶",
+   "entry": "接上一拍的回复",
+   "note": "",
+   "source": "stop-chat-drag-trash",
+   "range": [
+    152,
+    236
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dock-drag-into-trash/DockDragIntoTrash.tsx",
+   "card": "references/parts-own/dock-drag-into-trash.md",
+   "preview": "demos-own/parts/dock-drag-into-trash/preview.mp4",
+   "sheet": "demos-own/parts/dock-drag-into-trash/preview-sheet.jpg"
+  },
+  {
+   "name": "dock-type-genie-burst-name",
+   "zh": "打\"隆重介绍\" · 图标喷开满屏 · 产品名浮出",
+   "use": "品牌落版",
+   "seconds": 2.8,
+   "frames": 84,
+   "summary": "程序坞上方打出\"隆重介绍\"，手点开产品图标，图标像精灵一样喷开撑满全屏，产品名逐字母浮出变大",
+   "entry": "第一帧开始",
+   "note": "从痛点转到产品登场",
+   "source": "intro-genie-wordmark-browser",
+   "range": [
+    0,
+    84
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dock-type-genie-burst-name/DockTypeGenieBurstName.tsx",
+   "card": "references/parts-own/dock-type-genie-burst-name.md",
+   "preview": "demos-own/parts/dock-type-genie-burst-name/preview.mp4",
+   "sheet": "demos-own/parts/dock-type-genie-burst-name/preview-sheet.jpg"
+  },
+  {
+   "name": "wash-white-logo-lines",
+   "zh": "整屏洗白 · 标志和四行定位由灰变黑",
+   "use": "字卡",
+   "seconds": 2.3,
+   "frames": 68,
+   "summary": "整屏洗白，白底上标志和四行字由灰变黑，背后一条蓝线沿窗口边描出来",
+   "entry": "接上一拍的满屏",
+   "note": "",
+   "source": "intro-genie-wordmark-browser",
+   "range": [
+    84,
+    152
+   ],
+   "whole": false,
+   "code": "demos-own/parts/wash-white-logo-lines/WashWhiteLogoLines.tsx",
+   "card": "references/parts-own/wash-white-logo-lines.md",
+   "preview": "demos-own/parts/wash-white-logo-lines/preview.mp4",
+   "sheet": "demos-own/parts/wash-white-logo-lines/preview-sheet.jpg"
+  },
+  {
+   "name": "words-stagger-browser-reveal",
+   "zh": "三个带图标的词错落滑进 · 浏览器显出来",
+   "use": "结果登场",
+   "seconds": 3.0,
+   "frames": 90,
+   "summary": "\"横跨\"加三个带图标的词错落滑进，淡出后浏览器界面显出",
+   "entry": "接上一拍的白底",
+   "note": "",
+   "source": "intro-genie-wordmark-browser",
+   "range": [
+    152,
+    242
+   ],
+   "whole": false,
+   "code": "demos-own/parts/words-stagger-browser-reveal/WordsStaggerBrowserReveal.tsx",
+   "card": "references/parts-own/words-stagger-browser-reveal.md",
+   "preview": "demos-own/parts/words-stagger-browser-reveal/preview.mp4",
+   "sheet": "demos-own/parts/words-stagger-browser-reveal/preview-sheet.jpg"
+  },
+  {
+   "name": "type-phrase-key-insert",
+   "zh": "打出短语 · 钥匙插到词前面",
+   "use": "字卡",
+   "seconds": 1.9,
+   "frames": 56,
+   "summary": "上一镜的图标缩掉，打出一个短语；前半句退掉，一把钥匙插到关键词前面",
+   "entry": "接上一镜的图标",
+   "note": "",
+   "source": "subscription-icons-absorb-url",
+   "range": [
+    0,
+    56
+   ],
+   "whole": false,
+   "code": "demos-own/parts/type-phrase-key-insert/TypePhraseKeyInsert.tsx",
+   "card": "references/parts-own/type-phrase-key-insert.md",
+   "preview": "demos-own/parts/type-phrase-key-insert/preview.mp4",
+   "sheet": "demos-own/parts/type-phrase-key-insert/preview-sheet.jpg"
+  },
+  {
+   "name": "icons-absorbed-logo-name",
+   "zh": "一排图标被吸进去 · 缩成标志 · 产品名",
+   "use": "品牌落版",
+   "seconds": 3.3,
+   "frames": 98,
+   "summary": "钥匙换成小火花，App 图标出现，右边一排图标往左走、一个个被吸进去；App 图标缩成标志，打出产品名和一句定位",
+   "entry": "接上一拍的钥匙",
+   "note": "",
+   "source": "subscription-icons-absorb-url",
+   "range": [
+    56,
+    154
+   ],
+   "whole": false,
+   "code": "demos-own/parts/icons-absorbed-logo-name/IconsAbsorbedLogoName.tsx",
+   "card": "references/parts-own/icons-absorbed-logo-name.md",
+   "preview": "demos-own/parts/icons-absorbed-logo-name/preview.mp4",
+   "sheet": "demos-own/parts/icons-absorbed-logo-name/preview-sheet.jpg"
+  },
+  {
+   "name": "two-words-part-url",
+   "zh": "两个词往两边退开 · 中间打出网址",
+   "use": "品牌落版",
+   "seconds": 3.1,
+   "frames": 93,
+   "summary": "只剩两个词，往两边退开变暗，中间打出网址",
+   "entry": "接上一拍的落版",
+   "note": "全片最后",
+   "source": "subscription-icons-absorb-url",
+   "range": [
+    154,
+    247
+   ],
+   "whole": false,
+   "code": "demos-own/parts/two-words-part-url/TwoWordsPartUrl.tsx",
+   "card": "references/parts-own/two-words-part-url.md",
+   "preview": "demos-own/parts/two-words-part-url/preview.mp4",
+   "sheet": "demos-own/parts/two-words-part-url/preview-sheet.jpg"
+  },
+  {
+   "name": "board-rise-push-bell-toast",
+   "zh": "任务板升起 · 猛推到铃铛 · 红点变成通知卡",
+   "use": "功能演示",
+   "seconds": 2.9,
+   "frames": 87,
+   "summary": "任务板升上来，镜头猛推到铃铛，红点掉下来变白、撑开成斜着的通知卡",
+   "entry": "第一帧开始",
+   "note": "\"有新事进来\"",
+   "source": "board-bell-toast-drawer",
+   "range": [
+    0,
+    87
+   ],
+   "whole": false,
+   "code": "demos-own/parts/board-rise-push-bell-toast/BoardRisePushBellToast.tsx",
+   "card": "references/parts-own/board-rise-push-bell-toast.md",
+   "preview": "demos-own/parts/board-rise-push-bell-toast/preview.mp4",
+   "sheet": "demos-own/parts/board-rise-push-bell-toast/preview-sheet.jpg"
+  },
+  {
+   "name": "pullback-table-insert",
+   "zh": "拉回 · 表格里插进新的一组",
+   "use": "功能演示",
+   "seconds": 1.9,
+   "frames": 56,
+   "summary": "镜头拉回，表格上插进新的一组（先虚后实）",
+   "entry": "接上一拍的特写",
+   "note": "",
+   "source": "board-bell-toast-drawer",
+   "range": [
+    87,
+    143
+   ],
+   "whole": false,
+   "code": "demos-own/parts/pullback-table-insert/PullbackTableInsert.tsx",
+   "card": "references/parts-own/pullback-table-insert.md",
+   "preview": "demos-own/parts/pullback-table-insert/preview.mp4",
+   "sheet": "demos-own/parts/pullback-table-insert/preview-sheet.jpg"
+  },
+  {
+   "name": "tilt-row-drawer-open",
+   "zh": "斜着压近看一行 · 右边滑出详情",
+   "use": "功能演示",
+   "seconds": 2.6,
+   "frames": 79,
+   "summary": "镜头斜着压过去看这一行再回正，右边滑出详情面板",
+   "entry": "接上一拍的表格",
+   "note": "斜看是逐帧量的整屏变换，不许改成普通旋转",
+   "source": "board-bell-toast-drawer",
+   "range": [
+    143,
+    222
+   ],
+   "whole": false,
+   "code": "demos-own/parts/tilt-row-drawer-open/TiltRowDrawerOpen.tsx",
+   "card": "references/parts-own/tilt-row-drawer-open.md",
+   "preview": "demos-own/parts/tilt-row-drawer-open/preview.mp4",
+   "sheet": "demos-own/parts/tilt-row-drawer-open/preview-sheet.jpg"
+  },
+  {
+   "name": "drawer-close-table-slide",
+   "zh": "详情收回 · 表格横滑出场",
+   "use": "过渡动作",
+   "seconds": 1.7,
+   "frames": 51,
+   "summary": "详情面板收回，表格横滑接下一镜",
+   "entry": "接上一拍的详情",
+   "note": "",
+   "source": "board-bell-toast-drawer",
+   "range": [
+    222,
+    273
+   ],
+   "whole": false,
+   "code": "demos-own/parts/drawer-close-table-slide/DrawerCloseTableSlide.tsx",
+   "card": "references/parts-own/drawer-close-table-slide.md",
+   "preview": "demos-own/parts/drawer-close-table-slide/preview.mp4",
+   "sheet": "demos-own/parts/drawer-close-table-slide/preview-sheet.jpg"
+  },
+  {
+   "name": "searchbar-punch-type-icons",
+   "zh": "搜索栏被点中 · 两下猛推打字 · 图标滑进来",
+   "use": "痛点",
+   "seconds": 3.5,
+   "frames": 105,
+   "summary": "搜索栏被光标点中，镜头分两下猛推，打出一句话；图标一个个滑进栏里，镜头一下一下往右摇",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "search-trash-dock-buttons",
+   "range": [
+    0,
+    105
+   ],
+   "whole": false,
+   "code": "demos-own/parts/searchbar-punch-type-icons/SearchbarPunchTypeIcons.tsx",
+   "card": "references/parts-own/searchbar-punch-type-icons.md",
+   "preview": "demos-own/parts/searchbar-punch-type-icons/preview.mp4",
+   "sheet": "demos-own/parts/searchbar-punch-type-icons/preview-sheet.jpg"
+  },
+  {
+   "name": "icons-toss-into-trash",
+   "zh": "图标被抛起 · 翻着掉进垃圾桶",
+   "use": "痛点",
+   "seconds": 2.2,
+   "frames": 66,
+   "summary": "硬切：图标被抛起、翻着掉进升上来的垃圾桶，上面一行行亮出字",
+   "entry": "硬切",
+   "note": "\"装了一堆工具反而更累\"",
+   "source": "search-trash-dock-buttons",
+   "range": [
+    105,
+    171
+   ],
+   "whole": false,
+   "code": "demos-own/parts/icons-toss-into-trash/IconsTossIntoTrash.tsx",
+   "card": "references/parts-own/icons-toss-into-trash.md",
+   "preview": "demos-own/parts/icons-toss-into-trash/preview.mp4",
+   "sheet": "demos-own/parts/icons-toss-into-trash/preview-sheet.jpg"
+  },
+  {
+   "name": "trash-to-dock-button-swarm",
+   "zh": "桶长成程序坞 · 点一下变按钮 · 按钮满屏飞",
+   "use": "钩子",
+   "seconds": 4.2,
+   "frames": 126,
+   "summary": "桶外长出底板、撑开成程序坞，新图标一个个弹进来；一点，坞变成一个按钮，按钮复制成一摞满屏乱飞，再一下子收走",
+   "entry": "接上一拍的垃圾桶",
+   "note": "",
+   "source": "search-trash-dock-buttons",
+   "range": [
+    171,
+    297
+   ],
+   "whole": false,
+   "code": "demos-own/parts/trash-to-dock-button-swarm/TrashToDockButtonSwarm.tsx",
+   "card": "references/parts-own/trash-to-dock-button-swarm.md",
+   "preview": "demos-own/parts/trash-to-dock-button-swarm/preview.mp4",
+   "sheet": "demos-own/parts/trash-to-dock-button-swarm/preview-sheet.jpg"
+  },
+  {
+   "name": "tags-decode-orbit",
+   "zh": "两个标签框乱码解码 · 相机绕着转",
+   "use": "钩子",
+   "seconds": 2.9,
+   "frames": 87,
+   "summary": "黑底，巨大的渐变框里是乱码；相机后拉、一帧跳机位、快速环绕两个框，两个词都解码完，最后绕竖轴加速甩",
+   "entry": "黑底",
+   "note": "",
+   "source": "tag-decode-ring-wave",
+   "range": [
+    0,
+    87
+   ],
+   "whole": false,
+   "code": "demos-own/parts/tags-decode-orbit/TagsDecodeOrbit.tsx",
+   "card": "references/parts-own/tags-decode-orbit.md",
+   "preview": "demos-own/parts/tags-decode-orbit/preview.mp4",
+   "sheet": "demos-own/parts/tags-decode-orbit/preview-sheet.jpg"
+  },
+  {
+   "name": "tag-ring-spin-dive",
+   "zh": "3D 标签环狂转倒下 · 俯冲穿过",
+   "use": "列举",
+   "seconds": 4.2,
+   "frames": 125,
+   "summary": "硬切成 3D 标签环：侧立的窄环狂转，同时倒下、拉远，标签越冒越多；平躺慢转、俯冲、一帧翻转，近景沿蓝色光带慢漂，推近甩出",
+   "entry": "硬切",
+   "note": "",
+   "source": "tag-decode-ring-wave",
+   "range": [
+    87,
+    212
+   ],
+   "whole": false,
+   "code": "demos-own/parts/tag-ring-spin-dive/TagRingSpinDive.tsx",
+   "card": "references/parts-own/tag-ring-spin-dive.md",
+   "preview": "demos-own/parts/tag-ring-spin-dive/preview.mp4",
+   "sheet": "demos-own/parts/tag-ring-spin-dive/preview-sheet.jpg"
+  },
+  {
+   "name": "rays-panel-wave-strobe",
+   "zh": "射线图 · 面板推进来 · 声波柱流动 · 频闪",
+   "use": "结果登场",
+   "seconds": 3.7,
+   "frames": 111,
+   "summary": "一帧换成射线图，彩色小方块沿射线往中心流；白底面板从右推进来，面板上的短划涨成波形往右流，最后频闪冲出",
+   "entry": "一帧切",
+   "note": "\"零散信息收拢成一段可用的东西\"",
+   "source": "tag-decode-ring-wave",
+   "range": [
+    212,
+    323
+   ],
+   "whole": false,
+   "code": "demos-own/parts/rays-panel-wave-strobe/RaysPanelWaveStrobe.tsx",
+   "card": "references/parts-own/rays-panel-wave-strobe.md",
+   "preview": "demos-own/parts/rays-panel-wave-strobe/preview.mp4",
+   "sheet": "demos-own/parts/rays-panel-wave-strobe/preview-sheet.jpg"
+  },
+  {
+   "name": "amount-split-pill-tags",
+   "zh": "超大金额 · 黄块铺满 · 数字拉开",
+   "use": "证据",
+   "seconds": 1.7,
+   "frames": 52,
+   "summary": "白底超大金额 → 亮黄方块一格格铺满、数字一边缩小一边拉开 → 黄底褪成浅黄再褪白 →",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "amount-split-pill-tags",
+   "range": [
+    0,
+    52
+   ],
+   "whole": true,
+   "code": "demos-own/parts/amount-split-pill-tags/AmountSplitPillTags.tsx",
+   "card": "references/parts-own/amount-split-pill-tags.md",
+   "preview": "demos-own/parts/amount-split-pill-tags/preview.mp4",
+   "sheet": "demos-own/parts/amount-split-pill-tags/preview-sheet.jpg"
+  },
+  {
+   "name": "arc-sweep-wordmark",
+   "zh": "蓝色弧光扫过 · 星标和名字由糊变清",
+   "use": "品牌落版",
+   "seconds": 3.2,
+   "frames": 96,
+   "summary": "一道蓝色弧光从右上扫过去 → 顶上一条暗弧、底下一圈行星边缘的光 → 中间星标 + 名字从左往右由糊变清，定住（028-H 单个镜头，收尾）",
+   "entry": "第一帧开始",
+   "note": "暗色片子的收尾",
+   "source": "arc-sweep-wordmark",
+   "range": [
+    0,
+    96
+   ],
+   "whole": true,
+   "code": "demos-own/parts/arc-sweep-wordmark/ArcSweepWordmark.tsx",
+   "card": "references/parts-own/arc-sweep-wordmark.md",
+   "preview": "demos-own/parts/arc-sweep-wordmark/preview.mp4",
+   "sheet": "demos-own/parts/arc-sweep-wordmark/preview-sheet.jpg"
+  },
+  {
+   "name": "connect-word-icon-reel",
+   "zh": "固定大词 · 图标方块转轮换小词",
+   "use": "列举",
+   "seconds": 5.0,
+   "frames": 150,
+   "summary": "暗紫底，左边一个固定大词 + 下面一行小词轮换；右边一串紫色图标方块斜着排成转轮，",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "connect-word-icon-reel",
+   "range": [
+    0,
+    150
+   ],
+   "whole": true,
+   "code": "demos-own/parts/connect-word-icon-reel/ConnectWordIconReel.tsx",
+   "card": "references/parts-own/connect-word-icon-reel.md",
+   "preview": "demos-own/parts/connect-word-icon-reel/preview.mp4",
+   "sheet": "demos-own/parts/connect-word-icon-reel/preview-sheet.jpg"
+  },
+  {
+   "name": "dot-adapters-balls",
+   "zh": "点云聚成四颗点阵球 · 各带名字",
+   "use": "列举",
+   "seconds": 4.2,
+   "frames": 126,
+   "summary": "点线卡片散成点云 → 聚成一大三小四颗转动的点阵球，球下面各有一个小图标 + 名字，左边一行大字；最后球又化成点云（033-C 一拍，枚举）",
+   "entry": "接点线卡片散开",
+   "note": "结尾球又化成点云，可以接别的点阵零件",
+   "source": "dot-adapters-balls",
+   "range": [
+    0,
+    126
+   ],
+   "whole": true,
+   "code": "demos-own/parts/dot-adapters-balls/DotAdaptersBalls.tsx",
+   "card": "references/parts-own/dot-adapters-balls.md",
+   "preview": "demos-own/parts/dot-adapters-balls/preview.mp4",
+   "sheet": "demos-own/parts/dot-adapters-balls/preview-sheet.jpg"
+  },
+  {
+   "name": "dot-burst-sphere",
+   "zh": "大圆缩成点 · 点阵迎面炸开聚成球",
+   "use": "钩子",
+   "seconds": 4.8,
+   "frames": 144,
+   "summary": "黑底一个大圆（灰→白）越缩越小成一个点，背景浮出点阵 → 点\"炸开\"迎面飞来、聚成右边一颗转动的点阵球，",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "dot-burst-sphere",
+   "range": [
+    0,
+    144
+   ],
+   "whole": true,
+   "code": "demos-own/parts/dot-burst-sphere/DotBurstSphere.tsx",
+   "card": "references/parts-own/dot-burst-sphere.md",
+   "preview": "demos-own/parts/dot-burst-sphere/preview.mp4",
+   "sheet": "demos-own/parts/dot-burst-sphere/preview-sheet.jpg"
+  },
+  {
+   "name": "dots-word-perspective-list",
+   "zh": "彩点飞来拼成字 · 整句让开出透视清单",
+   "use": "证据",
+   "seconds": 4.3,
+   "frames": 129,
+   "summary": "黑底先出半句，后半句的字从四散的彩色小点飞过来拼上 → 整句往上让开 →",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "dots-word-perspective-list",
+   "range": [
+    0,
+    129
+   ],
+   "whole": true,
+   "code": "demos-own/parts/dots-word-perspective-list/DotsWordPerspectiveList.tsx",
+   "card": "references/parts-own/dots-word-perspective-list.md",
+   "preview": "demos-own/parts/dots-word-perspective-list/preview.mp4",
+   "sheet": "demos-own/parts/dots-word-perspective-list/preview-sheet.jpg"
+  },
+  {
+   "name": "feature-cards-social-wordmark",
+   "zh": "功能小卡一张张顶上来 · 收成字标",
+   "use": "品牌落版",
+   "seconds": 3.3,
+   "frames": 98,
+   "summary": "照片条往上推走，四张白色功能小卡从下面一张张顶上来铺满蓝底（数字一直在跳、滑块在走）→",
+   "entry": "接上一拍的照片条",
+   "note": "",
+   "source": "feature-cards-social-wordmark",
+   "range": [
+    0,
+    98
+   ],
+   "whole": true,
+   "code": "demos-own/parts/feature-cards-social-wordmark/FeatureCardsSocialWordmark.tsx",
+   "card": "references/parts-own/feature-cards-social-wordmark.md",
+   "preview": "demos-own/parts/feature-cards-social-wordmark/preview.mp4",
+   "sheet": "demos-own/parts/feature-cards-social-wordmark/preview-sheet.jpg"
+  },
+  {
+   "name": "folder-drop-chat",
+   "zh": "玻璃文件夹拖进聊天面板 · 边拖边打字",
+   "use": "功能演示",
+   "seconds": 2.9,
+   "frames": 88,
+   "summary": "接上一拍拖着的玻璃文件夹——硬切米色底，聊天面板从右边滑进来接住它；边拖边打字（紫色），",
+   "entry": "硬切，接上一拍拖着的文件夹",
+   "note": "前面可以接 dock-grab-folder-drag",
+   "source": "folder-drop-chat",
+   "range": [
+    0,
+    88
+   ],
+   "whole": true,
+   "code": "demos-own/parts/folder-drop-chat/FolderDropChat.tsx",
+   "card": "references/parts-own/folder-drop-chat.md",
+   "preview": "demos-own/parts/folder-drop-chat/preview.mp4",
+   "sheet": "demos-own/parts/folder-drop-chat/preview-sheet.jpg"
+  },
+  {
+   "name": "generating-studio",
+   "zh": "「生成中」大按钮 · 流光一呼一吸",
+   "use": "过渡动作",
+   "seconds": 2.7,
+   "frames": 81,
+   "summary": "软光底中间一个渐变描边的大按钮「✧ 生成中···」（字带紫色流光逐个显出、外圈发光一呼一吸）→",
+   "entry": "第一帧开始",
+   "note": "等结果的那一拍",
+   "source": "generating-studio",
+   "range": [
+    0,
+    81
+   ],
+   "whole": true,
+   "code": "demos-own/parts/generating-studio/GeneratingStudio.tsx",
+   "card": "references/parts-own/generating-studio.md",
+   "preview": "demos-own/parts/generating-studio/preview.mp4",
+   "sheet": "demos-own/parts/generating-studio/preview-sheet.jpg"
+  },
+  {
+   "name": "giant-word-scroll-intro",
+   "zh": "超宽大字甩进来刹住 · 再甩走",
+   "use": "钩子",
+   "seconds": 3.2,
+   "frames": 96,
+   "summary": "黑底暗红光斑，一行比屏幕还宽的超大白字从右边甩进来、刹住慢慢漂、再甩出去 →",
+   "entry": "第一帧就在动",
+   "note": "",
+   "source": "giant-word-scroll-intro",
+   "range": [
+    0,
+    96
+   ],
+   "whole": true,
+   "code": "demos-own/parts/giant-word-scroll-intro/GiantWordScrollIntro.tsx",
+   "card": "references/parts-own/giant-word-scroll-intro.md",
+   "preview": "demos-own/parts/giant-word-scroll-intro/preview.mp4",
+   "sheet": "demos-own/parts/giant-word-scroll-intro/preview-sheet.jpg"
+  },
+  {
+   "name": "giant-word-stack-faces",
+   "zh": "撑满屏的大字滑过 · 第二个词两行挤进来",
+   "use": "证据",
+   "seconds": 4.8,
+   "frames": 144,
+   "summary": "米白底一个小圈 → 撑满整屏的超大字（带一点重影抖动）往左越滑越快地滑过去 → 第二个词两行错开从右边挤进来 →",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "giant-word-stack-faces",
+   "range": [
+    0,
+    144
+   ],
+   "whole": true,
+   "code": "demos-own/parts/giant-word-stack-faces/GiantWordStackFaces.tsx",
+   "card": "references/parts-own/giant-word-stack-faces.md",
+   "preview": "demos-own/parts/giant-word-stack-faces/preview.mp4",
+   "sheet": "demos-own/parts/giant-word-stack-faces/preview-sheet.jpg"
+  },
+  {
+   "name": "glass-dashboard-arc",
+   "zh": "玻璃面板浮起 · 弧光升起 · 界面一层层显出",
+   "use": "结果登场",
+   "seconds": 5.9,
+   "frames": 177,
+   "summary": "一块空的玻璃面板浮起来、长高 → 下面升起一道蓝色弧光（行星边缘）→ 界面一层层显出来（顶栏、标题、AI 助手、柱状图、折线、环形图）→",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "glass-dashboard-arc",
+   "range": [
+    0,
+    177
+   ],
+   "whole": true,
+   "code": "demos-own/parts/glass-dashboard-arc/GlassDashboardArc.tsx",
+   "card": "references/parts-own/glass-dashboard-arc.md",
+   "preview": "demos-own/parts/glass-dashboard-arc/preview.mp4",
+   "sheet": "demos-own/parts/glass-dashboard-arc/preview-sheet.jpg"
+  },
+  {
+   "name": "glass-number-cards",
+   "zh": "三张玻璃数字卡 · 数字滚着涨",
+   "use": "证据",
+   "seconds": 2.0,
+   "frames": 60,
+   "summary": "三张玻璃数字卡（营收 / 时长 / 点击）在画面里漂，数字一格格往上滚着涨，节奏错开（028-G 一拍，数据证明核心）",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "glass-number-cards",
+   "range": [
+    0,
+    60
+   ],
+   "whole": true,
+   "code": "demos-own/parts/glass-number-cards/GlassNumberCards.tsx",
+   "card": "references/parts-own/glass-number-cards.md",
+   "preview": "demos-own/parts/glass-number-cards/preview.mp4",
+   "sheet": "demos-own/parts/glass-number-cards/preview-sheet.jpg"
+  },
+  {
+   "name": "glow-word-trace-logo",
+   "zh": "蓝光沿标志描一圈 · 变成实心标志",
+   "use": "品牌落版",
+   "seconds": 4.8,
+   "frames": 144,
+   "summary": "黑底中间一个渐变小字暗暗亮着 → 一束蓝光沿着标志的形状描一圈，小字随之淡掉 → 光描完变成实心白色字形标志，停住（013-H 单个镜头，收尾）",
+   "entry": "第一帧开始",
+   "note": "暗色片子的收尾",
+   "source": "glow-word-trace-logo",
+   "range": [
+    0,
+    144
+   ],
+   "whole": true,
+   "code": "demos-own/parts/glow-word-trace-logo/GlowWordTraceLogo.tsx",
+   "card": "references/parts-own/glow-word-trace-logo.md",
+   "preview": "demos-own/parts/glow-word-trace-logo/preview.mp4",
+   "sheet": "demos-own/parts/glow-word-trace-logo/preview-sheet.jpg"
+  },
+  {
+   "name": "idea-card-role-pills",
+   "zh": "想法卡升起 · 输入框弹出打一句话再缩回",
+   "use": "输入",
+   "seconds": 4.3,
+   "frames": 128,
+   "summary": "白→粉渐变底，一张「新想法」卡从下面升上来，输入框弹出来（比卡还宽）逐字打一句话、再缩回卡里 →",
+   "entry": "第一帧开始",
+   "note": "后面可以接 pills-out-progress-dashboard",
+   "source": "idea-card-role-pills",
+   "range": [
+    0,
+    128
+   ],
+   "whole": true,
+   "code": "demos-own/parts/idea-card-role-pills/IdeaCardRolePills.tsx",
+   "card": "references/parts-own/idea-card-role-pills.md",
+   "preview": "demos-own/parts/idea-card-role-pills/preview.mp4",
+   "sheet": "demos-own/parts/idea-card-role-pills/preview-sheet.jpg"
+  },
+  {
+   "name": "mixed-glyph-type-glitch",
+   "zh": "逐字打字 · 每个字不停换字体",
+   "use": "字卡",
+   "seconds": 4.0,
+   "frames": 120,
+   "summary": "浅灰底 + 淡淡的字符画漩涡，一句话一个字一个字打出来、每个字都在不停换字体（花体 / 超粗 / 描边 / 键帽框 / 等宽）、框选着 →",
+   "entry": "第一帧开始",
+   "note": "用到素材库的艺术字体",
+   "source": "mixed-glyph-type-glitch",
+   "range": [
+    0,
+    120
+   ],
+   "whole": true,
+   "code": "demos-own/parts/mixed-glyph-type-glitch/MixedGlyphTypeGlitch.tsx",
+   "card": "references/parts-own/mixed-glyph-type-glitch.md",
+   "preview": "demos-own/parts/mixed-glyph-type-glitch/preview.mp4",
+   "sheet": "demos-own/parts/mixed-glyph-type-glitch/preview-sheet.jpg"
+  },
+  {
+   "name": "notebook-ui-flow",
+   "zh": "Logo 一闪 · 硬切进笔记本界面",
+   "use": "结果登场",
+   "seconds": 4.7,
+   "frames": 141,
+   "summary": "发送后——软光渐变底上产品 Logo + 名字一闪 → 硬切进笔记本界面（玻璃边框大窗口，先略推远，",
+   "entry": "接在点发送之后",
+   "note": "",
+   "source": "notebook-ui-flow",
+   "range": [
+    0,
+    141
+   ],
+   "whole": true,
+   "code": "demos-own/parts/notebook-ui-flow/NotebookUiFlow.tsx",
+   "card": "references/parts-own/notebook-ui-flow.md",
+   "preview": "demos-own/parts/notebook-ui-flow/preview.mp4",
+   "sheet": "demos-own/parts/notebook-ui-flow/preview-sheet.jpg"
+  },
+  {
+   "name": "orb-split-three-one-app",
+   "zh": "小球分成三个功能图标 · 再合成一个应用",
+   "use": "列举",
+   "seconds": 4.3,
+   "frames": 129,
+   "summary": "黑底一颗渐变小球 + 下面一个词，四周彩色小点漂 → 球往两边分出两颗、变成三个功能图标（各自换色、下面各有名字）→",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "orb-split-three-one-app",
+   "range": [
+    0,
+    129
+   ],
+   "whole": true,
+   "code": "demos-own/parts/orb-split-three-one-app/OrbSplitThreeOneApp.tsx",
+   "card": "references/parts-own/orb-split-three-one-app.md",
+   "preview": "demos-own/parts/orb-split-three-one-app/preview.mp4",
+   "sheet": "demos-own/parts/orb-split-three-one-app/preview-sheet.jpg"
+  },
+  {
+   "name": "palette-steps-list",
+   "zh": "竖色条长成台阶 · 铺成一行行色带",
+   "use": "列举",
+   "seconds": 2.1,
+   "frames": 63,
+   "summary": "硬切黑底，一根竖色条（几种品牌色上下叠）往两边长成金字塔台阶（越下面越宽），再一下铺满成一行行全宽色带，",
+   "entry": "硬切",
+   "note": "",
+   "source": "palette-steps-list",
+   "range": [
+    0,
+    63
+   ],
+   "whole": true,
+   "code": "demos-own/parts/palette-steps-list/PaletteStepsList.tsx",
+   "card": "references/parts-own/palette-steps-list.md",
+   "preview": "demos-own/parts/palette-steps-list/preview.mp4",
+   "sheet": "demos-own/parts/palette-steps-list/preview-sheet.jpg"
+  },
+  {
+   "name": "photo-lens-cursor-type",
+   "zh": "满屏照片缩进透镜 · 缩成一根光标",
+   "use": "转场",
+   "seconds": 4.3,
+   "frames": 129,
+   "summary": "满屏照片缩进一个大玻璃透镜、一路缩成一根白色光标 → 光标往左滑到头，一道蓝色彗星光从左边追上来 →",
+   "entry": "第一帧开始",
+   "note": "从\"很多东西\"收到\"开始输入\"",
+   "source": "photo-lens-cursor-type",
+   "range": [
+    0,
+    129
+   ],
+   "whole": true,
+   "code": "demos-own/parts/photo-lens-cursor-type/PhotoLensCursorType.tsx",
+   "card": "references/parts-own/photo-lens-cursor-type.md",
+   "preview": "demos-own/parts/photo-lens-cursor-type/preview.mp4",
+   "sheet": "demos-own/parts/photo-lens-cursor-type/preview-sheet.jpg"
+  },
+  {
+   "name": "pill-bar-report-slides",
+   "zh": "胶囊压成进度条 · 报告页一张张出",
+   "use": "证据",
+   "seconds": 6.0,
+   "frames": 180,
+   "summary": "米白底一个细线小胶囊撑大 → 蓝色圆从左边滚进来填成蓝胶囊 → 上下夹着两个标签词、整条压扁成一根进度条 →",
+   "entry": "第一帧开始",
+   "note": "正好 6 秒",
+   "source": "pill-bar-report-slides",
+   "range": [
+    0,
+    180
+   ],
+   "whole": true,
+   "code": "demos-own/parts/pill-bar-report-slides/PillBarReportSlides.tsx",
+   "card": "references/parts-own/pill-bar-report-slides.md",
+   "preview": "demos-own/parts/pill-bar-report-slides/preview.mp4",
+   "sheet": "demos-own/parts/pill-bar-report-slides/preview-sheet.jpg"
+  },
+  {
+   "name": "pill-rows-slide-claims",
+   "zh": "五行蓝胶囊左右猛滑再刹住",
+   "use": "转场",
+   "seconds": 0.8,
+   "frames": 23,
+   "summary": "硬切满屏五行蓝色胶囊（长胶囊写乱码货币符号、圆胶囊里一个箭头），一行往左一行往右猛滑再刹住，",
+   "entry": "硬切",
+   "note": "不到 1 秒，当一下冲击用",
+   "source": "pill-rows-slide-claims",
+   "range": [
+    0,
+    23
+   ],
+   "whole": true,
+   "code": "demos-own/parts/pill-rows-slide-claims/PillRowsSlideClaims.tsx",
+   "card": "references/parts-own/pill-rows-slide-claims.md",
+   "preview": "demos-own/parts/pill-rows-slide-claims/preview.mp4",
+   "sheet": "demos-own/parts/pill-rows-slide-claims/preview-sheet.jpg"
+  },
+  {
+   "name": "pills-out-progress-dashboard",
+   "zh": "胶囊一条条甩出去 · 进度卡清单打勾",
+   "use": "证据",
+   "seconds": 3.8,
+   "frames": 113,
+   "summary": "上一拍的四条角色胶囊一条条往左甩出去 → 一张「项目进度」卡从右边滑到中间，清单一项项打勾、进度条往前涨 →",
+   "entry": "接上一拍的四条胶囊",
+   "note": "前面接 idea-card-role-pills",
+   "source": "pills-out-progress-dashboard",
+   "range": [
+    0,
+    113
+   ],
+   "whole": true,
+   "code": "demos-own/parts/pills-out-progress-dashboard/PillsOutProgressDashboard.tsx",
+   "card": "references/parts-own/pills-out-progress-dashboard.md",
+   "preview": "demos-own/parts/pills-out-progress-dashboard/preview.mp4",
+   "sheet": "demos-own/parts/pills-out-progress-dashboard/preview-sheet.jpg"
+  },
+  {
+   "name": "pixel-cursors-merge-logo",
+   "zh": "像素小光标四处冒 · 合成标志",
+   "use": "品牌落版",
+   "seconds": 5.0,
+   "frames": 150,
+   "summary": "浅灰底 + 淡字符画漩涡，七八个像素小光标（蓝 / 米色 / 黑白 / 带照片的）四处冒出来晃一会儿，",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "pixel-cursors-merge-logo",
+   "range": [
+    0,
+    150
+   ],
+   "whole": true,
+   "code": "demos-own/parts/pixel-cursors-merge-logo/PixelCursorsMergeLogo.tsx",
+   "card": "references/parts-own/pixel-cursors-merge-logo.md",
+   "preview": "demos-own/parts/pixel-cursors-merge-logo/preview.mp4",
+   "sheet": "demos-own/parts/pixel-cursors-merge-logo/preview-sheet.jpg"
+  },
+  {
+   "name": "planet-glow-title-cut",
+   "zh": "星球上沿亮起沉下去 · 标题逐词由糊变清",
+   "use": "钩子",
+   "seconds": 3.9,
+   "frames": 117,
+   "summary": "暗底下一颗星球的上沿亮起来、越来越白越来越大地沉下去，标题逐词由糊变清（最后一个词先蓝后白）→",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "planet-glow-title-cut",
+   "range": [
+    0,
+    117
+   ],
+   "whole": true,
+   "code": "demos-own/parts/planet-glow-title-cut/PlanetGlowTitleCut.tsx",
+   "card": "references/parts-own/planet-glow-title-cut.md",
+   "preview": "demos-own/parts/planet-glow-title-cut/preview.mp4",
+   "sheet": "demos-own/parts/planet-glow-title-cut/preview-sheet.jpg"
+  },
+  {
+   "name": "progress-tilt-editor",
+   "zh": "进度条跳着涨 · 代码编辑器斜着升起",
+   "use": "结果登场",
+   "seconds": 4.9,
+   "frames": 147,
+   "summary": "产品图标 + 发光进度条跳着涨（几道绿色流光绕着飞）→ 一块霓虹描边的代码编辑器从画面底下斜着升起来、",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "progress-tilt-editor",
+   "range": [
+    0,
+    147
+   ],
+   "whole": true,
+   "code": "demos-own/parts/progress-tilt-editor/ProgressTiltEditor.tsx",
+   "card": "references/parts-own/progress-tilt-editor.md",
+   "preview": "demos-own/parts/progress-tilt-editor/preview.mp4",
+   "sheet": "demos-own/parts/progress-tilt-editor/preview-sheet.jpg"
+  },
+  {
+   "name": "ray-burst-counter",
+   "zh": "蓝圆炸成放射线 · 数字跳三次",
+   "use": "证据",
+   "seconds": 5.9,
+   "frames": 177,
+   "summary": "米白底中间一个蓝圆，两边小字说明 → 蓝圆缩小、外面围一圈点（几颗是人脸）→ 点连成放射线、炸开成一圈长短不一的线，右边数字 340→363→380 跳 →",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "ray-burst-counter",
+   "range": [
+    0,
+    177
+   ],
+   "whole": true,
+   "code": "demos-own/parts/ray-burst-counter/RayBurstCounter.tsx",
+   "card": "references/parts-own/ray-burst-counter.md",
+   "preview": "demos-own/parts/ray-burst-counter/preview.mp4",
+   "sheet": "demos-own/parts/ray-burst-counter/preview-sheet.jpg"
+  },
+  {
+   "name": "scatter-cards-lost-teams",
+   "zh": "像素块闪掉上一句 · 词冒出 · 卡片散在四周",
+   "use": "痛点",
+   "seconds": 3.8,
+   "frames": 115,
+   "summary": "上一句被一片红 / 粉 / 灰的大方块像素闪掉 → 中间一个词一个词冒出「迷失在团队之间」，",
+   "entry": "像素块闪切",
+   "note": "",
+   "source": "scatter-cards-lost-teams",
+   "range": [
+    0,
+    115
+   ],
+   "whole": true,
+   "code": "demos-own/parts/scatter-cards-lost-teams/ScatterCardsLostTeams.tsx",
+   "card": "references/parts-own/scatter-cards-lost-teams.md",
+   "preview": "demos-own/parts/scatter-cards-lost-teams/preview.mp4",
+   "sheet": "demos-own/parts/scatter-cards-lost-teams/preview-sheet.jpg"
+  },
+  {
+   "name": "star-lead-word-roll",
+   "zh": "小蓝星引着引导词 · 右边词槽竖着滚",
+   "use": "列举",
+   "seconds": 4.9,
+   "frames": 147,
+   "summary": "小蓝星一边转一边往右靠、引导词往左靠，两者靠拢成一组 → 整组往左让位，右边一个词槽竖着滚：",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "star-lead-word-roll",
+   "range": [
+    0,
+    147
+   ],
+   "whole": true,
+   "code": "demos-own/parts/star-lead-word-roll/StarLeadWordRoll.tsx",
+   "card": "references/parts-own/star-lead-word-roll.md",
+   "preview": "demos-own/parts/star-lead-word-roll/preview.mp4",
+   "sheet": "demos-own/parts/star-lead-word-roll/preview-sheet.jpg"
+  },
+  {
+   "name": "star-pill-answer-cards",
+   "zh": "四角星长出输入胶囊 · 打一句提问 · 出答案卡",
+   "use": "输入",
+   "seconds": 4.7,
+   "frames": 141,
+   "summary": "一颗发光的蓝色四角星 → 外面长出一个圆、往左挪 → 右边撑开一条输入胶囊、逐字打一句提问 →",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "star-pill-answer-cards",
+   "range": [
+    0,
+    141
+   ],
+   "whole": true,
+   "code": "demos-own/parts/star-pill-answer-cards/StarPillAnswerCards.tsx",
+   "card": "references/parts-own/star-pill-answer-cards.md",
+   "preview": "demos-own/parts/star-pill-answer-cards/preview.mp4",
+   "sheet": "demos-own/parts/star-pill-answer-cards/preview-sheet.jpg"
+  },
+  {
+   "name": "star-spin-wordmark-arcs",
+   "zh": "四角星收走上一句 · 转两下出字标",
+   "use": "品牌落版",
+   "seconds": 3.0,
+   "frames": 90,
+   "summary": "上一句话被一个内凹四角星「收」进去 → 星变小、变亮、往左走，转两下（转的时候鼓成圆角方块）→",
+   "entry": "接上一句话",
+   "note": "",
+   "source": "star-spin-wordmark-arcs",
+   "range": [
+    0,
+    90
+   ],
+   "whole": true,
+   "code": "demos-own/parts/star-spin-wordmark-arcs/StarSpinWordmarkArcs.tsx",
+   "card": "references/parts-own/star-spin-wordmark-arcs.md",
+   "preview": "demos-own/parts/star-spin-wordmark-arcs/preview.mp4",
+   "sheet": "demos-own/parts/star-spin-wordmark-arcs/preview-sheet.jpg"
+  },
+  {
+   "name": "strip-pixel-endcard",
+   "zh": "卡里打字变宽 · 变成横贯全屏的黑条",
+   "use": "品牌落版",
+   "seconds": 4.7,
+   "frames": 140,
+   "summary": "鲜艳渐变底 + 白色辅助线框住一张淡紫卡，卡里打一句话、卡跟着字变宽 → 一下变成横贯全屏的黑色长条，",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "strip-pixel-endcard",
+   "range": [
+    0,
+    140
+   ],
+   "whole": true,
+   "code": "demos-own/parts/strip-pixel-endcard/StripPixelEndcard.tsx",
+   "card": "references/parts-own/strip-pixel-endcard.md",
+   "preview": "demos-own/parts/strip-pixel-endcard/preview.mp4",
+   "sheet": "demos-own/parts/strip-pixel-endcard/preview-sheet.jpg"
+  },
+  {
+   "name": "type-button-slides",
+   "zh": "超大字逐字打 · 拉远成按钮 · 出幻灯片",
+   "use": "功能演示",
+   "seconds": 6.0,
+   "frames": 179,
+   "summary": "黑底超大字逐字打「直接看演示文稿」（镜头从一个字的特写一路拉远，刚打的字是紫色、过一会变白）→",
+   "entry": "第一帧开始",
+   "note": "正好 6 秒",
+   "source": "type-button-slides",
+   "range": [
+    0,
+    179
+   ],
+   "whole": true,
+   "code": "demos-own/parts/type-button-slides/TypeButtonSlides.tsx",
+   "card": "references/parts-own/type-button-slides.md",
+   "preview": "demos-own/parts/type-button-slides/preview.mp4",
+   "sheet": "demos-own/parts/type-button-slides/preview-sheet.jpg"
+  },
+  {
+   "name": "word-ring-tools",
+   "zh": "状态词删了重打 · 工具图标围成环",
+   "use": "功能演示",
+   "seconds": 4.8,
+   "frames": 144,
+   "summary": "画面中间一个状态词在打字（思考中··· → 连接中··· → 分析中···，旧词从头往后删掉、新词打出来），",
+   "entry": "第一帧开始",
+   "note": "\"思考中 → 连接中 → 分析中\"",
+   "source": "word-ring-tools",
+   "range": [
+    0,
+    144
+   ],
+   "whole": true,
+   "code": "demos-own/parts/word-ring-tools/WordRingTools.tsx",
+   "card": "references/parts-own/word-ring-tools.md",
+   "preview": "demos-own/parts/word-ring-tools/preview.mp4",
+   "sheet": "demos-own/parts/word-ring-tools/preview-sheet.jpg"
+  },
+  {
+   "name": "words-float-photo-cloud",
+   "zh": "词高低错落浮上来 · 照片云",
+   "use": "钩子",
+   "seconds": 4.5,
+   "frames": 135,
+   "summary": "粉白渐变底，一句话的词高低错落、带着糊从下面浮上来（两行接力）→ 一张糊掉的白卡从镜头前擦过 →",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "words-float-photo-cloud",
+   "range": [
+    0,
+    135
+   ],
+   "whole": true,
+   "code": "demos-own/parts/words-float-photo-cloud/WordsFloatPhotoCloud.tsx",
+   "card": "references/parts-own/words-float-photo-cloud.md",
+   "preview": "demos-own/parts/words-float-photo-cloud/preview.mp4",
+   "sheet": "demos-own/parts/words-float-photo-cloud/preview-sheet.jpg"
+  },
+  {
+   "name": "card-hang-line-unfold",
+   "zh": "动态卡吊在细线上展开",
+   "use": "功能演示",
+   "seconds": 1.7,
+   "frames": 50,
+   "summary": "白粉底，一张动态卡吊在一根从顶上垂下来的细线上展开",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "activity-line-chain",
+   "range": [
+    0,
+    50
+   ],
+   "whole": false,
+   "code": "demos-own/parts/card-hang-line-unfold/CardHangLineUnfold.tsx",
+   "card": "references/parts-own/card-hang-line-unfold.md",
+   "preview": "demos-own/parts/card-hang-line-unfold/preview.mp4",
+   "sheet": "demos-own/parts/card-hang-line-unfold/preview-sheet.jpg"
+  },
+  {
+   "name": "line-bend-second-card",
+   "zh": "线弯下去接到第二张卡",
+   "use": "列举",
+   "seconds": 2.4,
+   "frames": 73,
+   "summary": "镜头往下跟，线弯下去接到第二张卡",
+   "entry": "接上一张卡",
+   "note": "",
+   "source": "activity-line-chain",
+   "range": [
+    50,
+    123
+   ],
+   "whole": false,
+   "code": "demos-own/parts/line-bend-second-card/LineBendSecondCard.tsx",
+   "card": "references/parts-own/line-bend-second-card.md",
+   "preview": "demos-own/parts/line-bend-second-card/preview.mp4",
+   "sheet": "demos-own/parts/line-bend-second-card/preview-sheet.jpg"
+  },
+  {
+   "name": "line-turn-third-card-pull",
+   "zh": "线拐上去接第三张卡 · 拉远擦掉",
+   "use": "列举",
+   "seconds": 3.4,
+   "frames": 102,
+   "summary": "镜头往右，线拐上去接到第三张卡，卡上出标记，最后拉远、整屏擦掉",
+   "entry": "接上一张卡",
+   "note": "结尾是整屏擦除，可以直接接下一镜",
+   "source": "activity-line-chain",
+   "range": [
+    123,
+    225
+   ],
+   "whole": false,
+   "code": "demos-own/parts/line-turn-third-card-pull/LineTurnThirdCardPull.tsx",
+   "card": "references/parts-own/line-turn-third-card-pull.md",
+   "preview": "demos-own/parts/line-turn-third-card-pull/preview.mp4",
+   "sheet": "demos-own/parts/line-turn-third-card-pull/preview-sheet.jpg"
+  },
+  {
+   "name": "icon-tiles-whip-line-cards",
+   "zh": "图标砖散开 · 一甩 · 白线画到下一张卡",
+   "use": "痛点",
+   "seconds": 3.4,
+   "frames": 101,
+   "summary": "黑红底，红色图标砖和通知卡散开，镜头一甩，跟着一条弯曲白线从一张卡画到下一张卡",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "card-line-flow",
+   "range": [
+    0,
+    101
+   ],
+   "whole": false,
+   "code": "demos-own/parts/icon-tiles-whip-line-cards/IconTilesWhipLineCards.tsx",
+   "card": "references/parts-own/icon-tiles-whip-line-cards.md",
+   "preview": "demos-own/parts/icon-tiles-whip-line-cards/preview.mp4",
+   "sheet": "demos-own/parts/icon-tiles-whip-line-cards/preview-sheet.jpg"
+  },
+  {
+   "name": "line-avatars-roles-zoom",
+   "zh": "白线接着走 · 头像角色冒出 · 推近进度",
+   "use": "功能演示",
+   "seconds": 3.9,
+   "frames": 118,
+   "summary": "白线继续往右：协调人小卡、三个头像冒出来，角色标签出现，线接到项目卡，最后推近",
+   "entry": "接上一段的白线",
+   "note": "",
+   "source": "card-line-flow",
+   "range": [
+    101,
+    219
+   ],
+   "whole": false,
+   "code": "demos-own/parts/line-avatars-roles-zoom/LineAvatarsRolesZoom.tsx",
+   "card": "references/parts-own/line-avatars-roles-zoom.md",
+   "preview": "demos-own/parts/line-avatars-roles-zoom/preview.mp4",
+   "sheet": "demos-own/parts/line-avatars-roles-zoom/preview-sheet.jpg"
+  },
+  {
+   "name": "portrait-circles-squeeze-word",
+   "zh": "人像圆长出蓝圆挤成沙漏 · 收成一个词",
+   "use": "钩子",
+   "seconds": 2.9,
+   "frames": 87,
+   "summary": "米白底，圆形人像照片上长出两个蓝色大圆、挤成沙漏，合成一个带字的蓝圆、左右挤出一排椭圆，椭圆收掉只剩一个词，再缩成黑圆、出标志和名字",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "circle-morph-listen",
+   "range": [
+    0,
+    87
+   ],
+   "whole": false,
+   "code": "demos-own/parts/portrait-circles-squeeze-word/PortraitCirclesSqueezeWord.tsx",
+   "card": "references/parts-own/portrait-circles-squeeze-word.md",
+   "preview": "demos-own/parts/portrait-circles-squeeze-word/preview.mp4",
+   "sheet": "demos-own/parts/portrait-circles-squeeze-word/preview-sheet.jpg"
+  },
+  {
+   "name": "giant-word-dot-rings-faces",
+   "zh": "超大字 · 小词轮换 · 点阵环炸开成人脸",
+   "use": "证据",
+   "seconds": 3.7,
+   "frames": 111,
+   "summary": "名字猛放大成撑满屏的超大字，换成一个个小词，小词外面长出一圈圈点阵环，最后炸开成一大片人脸圆点",
+   "entry": "接上一段的标志",
+   "note": "数量感：很多人",
+   "source": "circle-morph-listen",
+   "range": [
+    87,
+    198
+   ],
+   "whole": false,
+   "code": "demos-own/parts/giant-word-dot-rings-faces/GiantWordDotRingsFaces.tsx",
+   "card": "references/parts-own/giant-word-dot-rings-faces.md",
+   "preview": "demos-own/parts/giant-word-dot-rings-faces/preview.mp4",
+   "sheet": "demos-own/parts/giant-word-dot-rings-faces/preview-sheet.jpg"
+  },
+  {
+   "name": "orange-circle-ovals-turn-blue",
+   "zh": "橙圆里冒字 · 挤出椭圆串变蓝",
+   "use": "字卡",
+   "seconds": 2.4,
+   "frames": 72,
+   "summary": "米白底，橙色大圆里一行行冒出字，圆往左让、右边挤出一串越来越窄的椭圆，颜色从右往左换成蓝",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "circle-train-ask-study",
+   "range": [
+    0,
+    72
+   ],
+   "whole": false,
+   "code": "demos-own/parts/orange-circle-ovals-turn-blue/OrangeCircleOvalsTurnBlue.tsx",
+   "card": "references/parts-own/orange-circle-ovals-turn-blue.md",
+   "preview": "demos-own/parts/orange-circle-ovals-turn-blue/preview.mp4",
+   "sheet": "demos-own/parts/orange-circle-ovals-turn-blue/preview-sheet.jpg"
+  },
+  {
+   "name": "circle-to-button-ask-rings",
+   "zh": "圆缩成按钮 · 输入框打问题 · 点发送起涟漪",
+   "use": "输入",
+   "seconds": 4.6,
+   "frames": 138,
+   "summary": "蓝圆缩成一个小按钮，旁边撑开输入框逐字打一个问题，点发送，按钮外面一圈圈涟漪，然后蓝圆又长大",
+   "entry": "接上一段的蓝圆",
+   "note": "",
+   "source": "circle-train-ask-study",
+   "range": [
+    72,
+    210
+   ],
+   "whole": false,
+   "code": "demos-own/parts/circle-to-button-ask-rings/CircleToButtonAskRings.tsx",
+   "card": "references/parts-own/circle-to-button-ask-rings.md",
+   "preview": "demos-own/parts/circle-to-button-ask-rings/preview.mp4",
+   "sheet": "demos-own/parts/circle-to-button-ask-rings/preview-sheet.jpg"
+  },
+  {
+   "name": "two-circles-questions-swap",
+   "zh": "两个蓝圆并排 · 里面的问题换两次",
+   "use": "列举",
+   "seconds": 2.0,
+   "frames": 60,
+   "summary": "两个蓝色大圆并排，圆里的问题换两次，最后收走",
+   "entry": "接上一段",
+   "note": "",
+   "source": "circle-train-ask-study",
+   "range": [
+    210,
+    270
+   ],
+   "whole": false,
+   "code": "demos-own/parts/two-circles-questions-swap/TwoCirclesQuestionsSwap.tsx",
+   "card": "references/parts-own/two-circles-questions-swap.md",
+   "preview": "demos-own/parts/two-circles-questions-swap/preview.mp4",
+   "sheet": "demos-own/parts/two-circles-questions-swap/preview-sheet.jpg"
+  },
+  {
+   "name": "code-flythrough-pill-type-name",
+   "zh": "穿过漂浮的代码 · 输入条打字 · 拉远出产品名",
+   "use": "钩子",
+   "seconds": 4.1,
+   "frames": 123,
+   "summary": "镜头穿过漂浮的绿色代码关键词和霓虹四角星（有景深），中间浮出深色玻璃输入条逐字打一句提问，拉远出产品名",
+   "entry": "第一帧就在动",
+   "note": "",
+   "source": "code-flythrough-generate",
+   "range": [
+    0,
+    123
+   ],
+   "whole": false,
+   "code": "demos-own/parts/code-flythrough-pill-type-name/CodeFlythroughPillTypeName.tsx",
+   "card": "references/parts-own/code-flythrough-pill-type-name.md",
+   "preview": "demos-own/parts/code-flythrough-pill-type-name/preview.mp4",
+   "sheet": "demos-own/parts/code-flythrough-pill-type-name/preview-sheet.jpg"
+  },
+  {
+   "name": "generate-button-press-dot-wave",
+   "zh": "「生成」按钮特写按下 · 点阵波纹",
+   "use": "点击确认",
+   "seconds": 2.9,
+   "frames": 87,
+   "summary": "切到「生成」按钮的特写，按下去，背景点阵一圈圈波纹荡开",
+   "entry": "硬切",
+   "note": "",
+   "source": "code-flythrough-generate",
+   "range": [
+    123,
+    210
+   ],
+   "whole": false,
+   "code": "demos-own/parts/generate-button-press-dot-wave/GenerateButtonPressDotWave.tsx",
+   "card": "references/parts-own/generate-button-press-dot-wave.md",
+   "preview": "demos-own/parts/generate-button-press-dot-wave/preview.mp4",
+   "sheet": "demos-own/parts/generate-button-press-dot-wave/preview-sheet.jpg"
+  },
+  {
+   "name": "condensed-tall-lines-reweight",
+   "zh": "三行超窄高字打出 · 选中换粗细",
+   "use": "字卡",
+   "seconds": 3.6,
+   "frames": 108,
+   "summary": "黑底一团字符画漩涡，三行超窄超细的高字一行行打出来，被选中后变宽、变粗、变成满版齐行",
+   "entry": "第一帧开始",
+   "note": "用到素材库的艺术字体",
+   "source": "condensed-lines-poster-card",
+   "range": [
+    0,
+    108
+   ],
+   "whole": false,
+   "code": "demos-own/parts/condensed-tall-lines-reweight/CondensedTallLinesReweight.tsx",
+   "card": "references/parts-own/condensed-tall-lines-reweight.md",
+   "preview": "demos-own/parts/condensed-tall-lines-reweight/preview.mp4",
+   "sheet": "demos-own/parts/condensed-tall-lines-reweight/preview-sheet.jpg"
+  },
+  {
+   "name": "blue-poster-card-type-fonts",
+   "zh": "蓝色海报卡 · 逐行打字换字体",
+   "use": "字卡",
+   "seconds": 4.9,
+   "frames": 147,
+   "summary": "推近到一张蓝色海报卡，卡里逐行打字，每行换一种字体和字号，数字特别大",
+   "entry": "推近接上一段",
+   "note": "用到素材库的艺术字体",
+   "source": "condensed-lines-poster-card",
+   "range": [
+    108,
+    255
+   ],
+   "whole": false,
+   "code": "demos-own/parts/blue-poster-card-type-fonts/BluePosterCardTypeFonts.tsx",
+   "card": "references/parts-own/blue-poster-card-type-fonts.md",
+   "preview": "demos-own/parts/blue-poster-card-type-fonts/preview.mp4",
+   "sheet": "demos-own/parts/blue-poster-card-type-fonts/preview-sheet.jpg"
+  },
+  {
+   "name": "dot-orbit-sentence",
+   "zh": "圆点滑过 · 一句话浮出 · 圆点绕着字跑",
+   "use": "字卡",
+   "seconds": 2.0,
+   "frames": 60,
+   "summary": "一颗紫色圆点滑过，一句话浮出来，圆点绕着字跑",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "dot-arc-card-stair",
+   "range": [
+    0,
+    60
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dot-orbit-sentence/DotOrbitSentence.tsx",
+   "card": "references/parts-own/dot-orbit-sentence.md",
+   "preview": "demos-own/parts/dot-orbit-sentence/preview.mp4",
+   "sheet": "demos-own/parts/dot-orbit-sentence/preview-sheet.jpg"
+  },
+  {
+   "name": "photo-cards-arc-stair",
+   "zh": "照片卡沿弧线一张张排成台阶",
+   "use": "列举",
+   "seconds": 4.9,
+   "frames": 147,
+   "summary": "字往右让开，照片卡从左下角开始沿一道弧线一张张排上去，像台阶，每排一张下面换一个名字",
+   "entry": "接上一段的那句话",
+   "note": "六张，一拍一张",
+   "source": "dot-arc-card-stair",
+   "range": [
+    60,
+    207
+   ],
+   "whole": false,
+   "code": "demos-own/parts/photo-cards-arc-stair/PhotoCardsArcStair.tsx",
+   "card": "references/parts-own/photo-cards-arc-stair.md",
+   "preview": "demos-own/parts/photo-cards-arc-stair/preview.mp4",
+   "sheet": "demos-own/parts/photo-cards-arc-stair/preview-sheet.jpg"
+  },
+  {
+   "name": "dots-sphere-cube-wire",
+   "zh": "点云 → 点阵球 → 立方体 → 线框",
+   "use": "过渡动作",
+   "seconds": 2.6,
+   "frames": 78,
+   "summary": "点云聚成点阵球，变成点阵立方体，再变成白色线框立方体转到顶点朝前",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "dot-cube-logo",
+   "range": [
+    0,
+    78
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dots-sphere-cube-wire/DotsSphereCubeWire.tsx",
+   "card": "references/parts-own/dots-sphere-cube-wire.md",
+   "preview": "demos-own/parts/dots-sphere-cube-wire/preview.mp4",
+   "sheet": "demos-own/parts/dots-sphere-cube-wire/preview-sheet.jpg"
+  },
+  {
+   "name": "cube-invert-name-url",
+   "zh": "圆撑开底色反转 · 立方体缩成标志 · 名字网址",
+   "use": "品牌落版",
+   "seconds": 5.4,
+   "frames": 162,
+   "summary": "一个浅色圆从中心撑开、底色反转（线变蓝），立方体缩小上移成标志，名字、网址、命令一行行出来，停住",
+   "entry": "接上一段的线框立方体",
+   "note": "后半是停留",
+   "source": "dot-cube-logo",
+   "range": [
+    78,
+    240
+   ],
+   "whole": false,
+   "code": "demos-own/parts/cube-invert-name-url/CubeInvertNameUrl.tsx",
+   "card": "references/parts-own/cube-invert-name-url.md",
+   "preview": "demos-own/parts/cube-invert-name-url/preview.mp4",
+   "sheet": "demos-own/parts/cube-invert-name-url/preview-sheet.jpg"
+  },
+  {
+   "name": "dots-scatter-cards-rise",
+   "zh": "点阵球散开 · 卡片从点里升起",
+   "use": "功能演示",
+   "seconds": 4.0,
+   "frames": 120,
+   "summary": "点阵球散成几团小球，函数名打出来，三张线框卡片从点里斜着升起",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "dot-motion-chapters",
+   "range": [
+    0,
+    120
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dots-scatter-cards-rise/DotsScatterCardsRise.tsx",
+   "card": "references/parts-own/dots-scatter-cards-rise.md",
+   "preview": "demos-own/parts/dots-scatter-cards-rise/preview.mp4",
+   "sheet": "demos-own/parts/dots-scatter-cards-rise/preview-sheet.jpg"
+  },
+  {
+   "name": "cards-dissolve-to-dots-back",
+   "zh": "卡片化成点 · 再聚回来",
+   "use": "过渡动作",
+   "seconds": 2.3,
+   "frames": 69,
+   "summary": "卡片化成一片点散开，又聚回卡片",
+   "entry": "接上一段",
+   "note": "",
+   "source": "dot-motion-chapters",
+   "range": [
+    120,
+    189
+   ],
+   "whole": false,
+   "code": "demos-own/parts/cards-dissolve-to-dots-back/CardsDissolveToDotsBack.tsx",
+   "card": "references/parts-own/cards-dissolve-to-dots-back.md",
+   "preview": "demos-own/parts/cards-dissolve-to-dots-back/preview.mp4",
+   "sheet": "demos-own/parts/cards-dissolve-to-dots-back/preview-sheet.jpg"
+  },
+  {
+   "name": "cards-leave-dots-form-word",
+   "zh": "卡片离开 · 点聚成大字 · 字变形",
+   "use": "字卡",
+   "seconds": 5.6,
+   "frames": 168,
+   "summary": "卡片斜着离开，点聚成一个大词，函数名换掉，大词里的字一个个变形换掉",
+   "entry": "接上一段",
+   "note": "5.6 秒",
+   "source": "dot-motion-chapters",
+   "range": [
+    189,
+    357
+   ],
+   "whole": false,
+   "code": "demos-own/parts/cards-leave-dots-form-word/CardsLeaveDotsFormWord.tsx",
+   "card": "references/parts-own/cards-leave-dots-form-word.md",
+   "preview": "demos-own/parts/cards-leave-dots-form-word/preview.mp4",
+   "sheet": "demos-own/parts/cards-leave-dots-form-word/preview-sheet.jpg"
+  },
+  {
+   "name": "word-to-dots-gather",
+   "zh": "大字散成点 · 点重新聚拢",
+   "use": "过渡动作",
+   "seconds": 2.9,
+   "frames": 87,
+   "summary": "大字淡掉散成点，点慢慢重新聚拢",
+   "entry": "接上一段",
+   "note": "",
+   "source": "dot-motion-chapters",
+   "range": [
+    357,
+    444
+   ],
+   "whole": false,
+   "code": "demos-own/parts/word-to-dots-gather/WordToDotsGather.tsx",
+   "card": "references/parts-own/word-to-dots-gather.md",
+   "preview": "demos-own/parts/word-to-dots-gather/preview.mp4",
+   "sheet": "demos-own/parts/word-to-dots-gather/preview-sheet.jpg"
+  },
+  {
+   "name": "dots-reveal-cards",
+   "zh": "点里显出卡片 · 函数名收走",
+   "use": "结果登场",
+   "seconds": 3.2,
+   "frames": 96,
+   "summary": "函数名打出来，点里显出三张线框卡片，最后只剩一对括号",
+   "entry": "接上一段",
+   "note": "",
+   "source": "dot-motion-chapters",
+   "range": [
+    444,
+    540
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dots-reveal-cards/DotsRevealCards.tsx",
+   "card": "references/parts-own/dots-reveal-cards.md",
+   "preview": "demos-own/parts/dots-reveal-cards/preview.mp4",
+   "sheet": "demos-own/parts/dots-reveal-cards/preview-sheet.jpg"
+  },
+  {
+   "name": "sentence-folder-tile",
+   "zh": "一句话中间嵌一块文件夹砖",
+   "use": "字卡",
+   "seconds": 1.2,
+   "frames": 35,
+   "summary": "米色底，一块文件夹砖落定，左右各出一个词，拼成一句话",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "folder-type-dock",
+   "range": [
+    0,
+    35
+   ],
+   "whole": false,
+   "code": "demos-own/parts/sentence-folder-tile/SentenceFolderTile.tsx",
+   "card": "references/parts-own/sentence-folder-tile.md",
+   "preview": "demos-own/parts/sentence-folder-tile/preview.mp4",
+   "sheet": "demos-own/parts/sentence-folder-tile/preview-sheet.jpg"
+  },
+  {
+   "name": "dock-rise-click-ai-type",
+   "zh": "程序坞升起 · 点中 AI 图标 · 输入条打字",
+   "use": "输入",
+   "seconds": 2.3,
+   "frames": 69,
+   "summary": "硬切白底：文件夹散在四周、底下程序坞升上来，光标点中一个 AI 图标，上方撑开输入条逐字打一句话",
+   "entry": "硬切",
+   "note": "",
+   "source": "folder-type-dock",
+   "range": [
+    35,
+    104
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dock-rise-click-ai-type/DockRiseClickAiType.tsx",
+   "card": "references/parts-own/dock-rise-click-ai-type.md",
+   "preview": "demos-own/parts/dock-rise-click-ai-type/preview.mp4",
+   "sheet": "demos-own/parts/dock-rise-click-ai-type/preview-sheet.jpg"
+  },
+  {
+   "name": "dock-grab-folder-drag",
+   "zh": "抓起文件夹拖走",
+   "use": "过渡动作",
+   "seconds": 3.0,
+   "frames": 91,
+   "summary": "光标抓起一个文件夹（变成玻璃质感），拖着往右走出画面",
+   "entry": "接上一段",
+   "note": "后面接 folder-drop-chat",
+   "source": "folder-type-dock",
+   "range": [
+    104,
+    195
+   ],
+   "whole": false,
+   "code": "demos-own/parts/dock-grab-folder-drag/DockGrabFolderDrag.tsx",
+   "card": "references/parts-own/dock-grab-folder-drag.md",
+   "preview": "demos-own/parts/dock-grab-folder-drag/preview.mp4",
+   "sheet": "demos-own/parts/dock-grab-folder-drag/preview-sheet.jpg"
+  },
+  {
+   "name": "giant-word-lens-ovals",
+   "zh": "超大字滑过线描透镜 · 两边挤出椭圆",
+   "use": "钩子",
+   "seconds": 3.0,
+   "frames": 90,
+   "summary": "超大字横着滑过，中间一个线描圆像透镜（圆里看不到字）、两边挤出椭圆，圆里出一句小字",
+   "entry": "第一帧就在动",
+   "note": "",
+   "source": "giant-word-lens-ear-logo",
+   "range": [
+    0,
+    90
+   ],
+   "whole": false,
+   "code": "demos-own/parts/giant-word-lens-ovals/GiantWordLensOvals.tsx",
+   "card": "references/parts-own/giant-word-lens-ovals.md",
+   "preview": "demos-own/parts/giant-word-lens-ovals/preview.mp4",
+   "sheet": "demos-own/parts/giant-word-lens-ovals/preview-sheet.jpg"
+  },
+  {
+   "name": "rings-blue-line-url",
+   "zh": "收成同心圆 · 蓝色一句话逐词出",
+   "use": "字卡",
+   "seconds": 2.9,
+   "frames": 87,
+   "summary": "椭圆收成一圈圈同心圆，同心圆淡掉，一句蓝色的话逐词出来，下面一行网址",
+   "entry": "接上一段的圆",
+   "note": "",
+   "source": "giant-word-lens-ear-logo",
+   "range": [
+    90,
+    177
+   ],
+   "whole": false,
+   "code": "demos-own/parts/rings-blue-line-url/RingsBlueLineUrl.tsx",
+   "card": "references/parts-own/rings-blue-line-url.md",
+   "preview": "demos-own/parts/rings-blue-line-url/preview.mp4",
+   "sheet": "demos-own/parts/rings-blue-line-url/preview-sheet.jpg"
+  },
+  {
+   "name": "halftone-ear-to-logo",
+   "zh": "网点耳朵变成标志 · 落定",
+   "use": "品牌落版",
+   "seconds": 3.1,
+   "frames": 93,
+   "summary": "网点拼成一只耳朵，再变成标志，落定停住",
+   "entry": "接上一段",
+   "note": "原镜头后面还有 2 秒停留，没切进来",
+   "source": "giant-word-lens-ear-logo",
+   "range": [
+    177,
+    270
+   ],
+   "whole": false,
+   "code": "demos-own/parts/halftone-ear-to-logo/HalftoneEarToLogo.tsx",
+   "card": "references/parts-own/halftone-ear-to-logo.md",
+   "preview": "demos-own/parts/halftone-ear-to-logo/preview.mp4",
+   "sheet": "demos-own/parts/halftone-ear-to-logo/preview-sheet.jpg"
+  },
+  {
+   "name": "glyphs-drawn-one-by-one",
+   "zh": "参考线 → 描边 → 填实，逐字画出",
+   "use": "字卡",
+   "seconds": 3.8,
+   "frames": 114,
+   "summary": "墨绿底 + 构造网格，品牌名一个字一个字\"画\"出来：先出虚线参考线和锚点、再描边、再填实，镜头推近一下又拉远换下一个字（前三个字）",
+   "entry": "第一帧开始",
+   "note": "每个字约 1.25 秒",
+   "source": "glyph-construct-wordmark",
+   "range": [
+    0,
+    114
+   ],
+   "whole": false,
+   "code": "demos-own/parts/glyphs-drawn-one-by-one/GlyphsDrawnOneByOne.tsx",
+   "card": "references/parts-own/glyphs-drawn-one-by-one.md",
+   "preview": "demos-own/parts/glyphs-drawn-one-by-one/preview.mp4",
+   "sheet": "demos-own/parts/glyphs-drawn-one-by-one/preview-sheet.jpg"
+  },
+  {
+   "name": "last-glyph-wordmark-solid",
+   "zh": "画完最后一个字 · 拉远成整个字标填实",
+   "use": "品牌落版",
+   "seconds": 2.6,
+   "frames": 78,
+   "summary": "画出最后一个字，镜头拉远，四个字排成字标，一起填实",
+   "entry": "接上一段",
+   "note": "",
+   "source": "glyph-construct-wordmark",
+   "range": [
+    114,
+    192
+   ],
+   "whole": false,
+   "code": "demos-own/parts/last-glyph-wordmark-solid/LastGlyphWordmarkSolid.tsx",
+   "card": "references/parts-own/last-glyph-wordmark-solid.md",
+   "preview": "demos-own/parts/last-glyph-wordmark-solid/preview.mp4",
+   "sheet": "demos-own/parts/last-glyph-wordmark-solid/preview-sheet.jpg"
+  },
+  {
+   "name": "app-home-rise-focus-input",
+   "zh": "App 首页一层层升起 · 只留输入框",
+   "use": "结果登场",
+   "seconds": 1.8,
+   "frames": 55,
+   "summary": "黑底，App 首页一层层升起，其余淡掉只留输入框",
+   "entry": "白闪后进来",
+   "note": "第一帧是白底黑圆的转场帧",
+   "source": "prompt-send-rings-card",
+   "range": [
+    0,
+    55
+   ],
+   "whole": false,
+   "code": "demos-own/parts/app-home-rise-focus-input/AppHomeRiseFocusInput.tsx",
+   "card": "references/parts-own/app-home-rise-focus-input.md",
+   "preview": "demos-own/parts/app-home-rise-focus-input/preview.mp4",
+   "sheet": "demos-own/parts/app-home-rise-focus-input/preview-sheet.jpg"
+  },
+  {
+   "name": "input-glow-type-send",
+   "zh": "推近输入框 · 发光打字 · 点发送",
+   "use": "输入",
+   "seconds": 3.2,
+   "frames": 95,
+   "summary": "推近输入框逐字打一句话（新字先紫色发虚再变清楚，框上沿一道紫橙光），镜头跟到发送键，点下去",
+   "entry": "接上一段",
+   "note": "",
+   "source": "prompt-send-rings-card",
+   "range": [
+    55,
+    150
+   ],
+   "whole": false,
+   "code": "demos-own/parts/input-glow-type-send/InputGlowTypeSend.tsx",
+   "card": "references/parts-own/input-glow-type-send.md",
+   "preview": "demos-own/parts/input-glow-type-send/preview.mp4",
+   "sheet": "demos-own/parts/input-glow-type-send/preview-sheet.jpg"
+  },
+  {
+   "name": "send-rings-result-card",
+   "zh": "发送键圆环扩散 · 出成品卡",
+   "use": "结果登场",
+   "seconds": 2.1,
+   "frames": 63,
+   "summary": "发送键缩成一个亮点，圆环一圈圈扩散，胶囊撑开变成成品卡，停住",
+   "entry": "接上一段的发送键",
+   "note": "",
+   "source": "prompt-send-rings-card",
+   "range": [
+    150,
+    213
+   ],
+   "whole": false,
+   "code": "demos-own/parts/send-rings-result-card/SendRingsResultCard.tsx",
+   "card": "references/parts-own/send-rings-result-card.md",
+   "preview": "demos-own/parts/send-rings-result-card/preview.mp4",
+   "sheet": "demos-own/parts/send-rings-result-card/preview-sheet.jpg"
+  },
+  {
+   "name": "small-words-drop",
+   "zh": "一句小字一个词一个词落出来",
+   "use": "字卡",
+   "seconds": 1.4,
+   "frames": 41,
+   "summary": "黑底暗红光，一句小字一个词一个词落出来",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "red-bubble-stack-pain",
+   "range": [
+    0,
+    41
+   ],
+   "whole": false,
+   "code": "demos-own/parts/small-words-drop/SmallWordsDrop.tsx",
+   "card": "references/parts-own/small-words-drop.md",
+   "preview": "demos-own/parts/small-words-drop/preview.mp4",
+   "sheet": "demos-own/parts/small-words-drop/preview-sheet.jpg"
+  },
+  {
+   "name": "red-bubbles-roll-big-lines",
+   "zh": "红气泡交错弹出 · 像滚轮一样滚 · 大字压上",
+   "use": "痛点",
+   "seconds": 5.1,
+   "frames": 152,
+   "summary": "一串红色聊天气泡左右交错地一个个弹出来、带着未读数，整串像滚轮一样连续往上滚，大字一句句压在上面",
+   "entry": "接上一段的小字",
+   "note": "5.1 秒",
+   "source": "red-bubble-stack-pain",
+   "range": [
+    41,
+    193
+   ],
+   "whole": false,
+   "code": "demos-own/parts/red-bubbles-roll-big-lines/RedBubblesRollBigLines.tsx",
+   "card": "references/parts-own/red-bubbles-roll-big-lines.md",
+   "preview": "demos-own/parts/red-bubbles-roll-big-lines/preview.mp4",
+   "sheet": "demos-own/parts/red-bubbles-roll-big-lines/preview-sheet.jpg"
+  },
+  {
+   "name": "big-line-pixel-drop-out",
+   "zh": "最后一句大字 · 像素块闪掉",
+   "use": "转场",
+   "seconds": 1.9,
+   "frames": 57,
+   "summary": "气泡甩走，最后一句大字单独停一下，被红粉色大像素块闪掉",
+   "entry": "接上一段",
+   "note": "后面接 scatter-cards-lost-teams",
+   "source": "red-bubble-stack-pain",
+   "range": [
+    193,
+    250
+   ],
+   "whole": false,
+   "code": "demos-own/parts/big-line-pixel-drop-out/BigLinePixelDropOut.tsx",
+   "card": "references/parts-own/big-line-pixel-drop-out.md",
+   "preview": "demos-own/parts/big-line-pixel-drop-out/preview.mp4",
+   "sheet": "demos-own/parts/big-line-pixel-drop-out/preview-sheet.jpg"
+  },
+  {
+   "name": "pixel-cursors-gather-caret",
+   "zh": "像素小光标聚到中间变成输入光标",
+   "use": "钩子",
+   "seconds": 1.9,
+   "frames": 56,
+   "summary": "浅灰底，几个带名字标签的像素小光标从四处聚到中间，合成一根输入光标",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "rich-text-cursor-styles",
+   "range": [
+    0,
+    56
+   ],
+   "whole": false,
+   "code": "demos-own/parts/pixel-cursors-gather-caret/PixelCursorsGatherCaret.tsx",
+   "card": "references/parts-own/pixel-cursors-gather-caret.md",
+   "preview": "demos-own/parts/pixel-cursors-gather-caret/preview.mp4",
+   "sheet": "demos-own/parts/pixel-cursors-gather-caret/preview-sheet.jpg"
+  },
+  {
+   "name": "type-pan-select-restyle",
+   "zh": "逐字打字 · 镜头甩 · 选中一个词换字体",
+   "use": "功能演示",
+   "seconds": 3.9,
+   "frames": 117,
+   "summary": "一个字一个字打出一句话，镜头跟着往右甩，名字光标框选一个词，这个词换成艺术字体",
+   "entry": "接上一段的光标",
+   "note": "用到素材库的艺术字体",
+   "source": "rich-text-cursor-styles",
+   "range": [
+    56,
+    173
+   ],
+   "whole": false,
+   "code": "demos-own/parts/type-pan-select-restyle/TypePanSelectRestyle.tsx",
+   "card": "references/parts-own/type-pan-select-restyle.md",
+   "preview": "demos-own/parts/type-pan-select-restyle/preview.mp4",
+   "sheet": "demos-own/parts/type-pan-select-restyle/preview-sheet.jpg"
+  },
+  {
+   "name": "select-restyle-pixel-gradient",
+   "zh": "再选一个词换字体 · 像素乱跳 · 变渐变色",
+   "use": "功能演示",
+   "seconds": 4.0,
+   "frames": 121,
+   "summary": "接着打字，又一个词被选中换字体，一个词像素乱跳后变成渐变色大字",
+   "entry": "接上一段",
+   "note": "",
+   "source": "rich-text-cursor-styles",
+   "range": [
+    173,
+    294
+   ],
+   "whole": false,
+   "code": "demos-own/parts/select-restyle-pixel-gradient/SelectRestylePixelGradient.tsx",
+   "card": "references/parts-own/select-restyle-pixel-gradient.md",
+   "preview": "demos-own/parts/select-restyle-pixel-gradient/preview.mp4",
+   "sheet": "demos-own/parts/select-restyle-pixel-gradient/preview-sheet.jpg"
+  },
+  {
+   "name": "two-words-restyle-heavy-slant",
+   "zh": "连着两个词换字体：变厚重、变倾斜",
+   "use": "功能演示",
+   "seconds": 4.5,
+   "frames": 135,
+   "summary": "继续打字，两个词先后被选中，一个变厚重、一个变倾斜",
+   "entry": "接上一段",
+   "note": "",
+   "source": "rich-text-cursor-styles",
+   "range": [
+    294,
+    429
+   ],
+   "whole": false,
+   "code": "demos-own/parts/two-words-restyle-heavy-slant/TwoWordsRestyleHeavySlant.tsx",
+   "card": "references/parts-own/two-words-restyle-heavy-slant.md",
+   "preview": "demos-own/parts/two-words-restyle-heavy-slant/preview.mp4",
+   "sheet": "demos-own/parts/two-words-restyle-heavy-slant/preview-sheet.jpg"
+  },
+  {
+   "name": "zoomout-whole-sentence-cursors",
+   "zh": "猛拉远 · 整句变小 · 名字光标散在四周",
+   "use": "过渡动作",
+   "seconds": 2.7,
+   "frames": 81,
+   "summary": "镜头猛拉远，整句话缩成一小行，几个名字光标散在四周",
+   "entry": "接上一段",
+   "note": "",
+   "source": "rich-text-cursor-styles",
+   "range": [
+    429,
+    510
+   ],
+   "whole": false,
+   "code": "demos-own/parts/zoomout-whole-sentence-cursors/ZoomoutWholeSentenceCursors.tsx",
+   "card": "references/parts-own/zoomout-whole-sentence-cursors.md",
+   "preview": "demos-own/parts/zoomout-whole-sentence-cursors/preview.mp4",
+   "sheet": "demos-own/parts/zoomout-whole-sentence-cursors/preview-sheet.jpg"
+  },
+  {
+   "name": "search-type-click-customers",
+   "zh": "搜索框打字点搜索 · 「你的客户正在搜」",
+   "use": "钩子",
+   "seconds": 4.0,
+   "frames": 120,
+   "summary": "暗底荧光绿，搜索框逐字打字、点搜索，结果列表滑出来，一句话点明客户正在搜",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    0,
+    120
+   ],
+   "whole": false,
+   "code": "demos-own/parts/search-type-click-customers/SearchTypeClickCustomers.tsx",
+   "card": "references/parts-own/search-type-click-customers.md",
+   "preview": "demos-own/parts/search-type-click-customers/preview.mp4",
+   "sheet": "demos-own/parts/search-type-click-customers/preview-sheet.jpg"
+  },
+  {
+   "name": "neon-word-everywhere",
+   "zh": "荧光大字斜着冲过",
+   "use": "字卡",
+   "seconds": 1.0,
+   "frames": 30,
+   "summary": "一个荧光绿的斜体大字带着拖影冲过画面",
+   "entry": "硬切",
+   "note": "1 秒",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    120,
+    150
+   ],
+   "whole": false,
+   "code": "demos-own/parts/neon-word-everywhere/NeonWordEverywhere.tsx",
+   "card": "references/parts-own/neon-word-everywhere.md",
+   "preview": "demos-own/parts/neon-word-everywhere/preview.mp4",
+   "sheet": "demos-own/parts/neon-word-everywhere/preview-sheet.jpg"
+  },
+  {
+   "name": "ai-chat-ask-list",
+   "zh": "AI 聊天框提问 · 出一串推荐名单",
+   "use": "痛点",
+   "seconds": 4.5,
+   "frames": 135,
+   "summary": "聊天框里打出一个问题，AI 一条条回答出推荐名单，名单里没有你",
+   "entry": "硬切",
+   "note": "",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    150,
+    285
+   ],
+   "whole": false,
+   "code": "demos-own/parts/ai-chat-ask-list/AiChatAskList.tsx",
+   "card": "references/parts-own/ai-chat-ask-list.md",
+   "preview": "demos-own/parts/ai-chat-ask-list/preview.mp4",
+   "sheet": "demos-own/parts/ai-chat-ask-list/preview-sheet.jpg"
+  },
+  {
+   "name": "list-side-question-you",
+   "zh": "名单推到一边 · 「那你呢？」",
+   "use": "痛点",
+   "seconds": 2.5,
+   "frames": 75,
+   "summary": "名单推到左边变暗，右边出一句斜体的反问",
+   "entry": "接上一段",
+   "note": "",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    285,
+    360
+   ],
+   "whole": false,
+   "code": "demos-own/parts/list-side-question-you/ListSideQuestionYou.tsx",
+   "card": "references/parts-own/list-side-question-you.md",
+   "preview": "demos-own/parts/list-side-question-you/preview.mp4",
+   "sheet": "demos-own/parts/list-side-question-you/preview-sheet.jpg"
+  },
+  {
+   "name": "rank-first-card-map-pin",
+   "zh": "排第一的结果卡 · 地图上也找得到",
+   "use": "证据",
+   "seconds": 3.0,
+   "frames": 90,
+   "summary": "一张排名第一的搜索结果卡亮出来，下面一句话；切到地图定位点和地图结果列表",
+   "entry": "硬切",
+   "note": "",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    360,
+    450
+   ],
+   "whole": false,
+   "code": "demos-own/parts/rank-first-card-map-pin/RankFirstCardMapPin.tsx",
+   "card": "references/parts-own/rank-first-card-map-pin.md",
+   "preview": "demos-own/parts/rank-first-card-map-pin/preview.mp4",
+   "sheet": "demos-own/parts/rank-first-card-map-pin/preview-sheet.jpg"
+  },
+  {
+   "name": "ai-recommend-percent-fill",
+   "zh": "AI 也推荐你 · 百分比涨到 100",
+   "use": "证据",
+   "seconds": 3.0,
+   "frames": 90,
+   "summary": "AI 回答里出现你的名字并被高亮，切到一个大百分比数字一路涨到 100%、右边进度条填满",
+   "entry": "硬切",
+   "note": "",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    450,
+    540
+   ],
+   "whole": false,
+   "code": "demos-own/parts/ai-recommend-percent-fill/AiRecommendPercentFill.tsx",
+   "card": "references/parts-own/ai-recommend-percent-fill.md",
+   "preview": "demos-own/parts/ai-recommend-percent-fill/preview.mp4",
+   "sheet": "demos-own/parts/ai-recommend-percent-fill/preview-sheet.jpg"
+  },
+  {
+   "name": "phone-booking-toast-node-graph",
+   "zh": "手机弹出预约通知 · 咨询汇成节点图",
+   "use": "证据",
+   "seconds": 3.5,
+   "frames": 105,
+   "summary": "手机锁屏上弹出预约通知，切到一张节点图：左右两排来源卡用曲线汇到中间",
+   "entry": "硬切",
+   "note": "",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    540,
+    645
+   ],
+   "whole": false,
+   "code": "demos-own/parts/phone-booking-toast-node-graph/PhoneBookingToastNodeGraph.tsx",
+   "card": "references/parts-own/phone-booking-toast-node-graph.md",
+   "preview": "demos-own/parts/phone-booking-toast-node-graph/preview.mp4",
+   "sheet": "demos-own/parts/phone-booking-toast-node-graph/preview-sheet.jpg"
+  },
+  {
+   "name": "revenue-line-dashboard",
+   "zh": "营收折线一路往上 · 后台看板",
+   "use": "证据",
+   "seconds": 3.5,
+   "frames": 105,
+   "summary": "一条荧光绿折线从左下画到右上，切到白色后台看板",
+   "entry": "硬切",
+   "note": "",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    645,
+    750
+   ],
+   "whole": false,
+   "code": "demos-own/parts/revenue-line-dashboard/RevenueLineDashboard.tsx",
+   "card": "references/parts-own/revenue-line-dashboard.md",
+   "preview": "demos-own/parts/revenue-line-dashboard/preview.mp4",
+   "sheet": "demos-own/parts/revenue-line-dashboard/preview-sheet.jpg"
+  },
+  {
+   "name": "counter-roll-graph",
+   "zh": "数字滚着涨 · 旁边折线图",
+   "use": "证据",
+   "seconds": 1.5,
+   "frames": 45,
+   "summary": "左边数字滚着往上涨，右边一张折线图，下面一句话",
+   "entry": "硬切",
+   "note": "1.5 秒",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    750,
+    795
+   ],
+   "whole": false,
+   "code": "demos-own/parts/counter-roll-graph/CounterRollGraph.tsx",
+   "card": "references/parts-own/counter-roll-graph.md",
+   "preview": "demos-own/parts/counter-roll-graph/preview.mp4",
+   "sheet": "demos-own/parts/counter-roll-graph/preview-sheet.jpg"
+  },
+  {
+   "name": "star-icon-headline-cta",
+   "zh": "星标图标亮起 · 标题 · 行动按钮",
+   "use": "品牌落版",
+   "seconds": 5.0,
+   "frames": 150,
+   "summary": "一个白色星标图标亮起来缩小上移，名字、两行标题、输入条式的行动按钮依次出来，停住",
+   "entry": "硬切",
+   "note": "5 秒，后半是停留",
+   "source": "saas-ad-search-ai-cta",
+   "range": [
+    795,
+    945
+   ],
+   "whole": false,
+   "code": "demos-own/parts/star-icon-headline-cta/StarIconHeadlineCta.tsx",
+   "card": "references/parts-own/star-icon-headline-cta.md",
+   "preview": "demos-own/parts/star-icon-headline-cta/preview.mp4",
+   "sheet": "demos-own/parts/star-icon-headline-cta/preview-sheet.jpg"
+  },
+  {
+   "name": "big-type-zoomout-insert-icons",
+   "zh": "大字打出 · 猛拉远 · 句子中间插进一排图标",
+   "use": "钩子",
+   "seconds": 2.4,
+   "frames": 71,
+   "summary": "大字逐字打出，猛拉远成一行小字，句子中间撑开、插进一排 AI 图标",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "type-icons-orbit-input",
+   "range": [
+    0,
+    71
+   ],
+   "whole": false,
+   "code": "demos-own/parts/big-type-zoomout-insert-icons/BigTypeZoomoutInsertIcons.tsx",
+   "card": "references/parts-own/big-type-zoomout-insert-icons.md",
+   "preview": "demos-own/parts/big-type-zoomout-insert-icons/preview.mp4",
+   "sheet": "demos-own/parts/big-type-zoomout-insert-icons/preview-sheet.jpg"
+  },
+  {
+   "name": "icons-orbit-input-type",
+   "zh": "图标绕着输入框转 · 框里打字",
+   "use": "输入",
+   "seconds": 2.1,
+   "frames": 63,
+   "summary": "切到一个白色输入框，AI 图标绕着它转，框里逐字打一句话",
+   "entry": "硬切",
+   "note": "",
+   "source": "type-icons-orbit-input",
+   "range": [
+    71,
+    134
+   ],
+   "whole": false,
+   "code": "demos-own/parts/icons-orbit-input-type/IconsOrbitInputType.tsx",
+   "card": "references/parts-own/icons-orbit-input-type.md",
+   "preview": "demos-own/parts/icons-orbit-input-type/preview.mp4",
+   "sheet": "demos-own/parts/icons-orbit-input-type/preview-sheet.jpg"
+  },
+  {
+   "name": "text-wall-rows-swap",
+   "zh": "满屏一行行大字墙 · 中间一行换词",
+   "use": "痛点",
+   "seconds": 2.0,
+   "frames": 59,
+   "summary": "输入框收掉，切到满屏一行行横着滚的大字墙，中间一行的词换一次",
+   "entry": "硬切",
+   "note": "\"到处都是\"的感觉",
+   "source": "type-icons-orbit-input",
+   "range": [
+    134,
+    193
+   ],
+   "whole": false,
+   "code": "demos-own/parts/text-wall-rows-swap/TextWallRowsSwap.tsx",
+   "card": "references/parts-own/text-wall-rows-swap.md",
+   "preview": "demos-own/parts/text-wall-rows-swap/preview.mp4",
+   "sheet": "demos-own/parts/text-wall-rows-swap/preview-sheet.jpg"
+  },
+  {
+   "name": "words-in-dot-rings-frames",
+   "zh": "一个词换一种外框：点阵环、虚线圆",
+   "use": "字卡",
+   "seconds": 3.3,
+   "frames": 98,
+   "summary": "黑底一句话拆成几个词一个个出，每个词换一种外框：小字、两三圈彩色点阵环绕着转往里收、虚线圆加细方框",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "word-frames-limits",
+   "range": [
+    0,
+    98
+   ],
+   "whole": false,
+   "code": "demos-own/parts/words-in-dot-rings-frames/WordsInDotRingsFrames.tsx",
+   "card": "references/parts-own/words-in-dot-rings-frames.md",
+   "preview": "demos-own/parts/words-in-dot-rings-frames/preview.mp4",
+   "sheet": "demos-own/parts/words-in-dot-rings-frames/preview-sheet.jpg"
+  },
+  {
+   "name": "outline-word-to-heat-gradient",
+   "zh": "描边大字 · 最后一个词热力渐变放大",
+   "use": "字卡",
+   "seconds": 3.1,
+   "frames": 94,
+   "summary": "描边大字套在大圆里，换成小字，最后一个词变成红粉渐变的大字、四周彩点闪",
+   "entry": "接上一段",
+   "note": "",
+   "source": "word-frames-limits",
+   "range": [
+    98,
+    192
+   ],
+   "whole": false,
+   "code": "demos-own/parts/outline-word-to-heat-gradient/OutlineWordToHeatGradient.tsx",
+   "card": "references/parts-own/outline-word-to-heat-gradient.md",
+   "preview": "demos-own/parts/outline-word-to-heat-gradient/preview.mp4",
+   "sheet": "demos-own/parts/outline-word-to-heat-gradient/preview-sheet.jpg"
+  },
+  {
+   "name": "sentence-grows-around-icon",
+   "zh": "句子从小图标两边一截截长出来",
+   "use": "字卡",
+   "seconds": 2.5,
+   "frames": 75,
+   "summary": "一个小图标停在画面中间，句子从它左边一截截长出来（新词插在图标前、整句一直居中），最后一个词接在图标后面",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "word-insert-beam-logo",
+   "range": [
+    0,
+    75
+   ],
+   "whole": false,
+   "code": "demos-own/parts/sentence-grows-around-icon/SentenceGrowsAroundIcon.tsx",
+   "card": "references/parts-own/sentence-grows-around-icon.md",
+   "preview": "demos-own/parts/sentence-grows-around-icon/preview.mp4",
+   "sheet": "demos-own/parts/sentence-grows-around-icon/preview-sheet.jpg"
+  },
+  {
+   "name": "beam-burst-logo-name",
+   "zh": "光束放射 · 亮成标志 · 名字",
+   "use": "品牌落版",
+   "seconds": 4.2,
+   "frames": 125,
+   "summary": "句子一甩淡掉，图标射出一圈绿色光束，光束里亮出标志，变白，下面出名字，落定",
+   "entry": "接上一段的图标",
+   "note": "原镜头后面还有 2 秒停留，没切进来",
+   "source": "word-insert-beam-logo",
+   "range": [
+    75,
+    200
+   ],
+   "whole": false,
+   "code": "demos-own/parts/beam-burst-logo-name/BeamBurstLogoName.tsx",
+   "card": "references/parts-own/beam-burst-logo-name.md",
+   "preview": "demos-own/parts/beam-burst-logo-name/preview.mp4",
+   "sheet": "demos-own/parts/beam-burst-logo-name/preview-sheet.jpg"
+  },
+  {
+   "name": "small-type-pixel-word-gradient",
+   "zh": "小字接着打 · 一个词像素乱跳变渐变色",
+   "use": "字卡",
+   "seconds": 2.8,
+   "frames": 83,
+   "summary": "小字号接着打完一句，中间一个词像素乱跳、再变成渐变色",
+   "entry": "第一帧开始",
+   "note": "",
+   "source": "word-stretch-style-grid",
+   "range": [
+    0,
+    83
+   ],
+   "whole": false,
+   "code": "demos-own/parts/small-type-pixel-word-gradient/SmallTypePixelWordGradient.tsx",
+   "card": "references/parts-own/small-type-pixel-word-gradient.md",
+   "preview": "demos-own/parts/small-type-pixel-word-gradient/preview.mp4",
+   "sheet": "demos-own/parts/small-type-pixel-word-gradient/preview-sheet.jpg"
+  },
+  {
+   "name": "push-select-word-stretch-crowd",
+   "zh": "猛推到一个词框选 · 字被拖出好多个 · 冒出像素小人",
+   "use": "功能演示",
+   "seconds": 3.0,
+   "frames": 91,
+   "summary": "镜头猛推到最后一个词、框选，一个字被拖出好多个挤成一排，缝里冒出像素小人",
+   "entry": "接上一段",
+   "note": "",
+   "source": "word-stretch-style-grid",
+   "range": [
+    83,
+    174
+   ],
+   "whole": false,
+   "code": "demos-own/parts/push-select-word-stretch-crowd/PushSelectWordStretchCrowd.tsx",
+   "card": "references/parts-own/push-select-word-stretch-crowd.md",
+   "preview": "demos-own/parts/push-select-word-stretch-crowd/preview.mp4",
+   "sheet": "demos-own/parts/push-select-word-stretch-crowd/preview-sheet.jpg"
+  },
+  {
+   "name": "word-ten-fonts-grid-blob",
+   "zh": "同一个词十种字体铺满屏 · 像素团吞掉",
+   "use": "列举",
+   "seconds": 4.7,
+   "frames": 141,
+   "summary": "同一个词用十种字体一行行铺满整屏、各行横着滑，一行彩色字扫过，最后一团黑色像素从右边吞掉画面",
+   "entry": "接上一段",
+   "note": "结尾的像素团可以接下一镜",
+   "source": "word-stretch-style-grid",
+   "range": [
+    174,
+    315
+   ],
+   "whole": false,
+   "code": "demos-own/parts/word-ten-fonts-grid-blob/WordTenFontsGridBlob.tsx",
+   "card": "references/parts-own/word-ten-fonts-grid-blob.md",
+   "preview": "demos-own/parts/word-ten-fonts-grid-blob/preview.mp4",
+   "sheet": "demos-own/parts/word-ten-fonts-grid-blob/preview-sheet.jpg"
+  }
+ ]
+}

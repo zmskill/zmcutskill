@@ -2,13 +2,13 @@
 
 版权所有 © 2026 逐梦。保留所有权利。
 
-生效日期：2026 年 11 月 14 日
+生效日期：2026 年 11 月 14 日（2026 年 11 月 28 日更新：正式加入独立版 zm-promo-freedom）
 
 ## 中文
 
 ### 1. 版权
 
-1.1 本仓库里的内容，包括 Skill 说明、规则文档、脚本、Remotion 代码、镜头库、风格库、样片和图片，版权归逐梦所有，保留所有权利。第 6 条列出的第三方内容除外。
+1.1 本仓库里的内容，包括 Skill 说明、规则文档、脚本、Remotion 代码、镜头库（镜头卡和镜头组）、风格库、整片打法卡、样片和图片，版权归逐梦所有，保留所有权利。第 6 条列出的第三方内容除外。
 
 1.2 本条款没有写明给你的权利，作者都没有给。
 
@@ -58,11 +58,15 @@
 
 下面这些内容不归逐梦所有，不适用第 1 至第 5 条，按各自的授权使用：
 
-6.1 `skills/zm-talk-visual/assets/sfx-library/补缺/` 里标为 CC0 的音效：CC0（公共领域），任何人可以自由使用。
+6.1 `skills/zm-talk-visual/assets/sfx-library/补缺/` 和 `skills/zm-promo-freedom/assets/sfx-library/补缺/` 里标为 CC0 的音效：CC0（公共领域），任何人可以自由使用。
 
-6.2 `skills/zm-talk-visual/assets/sfx-library/` 里其余的音效：来自 Sonniss GDC 2026 免费音效包，按 Sonniss 的许可协议使用（https://gdc.sonniss.com）。
+6.2 这两个 `assets/sfx-library/` 里其余的音效：来自 Sonniss GDC 2026 免费音效包，按 Sonniss 的许可协议使用（https://gdc.sonniss.com，完整协议原文见 `skills/zm-promo-freedom/assets/sfx-library/Sonniss-GDC-License.pdf`）。
 
-6.3 Remotion：本仓库不包含 Remotion 本身，安装依赖时由用户自己下载，按 Remotion 的许可使用（https://www.remotion.dev/license）。
+6.3 `skills/zm-promo-freedom/` 样片画面里出现的第三方产品名称、图标和商标归各自的所有者，只作演示，不代表这些产品认可或参与本仓库；样片里的人像和实景照片来自 Unsplash、Pexels，按各自的许可使用，来源见 `skills/zm-promo-freedom/remotion/public/library/来源清单.md`。本仓库不带这些图片本身，素材库里是占位图。
+
+6.4 `skills/zm-promo-freedom/remotion/public/library/fonts/` 里的 10 款中文字体：采用 SIL Open Font License 1.1（OFL-1.1），各自许可原文见 `skills/zm-promo-freedom/remotion/public/library/fonts/licenses/`。
+
+6.5 Remotion：本仓库不包含 Remotion 本身，安装依赖时由用户自己下载，按 Remotion 的许可使用（https://www.remotion.dev/license）。
 
 ### 7. 适用法律
 
@@ -82,9 +86,9 @@
 
 Copyright © 2026 逐梦 (Zhumeng). All rights reserved.
 
-Effective Date: November 14, 2026
+Effective Date: November 14, 2026 (updated November 28, 2026: added standalone zm-promo-freedom)
 
-**1. Ownership.** All content in this repository, including the Skill instructions, rule documents, scripts, Remotion code, shot library, style library, sample frames and images, is copyrighted by 逐梦, with all rights reserved, except the third-party content listed in Section 6. No rights are granted except those expressly granted here.
+**1. Ownership.** All content in this repository, including the Skill instructions, rule documents, scripts, Remotion code, shot library (shot cards and shot groups), style library, film-style cards, sample videos and images, is copyrighted by 逐梦, with all rights reserved, except the third-party content listed in Section 6. No rights are granted except those expressly granted here.
 
 **2. What you may do.** Subject to these terms, you get the following non-exclusive, non-transferable, non-sublicensable rights: (2.1) read this repository; (2.2) install the Skill on your own devices, including via `npx skills add`; (2.3) use the Skill to make your own videos, including videos you earn money from; (2.4) use the Skill to make videos for your clients — you may deliver the finished videos, but not the Skill files themselves; (2.5) modify the Skill on your own devices, for your own use only.
 
@@ -94,7 +98,7 @@ Effective Date: November 14, 2026
 
 **5. Termination.** If you violate these terms, your rights under Section 2 end automatically.
 
-**6. Third-party content.** Not owned by 逐梦 and not covered by Sections 1–5: (6.1) sounds marked CC0 in `skills/zm-talk-visual/assets/sfx-library/补缺/` are public domain (CC0); (6.2) the other sounds in `skills/zm-talk-visual/assets/sfx-library/` come from the Sonniss GDC 2026 free bundle and are used under the Sonniss license; (6.3) Remotion is not included in this repository; users download it themselves when installing dependencies and use it under the Remotion license.
+**6. Third-party content.** Not owned by 逐梦 and not covered by Sections 1–5: (6.1) sounds marked CC0 in `skills/zm-talk-visual/assets/sfx-library/补缺/` and `skills/zm-promo-freedom/assets/sfx-library/补缺/` are public domain (CC0); (6.2) the other sounds in these two `assets/sfx-library/` folders come from the Sonniss GDC 2026 free bundle and are used under the Sonniss license (`skills/zm-promo-freedom/assets/sfx-library/Sonniss-GDC-License.pdf`); (6.3) third-party product names, icons and trademarks shown in the zm-promo-freedom sample videos belong to their owners and are shown for demonstration only, implying no endorsement; portraits and photos in those samples come from Unsplash and Pexels under their licenses (sources listed in `skills/zm-promo-freedom/remotion/public/library/来源清单.md`); the images themselves are not included — the library holds placeholders; (6.4) the 10 Chinese fonts in `skills/zm-promo-freedom/remotion/public/library/fonts/` are licensed under SIL OFL 1.1 (`skills/zm-promo-freedom/remotion/public/library/fonts/licenses/`); (6.5) Remotion is not included in this repository; users download it themselves when installing dependencies and use it under the Remotion license.
 
 **7. Governing law.** Laws of the People's Republic of China.
 
